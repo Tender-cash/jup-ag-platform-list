@@ -37,4 +37,3 @@ const metadataService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [service, metadataService];
-export default services;

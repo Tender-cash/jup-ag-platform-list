@@ -26,4 +26,3 @@ const lfgService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [lfgService];
-export default services;

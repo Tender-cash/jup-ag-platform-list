@@ -58,4 +58,3 @@ export const services: ServiceRaw[] = [
   stakingService,
   fusionAmmService,
 ];
-export default services;

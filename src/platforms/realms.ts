@@ -82,4 +82,3 @@ export const services: ServiceRaw[] = [
     ],
   })),
 ];
-export default services;

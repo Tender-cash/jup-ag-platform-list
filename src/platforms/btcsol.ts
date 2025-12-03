@@ -29,4 +29,3 @@ const earnService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [earnService];
-export default services;

@@ -70,4 +70,3 @@ export const services: ServiceRaw[] = [
   routerService,
   rfqService,
 ];
-export default services;

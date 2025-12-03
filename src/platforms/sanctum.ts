@@ -103,4 +103,3 @@ export const services: ServiceRaw[] = [
   tradeService,
   asrService,
 ];
-export default services;

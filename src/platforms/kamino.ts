@@ -16,7 +16,7 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
 };
 
-import { jupiterV6Contract } from "./jupiter";
+import { jupiterV6Contract } from "./jupiter-exchange";
 import { contract } from "./dflow";
 import { expressRelayContract } from "./pyth";
 
@@ -152,4 +152,3 @@ export const services: ServiceRaw[] = [
   vaultLeverageService,
   airdropService,
 ];
-export default services;

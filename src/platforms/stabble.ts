@@ -61,4 +61,3 @@ export const services: ServiceRaw[] = [
   weightedPoolsService,
   lpStakingService,
 ];
-export default services;

@@ -16,7 +16,7 @@ export const platform: PlatformRaw = {
   },
 };
 
-import { jupiterV6Contract } from "./jupiter";
+import { jupiterV6Contract } from "./jupiter-exchange";
 
 const contract = {
   name: "Leverage Machine",
@@ -48,4 +48,3 @@ export const services: ServiceRaw[] = [
   withJupiterSwapService,
   v2WithJupiterSwapService,
 ];
-export default services;

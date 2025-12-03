@@ -230,5 +230,3 @@ export const services: ServiceRaw[] = [
   idoV4Service,
   launchpadService,
 ];
-
-export default services;

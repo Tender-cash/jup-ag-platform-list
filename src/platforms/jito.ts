@@ -64,4 +64,3 @@ export const services: ServiceRaw[] = [
   restakingService,
   airdropService,
 ];
-export default services;

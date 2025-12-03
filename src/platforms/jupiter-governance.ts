@@ -37,12 +37,11 @@ const governanceService: ServiceRaw = {
 };
 
 const asrService: ServiceRaw = {
-  id: `jupiter-governance-asr`,
+  id: `${platform.id}-asr`,
   name: "ASR",
   platformId: platform.id,
   networkId: NetworkId.solana,
   contractsRaw: [asrContract],
 };
 
-export const services: ServiceRaw[] = [governanceService, asrService];
-export default services;
+export const services: ServiceRaw[] = [asrService];

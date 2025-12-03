@@ -43,4 +43,3 @@ const transmitterService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [minterService, transmitterService];
-export default services;

@@ -30,4 +30,3 @@ const mainService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [mainService];
-export default services;

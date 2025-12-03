@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
 };
 
-import { jupiterV6Contract } from "./jupiter";
+import { jupiterV6Contract } from "./jupiter-exchange";
 
 const contract = {
   name: "Main",
@@ -37,4 +37,3 @@ const earnService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [tradeService, earnService];
-export default services;

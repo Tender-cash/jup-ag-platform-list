@@ -42,4 +42,3 @@ const poolService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [farmService, poolService];
-export default services;

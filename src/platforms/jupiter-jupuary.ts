@@ -19,7 +19,7 @@ const jupiterJupuaryContract = {
 };
 
 const jupuaryService: ServiceRaw = {
-  id: `jupiter-exchange-jupuary`,
+  id: `${platform.id}-service`,
   name: "Jupuary",
   platformId: platform.id,
   networkId: NetworkId.solana,
@@ -27,4 +27,3 @@ const jupuaryService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [jupuaryService];
-export default services;

@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
   tags: ["dapp", "memecoin"],
 };
 
-import { jupiterV6Contract } from "./jupiter";
+import { jupiterV6Contract } from "./jupiter-exchange";
 import { saveContract } from "./save";
 
 const lendingContract = {
@@ -26,4 +26,3 @@ const lendingService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [lendingService];
-export default services;

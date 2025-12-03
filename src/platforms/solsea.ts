@@ -30,4 +30,3 @@ const solanaStakingService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [solanaStakingService];
-export default services;

@@ -60,4 +60,3 @@ export const services: ServiceRaw[] = [
   redeemService,
   boostService,
 ];
-export default services;

@@ -75,4 +75,3 @@ export const services: ServiceRaw[] = [
   expressRelayService,
   airdropService,
 ];
-export default services;

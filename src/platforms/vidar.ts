@@ -85,4 +85,3 @@ export const services: ServiceRaw[] = [
   bgldStakingService,
   bgldMinerService,
 ];
-export default services;

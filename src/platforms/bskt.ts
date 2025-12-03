@@ -30,4 +30,3 @@ const bsktStakingService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [bsktStakingService];
-export default services;

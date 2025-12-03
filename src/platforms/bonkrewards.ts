@@ -88,4 +88,3 @@ export const services: ServiceRaw[] = [
   bonkMasService,
   daoService,
 ];
-export default services;

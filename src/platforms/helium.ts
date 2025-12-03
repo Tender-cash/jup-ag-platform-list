@@ -40,4 +40,3 @@ export const services: ServiceRaw[] = [
   governanceV1Service,
   governanceV2Service,
 ];
-export default services;

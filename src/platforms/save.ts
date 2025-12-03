@@ -78,4 +78,3 @@ export const services: ServiceRaw[] = [
   wrapperService,
   rewardService,
 ];
-export default services;

@@ -14,7 +14,7 @@ export const platform: PlatformRaw = {
   tags: ["bridge", "tool", "dapp"],
 };
 
-import { jupiterV6Contract } from "./jupiter";
+import { jupiterV6Contract } from "./jupiter-exchange";
 
 const contract = {
   name: "Swift",
@@ -38,4 +38,3 @@ const bridgeService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [claimService, bridgeService];
-export default services;

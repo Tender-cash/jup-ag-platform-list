@@ -39,4 +39,3 @@ const mergeMinerService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [minerService, mergeMinerService];
-export default services;

@@ -24,4 +24,3 @@ const tradeService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [tradeService];
-export default services;

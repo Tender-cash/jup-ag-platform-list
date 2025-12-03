@@ -61,4 +61,3 @@ export const services: ServiceRaw[] = [
   marketMakerService,
   airdropService,
 ];
-export default services;

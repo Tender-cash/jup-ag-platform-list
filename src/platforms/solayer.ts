@@ -92,4 +92,3 @@ export const services: ServiceRaw[] = [
   sUSDService,
   delegateService,
 ];
-export default services;

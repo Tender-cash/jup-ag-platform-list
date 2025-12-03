@@ -51,4 +51,3 @@ const nftGen2service: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [service, nftGen1service, nftGen2service];
-export default services;
