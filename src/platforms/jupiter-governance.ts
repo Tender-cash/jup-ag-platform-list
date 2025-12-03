@@ -29,7 +29,7 @@ const asrContract = {
 };
 
 const asrService: ServiceRaw = {
-  id: `jupiter-exchange-asr`,
+  id: `${platform.id}-asr`,
   name: "ASR",
   platformId: platform.id,
   networkId: NetworkId.solana,
