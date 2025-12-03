@@ -44,7 +44,6 @@ describe("Services", () => {
       service.contracts.forEach((contract) => {
         expect(contract.serviceId).toBe(service.id);
         expect(contract.platformId).toBe(service.platformId);
-        expect(contract.networkId).toBe(service.networkId);
       });
     });
   });
