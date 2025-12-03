@@ -1,23 +1,5 @@
-import { z } from "zod";
 import { services } from "../src/index";
-
-const ContractSchema = z.object({
-  name: z.string(),
-  address: z.string(),
-  serviceId: z.string(),
-  platformId: z.string(),
-  networkId: z.string(),
-});
-
-const ServiceSchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  platformId: z.string(),
-  networkId: z.string(),
-  contracts: z.array(ContractSchema),
-  link: z.string().url().optional(),
-  description: z.string().optional(),
-});
+import { ServiceSchema } from "./schemas";
 
 describe("Services", () => {
   it("should have a length greater than or equal to 0", () => {

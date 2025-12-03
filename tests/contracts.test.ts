@@ -1,13 +1,5 @@
-import { z } from "zod";
 import { contracts } from "../src/index";
-
-const ContractSchema = z.object({
-  name: z.string(),
-  address: z.string(),
-  serviceId: z.string(),
-  platformId: z.string(),
-  networkId: z.string(),
-});
+import { ContractSchema } from "./schemas";
 
 describe("Contracts", () => {
   it("should have a length greater than or equal to 0", () => {

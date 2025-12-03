@@ -1,23 +1,7 @@
 import { existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
-import { z } from "zod";
 import { platforms } from "../src/index";
-
-const PlatformSchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  image: z.string().url(),
-  tags: z.array(z.string()).min(1),
-  links: z.object({
-    website: z.string().url(),
-    discord: z.string().url().optional(),
-    telegram: z.string().url().optional(),
-    twitter: z.string().url().optional(),
-    github: z.string().url().optional(),
-    medium: z.string().url().optional(),
-    documentation: z.string().url().optional(),
-  }),
-});
+import { PlatformSchema } from "./schemas";
 
 describe("Platforms", () => {
   it("should have a length greater than 0", () => {
