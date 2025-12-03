@@ -27,4 +27,3 @@ const v3Service: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [v3Service];
-export default services;

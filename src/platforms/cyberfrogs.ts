@@ -26,4 +26,3 @@ const autoThorService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [autoThorService];
-export default services;

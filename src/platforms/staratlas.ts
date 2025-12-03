@@ -39,4 +39,3 @@ const service: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [service];
-export default services;

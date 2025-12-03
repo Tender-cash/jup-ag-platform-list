@@ -48,4 +48,3 @@ const rewarderService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [service, rewarderService];
-export default services;

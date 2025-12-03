@@ -70,4 +70,3 @@ export const services: ServiceRaw[] = [
   stakingService,
   airdropService,
 ];
-export default services;

@@ -152,4 +152,3 @@ export const services: ServiceRaw[] = [
   vaultLeverageService,
   airdropService,
 ];
-export default services;

@@ -39,4 +39,3 @@ const boostService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [minterService, boostService];
-export default services;

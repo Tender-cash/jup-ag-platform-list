@@ -54,4 +54,3 @@ const lendService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [earnService, tradeService, lendService];
-export default services;

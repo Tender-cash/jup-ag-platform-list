@@ -45,4 +45,3 @@ const launchpadService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [launchpadService];
-export default services;

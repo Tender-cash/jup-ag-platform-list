@@ -25,4 +25,3 @@ const minterService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [minterService];
-export default services;

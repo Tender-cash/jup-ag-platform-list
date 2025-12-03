@@ -37,4 +37,3 @@ const asrService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [asrService];
-export default services;

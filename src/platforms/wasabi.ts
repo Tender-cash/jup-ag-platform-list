@@ -37,4 +37,3 @@ const earnService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [tradeService, earnService];
-export default services;

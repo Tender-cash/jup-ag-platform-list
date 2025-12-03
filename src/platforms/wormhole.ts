@@ -81,4 +81,3 @@ export const services: ServiceRaw[] = [
   stakingService,
   tbtcBridgeService,
 ];
-export default services;

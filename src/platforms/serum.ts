@@ -52,4 +52,3 @@ const service3: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [service, service2, service3];
-export default services;

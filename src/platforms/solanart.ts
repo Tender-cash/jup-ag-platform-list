@@ -38,4 +38,3 @@ const globalOfferService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [stakingService, globalOfferService];
-export default services;

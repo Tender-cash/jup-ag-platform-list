@@ -54,4 +54,3 @@ const promoService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [service, rewardsService, promoService];
-export default services;

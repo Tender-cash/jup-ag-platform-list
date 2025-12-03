@@ -61,4 +61,3 @@ export const services: ServiceRaw[] = [
   dualTokenPoolsService,
   lpStakingService,
 ];
-export default services;

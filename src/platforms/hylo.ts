@@ -45,4 +45,3 @@ const stabilityPoolService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [exchangeService, stabilityPoolService];
-export default services;

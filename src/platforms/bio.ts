@@ -43,4 +43,3 @@ const serviceDao: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [service, serviceDao];
-export default services;

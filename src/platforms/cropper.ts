@@ -46,4 +46,3 @@ const clmmService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [stakingService, clmmService];
-export default services;

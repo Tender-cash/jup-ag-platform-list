@@ -26,4 +26,3 @@ const vaultService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [vaultService];
-export default services;

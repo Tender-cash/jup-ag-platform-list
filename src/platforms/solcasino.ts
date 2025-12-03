@@ -26,4 +26,3 @@ const depositService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [depositService];
-export default services;

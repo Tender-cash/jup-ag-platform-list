@@ -102,4 +102,3 @@ export const services: ServiceRaw[] = [
   liquidityManagementService,
   twoWayPegService,
 ];
-export default services;

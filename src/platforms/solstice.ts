@@ -59,4 +59,3 @@ export const services: ServiceRaw[] = [
   usxJustEarnService,
   usxService,
 ];
-export default services;

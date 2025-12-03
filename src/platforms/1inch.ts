@@ -36,4 +36,3 @@ const whitelistService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [whitelistService];
-export default services;

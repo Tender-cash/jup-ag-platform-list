@@ -48,4 +48,3 @@ export const services: ServiceRaw[] = [
   withJupiterSwapService,
   v2WithJupiterSwapService,
 ];
-export default services;

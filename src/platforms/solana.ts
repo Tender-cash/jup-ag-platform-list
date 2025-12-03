@@ -66,4 +66,3 @@ export const services: ServiceRaw[] = [
   stakePoolService,
   singleValidatorStakePoolService,
 ];
-export default services;

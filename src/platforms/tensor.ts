@@ -101,4 +101,3 @@ export const services: ServiceRaw[] = [
   tammService,
   luckyBuyService,
 ];
-export default services;

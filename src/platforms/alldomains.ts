@@ -40,4 +40,3 @@ const nameHouseService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [nameHouseService];
-export default services;

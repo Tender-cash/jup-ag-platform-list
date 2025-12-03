@@ -27,4 +27,3 @@ const jupuaryService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [jupuaryService];
-export default services;

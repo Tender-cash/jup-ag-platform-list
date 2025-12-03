@@ -38,4 +38,3 @@ const bridgeService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [claimService, bridgeService];
-export default services;

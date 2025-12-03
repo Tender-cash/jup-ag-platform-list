@@ -42,4 +42,3 @@ const creditBookService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [service, creditBookService];
-export default services;

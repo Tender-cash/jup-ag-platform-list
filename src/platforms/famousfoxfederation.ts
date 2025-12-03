@@ -56,4 +56,3 @@ export const services: ServiceRaw[] = [
   mainService,
   missionsService,
 ];
-export default services;

@@ -60,4 +60,3 @@ export const services: ServiceRaw[] = [
   lendingFlexService,
   liquidityService,
 ];
-export default services;

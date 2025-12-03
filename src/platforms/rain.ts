@@ -75,4 +75,3 @@ export const services: ServiceRaw[] = [
   vaultsService,
   liquidService,
 ];
-export default services;

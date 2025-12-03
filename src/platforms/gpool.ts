@@ -24,4 +24,3 @@ const stakingService: ServiceRaw = {
 };
 
 export const services: ServiceRaw[] = [stakingService];
-export default services;

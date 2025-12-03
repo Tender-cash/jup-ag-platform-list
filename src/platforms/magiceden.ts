@@ -111,4 +111,3 @@ export const services: ServiceRaw[] = [
   launchpadService,
   ammService,
 ];
-export default services;
