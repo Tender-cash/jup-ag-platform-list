@@ -1,5 +1,5 @@
 import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
-import { solanaStakePoolContract } from "./solana";
+
 export const platform: PlatformRaw = {
   id: "solayer",
   name: "Solayer",

@@ -1,11 +1,4 @@
-import {
-  Contract,
-  ContractRaw,
-  PlatformRaw,
-  Service,
-  ServiceRaw,
-  NetworkId,
-} from "../types";
+import { ContractRaw, PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "vaultka",
   name: "Vaultka",

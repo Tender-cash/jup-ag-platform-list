@@ -44,4 +44,4 @@ const asrService: ServiceRaw = {
   contractsRaw: [asrContract],
 };
 
-export const services: ServiceRaw[] = [asrService];
+export const services: ServiceRaw[] = [asrService, governanceService];
