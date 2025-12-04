@@ -26,14 +26,14 @@ const creditBookContract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: "loopscale",
   name: "Loopscale",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const creditBookService: ServiceRaw = {
+export const creditBookService: ServiceRaw = {
   id: "loopscale-creditbook",
   name: "CreditBook",
   platformId: platform.id,

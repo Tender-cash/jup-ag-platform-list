@@ -27,14 +27,14 @@ const contractV2 = {
   networkId: NetworkId.solana,
 };
 
-const withJupiterSwapService: ServiceRaw = {
+export const withJupiterSwapService: ServiceRaw = {
   id: `${platform.id}-leverage-with-jupiter-swap`,
   name: "Leverage",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const v2WithJupiterSwapService: ServiceRaw = {
+export const v2WithJupiterSwapService: ServiceRaw = {
   id: `${platform.id}-leverage-v2-with-jupiter-swap`,
   name: "Leverage",
   platformId: platform.id,

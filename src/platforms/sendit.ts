@@ -31,21 +31,21 @@ const lendContract = {
   networkId: NetworkId.solana,
 };
 
-const earnService: ServiceRaw = {
+export const earnService: ServiceRaw = {
   id: `${platform.id}-sol-earn`,
   name: "Sol Earn",
   platformId: platform.id,
   contractsRaw: [earnContract],
 };
 
-const tradeService: ServiceRaw = {
+export const tradeService: ServiceRaw = {
   id: `${platform.id}-trade`,
   name: "Trade",
   platformId: platform.id,
   contractsRaw: [tradeContract],
 };
 
-const lendService: ServiceRaw = {
+export const lendService: ServiceRaw = {
   id: `${platform.id}-lend`,
   name: "Memecoin Yielding",
   platformId: platform.id,

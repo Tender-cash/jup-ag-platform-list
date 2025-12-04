@@ -40,28 +40,28 @@ const liquidContract = {
   networkId: NetworkId.solana,
 };
 
-const defiService: ServiceRaw = {
+export const defiService: ServiceRaw = {
   id: "rain-defi-lending",
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [contractDefiLending],
 };
 
-const nftService: ServiceRaw = {
+export const nftService: ServiceRaw = {
   id: "rain-nft-lending",
   name: "NFT Lending",
   platformId: platform.id,
   contractsRaw: [contractNftLending],
 };
 
-const vaultsService: ServiceRaw = {
+export const vaultsService: ServiceRaw = {
   id: "rain-vaults",
   name: "Vaults",
   platformId: platform.id,
   contractsRaw: [contractBank],
 };
 
-const liquidService: ServiceRaw = {
+export const liquidService: ServiceRaw = {
   id: "rain-vaults-liquid",
   name: "Liquid",
   platformId: platform.id,

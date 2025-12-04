@@ -29,7 +29,7 @@ const whitelistContract = {
   networkId: NetworkId.solana,
 };
 
-const whitelistService: ServiceRaw = {
+export const whitelistService: ServiceRaw = {
   id: `${platform.id}-whitelist`,
   name: "Whitelist Service",
   platformId: platform.id,

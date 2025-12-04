@@ -34,21 +34,21 @@ const stakingContract = {
   networkId: NetworkId.solana,
 };
 
-const stablePoolsService: ServiceRaw = {
+export const stablePoolsService: ServiceRaw = {
   id: `${platform.id}-liquidity-pools-stable`,
   name: "Stable Pools",
   platformId: platform.id,
   contractsRaw: [stablePoolContract],
 };
 
-const weightedPoolsService: ServiceRaw = {
+export const weightedPoolsService: ServiceRaw = {
   id: `${platform.id}-liquidity-pools`,
   name: "Weighted Pools",
   platformId: platform.id,
   contractsRaw: [weghtedPoolContract],
 };
 
-const lpStakingService: ServiceRaw = {
+export const lpStakingService: ServiceRaw = {
   id: `${platform.id}-lp-staking`,
   name: "LP Staking",
   platformId: platform.id,

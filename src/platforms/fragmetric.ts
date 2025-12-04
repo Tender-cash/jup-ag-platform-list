@@ -32,14 +32,14 @@ const airdropContract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: "fragmetric",
   name: "Fragmetric",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const airdropService: ServiceRaw = {
+export const airdropService: ServiceRaw = {
   id: "fragmetric-airdrop",
   name: "Fragmetric Airdrop",
   platformId: platform.id,

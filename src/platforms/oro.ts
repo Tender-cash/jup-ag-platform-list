@@ -19,14 +19,14 @@ const core: ContractRaw = {
   networkId: NetworkId.solana,
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [staking],
 };
 
-const coreService: ServiceRaw = {
+export const coreService: ServiceRaw = {
   id: `${platform.id}-core`,
   name: "Core",
   platformId: platform.id,

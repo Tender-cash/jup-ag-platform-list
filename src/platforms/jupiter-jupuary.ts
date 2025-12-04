@@ -18,7 +18,7 @@ const jupiterJupuaryContract = {
   networkId: NetworkId.solana,
 };
 
-const jupuaryService: ServiceRaw = {
+export const jupuaryService: ServiceRaw = {
   id: `${platform.id}-service`,
   name: "Jupuary",
   platformId: platform.id,

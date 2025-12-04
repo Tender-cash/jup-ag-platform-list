@@ -58,21 +58,21 @@ const tbtcBridgeContract = {
   networkId: NetworkId.solana,
 };
 
-const legacyStakingService: ServiceRaw = {
+export const legacyStakingService: ServiceRaw = {
   id: `${platform.id}-legacy-staking`,
   name: "Legacy Staking",
   platformId: platform.id,
   contractsRaw: [legacyStakingContract],
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
 };
 
-const tbtcBridgeService: ServiceRaw = {
+export const tbtcBridgeService: ServiceRaw = {
   id: `${platform.id}-tbtc-bridge`,
   name: "tBTC Bridge",
   platformId: platform.id,

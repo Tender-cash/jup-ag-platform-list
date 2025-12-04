@@ -62,42 +62,42 @@ const candyMachineContract = {
   networkId: NetworkId.solana,
 };
 
-const escrowService: ServiceRaw = {
+export const escrowService: ServiceRaw = {
   id: `${platform.id}-marketPlace`,
   name: "MarketPlace",
   platformId: platform.id,
   contractsRaw: [escrowContract],
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
 };
 
-const auctionService: ServiceRaw = {
+export const auctionService: ServiceRaw = {
   id: `${platform.id}-auction`,
   name: "Auction",
   platformId: platform.id,
   contractsRaw: [auctionContract],
 };
 
-const cnftService: ServiceRaw = {
+export const cnftService: ServiceRaw = {
   id: `${platform.id}-cnft`,
   name: "cNFT",
   platformId: platform.id,
   contractsRaw: [cnftContract],
 };
 
-const launchpadService: ServiceRaw = {
+export const launchpadService: ServiceRaw = {
   id: `${platform.id}-launchpad`,
   name: "Launchpad",
   platformId: platform.id,
   contractsRaw: [candyMachineContract],
 };
 
-const ammService: ServiceRaw = {
+export const ammService: ServiceRaw = {
   id: `${platform.id}-amm`,
   name: "AMM",
   platformId: platform.id,

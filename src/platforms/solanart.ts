@@ -22,14 +22,14 @@ const globalOfferContract = {
   networkId: NetworkId.solana,
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-marketplace`,
   name: "Marketplace",
   platformId: platform.id,
   contractsRaw: [mainContract],
 };
 
-const globalOfferService: ServiceRaw = {
+export const globalOfferService: ServiceRaw = {
   id: `${platform.id}-global-offer`,
   name: "Global Offer",
   platformId: platform.id,

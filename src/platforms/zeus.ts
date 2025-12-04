@@ -51,42 +51,42 @@ const twoWayPegContract = {
   networkId: NetworkId.solana,
 };
 
-const bootstrapperService: ServiceRaw = {
+export const bootstrapperService: ServiceRaw = {
   id: `${platform.id}-bootstrapper`,
   name: "Bootstrapper",
   platformId: platform.id,
   contractsRaw: [bootstrapperContract],
 };
 
-const bitcoinSPVService: ServiceRaw = {
+export const bitcoinSPVService: ServiceRaw = {
   id: `${platform.id}-bitcoin-spv`,
   name: "BitcoinSPV",
   platformId: platform.id,
   contractsRaw: [bitcoinSPVContract],
 };
 
-const layerCAService: ServiceRaw = {
+export const layerCAService: ServiceRaw = {
   id: `${platform.id}-layer-ca`,
   name: "LayerCA",
   platformId: platform.id,
   contractsRaw: [layerCAContract],
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [delegatorContract],
 };
 
-const liquidityManagementService: ServiceRaw = {
+export const liquidityManagementService: ServiceRaw = {
   id: `${platform.id}-liquidity-management`,
   name: "LiquidityManagement",
   platformId: platform.id,
   contractsRaw: [liquidityManagementContract],
 };
 
-const twoWayPegService: ServiceRaw = {
+export const twoWayPegService: ServiceRaw = {
   id: `${platform.id}-two-way-peg`,
   name: "TwoWayPeg",
   platformId: platform.id,

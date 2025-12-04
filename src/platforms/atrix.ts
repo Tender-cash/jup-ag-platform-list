@@ -26,14 +26,14 @@ const poolContract = {
   networkId: NetworkId.solana,
 };
 
-const farmService: ServiceRaw = {
+export const farmService: ServiceRaw = {
   id: `${platform.id}-farm`,
   name: "Farms",
   platformId: platform.id,
   contractsRaw: [farmContract],
 };
 
-const poolService: ServiceRaw = {
+export const poolService: ServiceRaw = {
   id: `${platform.id}-pool`,
   name: "Pools",
   platformId: platform.id,

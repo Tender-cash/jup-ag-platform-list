@@ -46,35 +46,35 @@ const asrContract = {
   networkId: NetworkId.solana,
 };
 
-const voteService: ServiceRaw = {
+export const voteService: ServiceRaw = {
   id: `${platform.id}-vote`,
   name: "Vote",
   platformId: platform.id,
   contractsRaw: [voteContract],
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
 };
 
-const poolService: ServiceRaw = {
+export const poolService: ServiceRaw = {
   id: `${platform.id}-pool`,
   name: "Infinity Pool",
   platformId: platform.id,
   contractsRaw: [infContract],
 };
 
-const routerService: ServiceRaw = {
+export const routerService: ServiceRaw = {
   id: `${platform.id}-router`,
   name: "Router",
   platformId: platform.id,
   contractsRaw: [routerContract],
 };
 
-const asrService: ServiceRaw = {
+export const asrService: ServiceRaw = {
   id: `${platform.id}-asr`,
   name: "ASR",
   platformId: platform.id,

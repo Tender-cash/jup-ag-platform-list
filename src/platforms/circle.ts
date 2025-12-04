@@ -27,14 +27,14 @@ const transmitterContract = {
   networkId: NetworkId.solana,
 };
 
-const minterService: ServiceRaw = {
+export const minterService: ServiceRaw = {
   id: `${platform.id}-cctp-minter`,
   name: "CCTP",
   platformId: platform.id,
   contractsRaw: [minterContract],
 };
 
-const transmitterService: ServiceRaw = {
+export const transmitterService: ServiceRaw = {
   id: `${platform.id}-cctp-transmitter`,
   name: "CCTP",
   platformId: platform.id,

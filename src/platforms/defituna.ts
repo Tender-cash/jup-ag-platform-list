@@ -31,21 +31,21 @@ const fusionAmmContract = {
   networkId: NetworkId.solana,
 };
 
-const defiTunaService: ServiceRaw = {
+export const defiTunaService: ServiceRaw = {
   id: "defituna",
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [defiTunaContract],
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: "defituna-staking",
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
 };
 
-const fusionAmmService: ServiceRaw = {
+export const fusionAmmService: ServiceRaw = {
   id: "defituna-fusion-amm",
   name: "Fusion AMM",
   platformId: platform.id,

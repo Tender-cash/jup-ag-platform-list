@@ -122,119 +122,119 @@ const inviteContract = {
   networkId: NetworkId.solana,
 };
 
-const swapV7Service: ServiceRaw = {
+export const swapV7Service: ServiceRaw = {
   id: `${platform.id}-swap-v7`,
   name: "Swap v7",
   platformId: platform.id,
   contractsRaw: [jupiterV7Contract],
 };
 
-const swapV6Service: ServiceRaw = {
+export const swapV6Service: ServiceRaw = {
   id: `${platform.id}-swap`,
   name: "Swap v6",
   platformId: platform.id,
   contractsRaw: [jupiterV6Contract],
 };
 
-const swapV5Service: ServiceRaw = {
+export const swapV5Service: ServiceRaw = {
   id: `${platform.id}-swap-v5`,
   name: "Swap v5",
   platformId: platform.id,
   contractsRaw: [jupiterV5Contract],
 };
 
-const swapV4Service: ServiceRaw = {
+export const swapV4Service: ServiceRaw = {
   id: `${platform.id}-swap-v4`,
   name: "Swap v4",
   platformId: platform.id,
   contractsRaw: [jupiterV4Contract],
 };
 
-const swapV3Service: ServiceRaw = {
+export const swapV3Service: ServiceRaw = {
   id: `${platform.id}-swap-v3`,
   name: "Swap v3",
   platformId: platform.id,
   contractsRaw: [jupiterV3Contract],
 };
 
-const swapV2Service: ServiceRaw = {
+export const swapV2Service: ServiceRaw = {
   id: `${platform.id}-swap-v2`,
   name: "Swap v2",
   platformId: platform.id,
   contractsRaw: [jupiterV2Contract],
 };
 
-const swapV1Service: ServiceRaw = {
+export const swapV1Service: ServiceRaw = {
   id: `${platform.id}-swap-v1`,
   name: "Swap v1",
   platformId: platform.id,
   contractsRaw: [jupiterV1Contract],
 };
 
-const apeService: ServiceRaw = {
+export const apeService: ServiceRaw = {
   id: `${platform.id}-ape`,
   name: "Ape",
   platformId: platform.id,
   contractsRaw: [apeContract],
 };
 
-const jupiterZService: ServiceRaw = {
+export const jupiterZService: ServiceRaw = {
   id: `${platform.id}-jupiter-z`,
   name: "JupiterZ",
   platformId: platform.id,
   contractsRaw: [rfqContract],
 };
 
-const limitV1Service: ServiceRaw = {
+export const limitV1Service: ServiceRaw = {
   id: `${platform.id}-limitv1`,
   name: "Limit v1",
   platformId: platform.id,
   contractsRaw: [jupiterLimitV1Contract],
 };
 
-const limitService: ServiceRaw = {
+export const limitService: ServiceRaw = {
   id: `${platform.id}-limit`,
   name: "Limit",
   platformId: platform.id,
   contractsRaw: [jupiterLimitContract],
 };
 
-const dcaService: ServiceRaw = {
+export const dcaService: ServiceRaw = {
   id: `${platform.id}-dca`,
   name: "DCA",
   platformId: platform.id,
   contractsRaw: [jupiterDcaContract],
 };
 
-const dcaVaService: ServiceRaw = {
+export const dcaVaService: ServiceRaw = {
   id: `${platform.id}-dca-va`,
   name: "DCA VA",
   platformId: platform.id,
   contractsRaw: [jupiterDcaVaContract],
 };
 
-const lockService: ServiceRaw = {
+export const lockService: ServiceRaw = {
   id: `${platform.id}-lock`,
   name: "Lock",
   platformId: platform.id,
   contractsRaw: [jupiterLockContract],
 };
 
-const perpsService: ServiceRaw = {
+export const perpsService: ServiceRaw = {
   id: `${platform.id}-perps`,
   name: "Perps",
   platformId: platform.id,
   contractsRaw: [jupiterPerpsContract],
 };
 
-const airdropService: ServiceRaw = {
+export const airdropService: ServiceRaw = {
   id: `${platform.id}-airdrop`,
   name: "Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract],
 };
 
-const inviteService: ServiceRaw = {
+export const inviteService: ServiceRaw = {
   id: `${platform.id}-invite`,
   name: "Invite",
   platformId: platform.id,

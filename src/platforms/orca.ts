@@ -37,28 +37,28 @@ const staking: ContractRaw = {
   networkId: NetworkId.solana,
 };
 
-const poolsService: ServiceRaw = {
+export const poolsService: ServiceRaw = {
   id: `${platform.id}-pools`,
   name: "Pools",
   platformId: platform.id,
   contractsRaw: [pools],
 };
 
-const farmsService: ServiceRaw = {
+export const farmsService: ServiceRaw = {
   id: `${platform.id}-farms`,
   name: "Aqua Farms",
   platformId: platform.id,
   contractsRaw: [aquaFarms],
 };
 
-const whirlpoolsService: ServiceRaw = {
+export const whirlpoolsService: ServiceRaw = {
   id: `${platform.id}-whirlpools`,
   name: "Whirlpools",
   platformId: platform.id,
   contractsRaw: [whirlpool],
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,

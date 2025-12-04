@@ -22,7 +22,7 @@ const metaplexContract = {
   networkId: NetworkId.solana,
 };
 
-const solanaStakingService: ServiceRaw = {
+export const solanaStakingService: ServiceRaw = {
   id: `${platform.id}-marketplace`,
   name: "Marketplace",
   platformId: platform.id,

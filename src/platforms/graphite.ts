@@ -28,21 +28,21 @@ const nftGen2StakingContract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
 };
 
-const nftGen1service: ServiceRaw = {
+export const nftGen1service: ServiceRaw = {
   id: `${platform.id}-gen1-staking`,
   name: "Taiyo Gen1 Staking",
   platformId: platform.id,
   contractsRaw: [nftGen1StakingContract],
 };
 
-const nftGen2service: ServiceRaw = {
+export const nftGen2service: ServiceRaw = {
   id: `${platform.id}-gen2-staking`,
   name: "Taiyo Gen2 Staking",
   platformId: platform.id,

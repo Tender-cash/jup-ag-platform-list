@@ -46,27 +46,27 @@ const vaultkaV2Contract: ContractRaw = {
   networkId: NetworkId.solana,
 };
 
-const lendingV1Service: ServiceRaw = {
+export const lendingV1Service: ServiceRaw = {
   id: `${platform.id}-lending-v1`,
   name: "Lending V1",
   platformId: platform.id,
   contractsRaw: [...lendingV1Contracts],
 };
-const strategyV1Service: ServiceRaw = {
+export const strategyV1Service: ServiceRaw = {
   id: `${platform.id}-stragegy-v1`,
   name: "Strategy V1",
   platformId: platform.id,
   contractsRaw: [...stragegyV1Contracts],
 };
 
-const lendingV2Service: ServiceRaw = {
+export const lendingV2Service: ServiceRaw = {
   id: `${platform.id}-lending-v2`,
   name: "Lending V2",
   platformId: platform.id,
   contractsRaw: [vaultkaV2Contract],
 };
 
-const leverageService: ServiceRaw = {
+export const leverageService: ServiceRaw = {
   id: `${platform.id}-leverage`,
   name: "Leverage",
   platformId: platform.id,

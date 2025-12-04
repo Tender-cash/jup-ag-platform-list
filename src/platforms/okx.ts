@@ -20,14 +20,14 @@ const aggregatorV6: ContractRaw = {
   networkId: NetworkId.solana,
 };
 
-const aggregatorService: ServiceRaw = {
+export const aggregatorService: ServiceRaw = {
   id: `${platform.id}-aggregator`,
   name: "Aggregator",
   platformId: platform.id,
   contractsRaw: [aggregator],
 };
 
-const aggregatorV6Service: ServiceRaw = {
+export const aggregatorV6Service: ServiceRaw = {
   id: `${platform.id}-aggregator-v6`,
   name: "Aggregator V6",
   platformId: platform.id,

@@ -45,35 +45,35 @@ const daoContract = {
   networkId: NetworkId.solana,
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const fireService: ServiceRaw = {
+export const fireService: ServiceRaw = {
   id: `${platform.id}-fire`,
   name: "Fire",
   platformId: platform.id,
   contractsRaw: [fireContract],
 };
 
-const swapService: ServiceRaw = {
+export const swapService: ServiceRaw = {
   id: `${platform.id}-swap`,
   name: "Swap",
   platformId: platform.id,
   contractsRaw: [swapContract],
 };
 
-const bonkMasService: ServiceRaw = {
+export const bonkMasService: ServiceRaw = {
   id: `${platform.id}-bonkmas`,
   name: "BONKmas",
   platformId: platform.id,
   contractsRaw: [bonkMasContract],
 };
 
-const daoService: ServiceRaw = {
+export const daoService: ServiceRaw = {
   id: `${platform.id}-dao`,
   name: "DAO",
   platformId: platform.id,

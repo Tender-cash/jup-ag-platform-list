@@ -22,7 +22,7 @@ const contract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: "marginfi-lending",
   name: "Lending",
   platformId: platform.id,

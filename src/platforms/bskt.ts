@@ -21,7 +21,7 @@ const bsktStakingContract = {
   networkId: NetworkId.solana,
 };
 
-const bsktStakingService: ServiceRaw = {
+export const bsktStakingService: ServiceRaw = {
   id: "bskt-staking",
   name: "BSKT Staking",
   platformId: platform.id,

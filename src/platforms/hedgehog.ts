@@ -32,7 +32,7 @@ const tokensContract = {
   networkId: NetworkId.solana,
 };
 
-const governanceV1Service: ServiceRaw = {
+export const governanceV1Service: ServiceRaw = {
   id: `${platform.id}-markets`,
   name: "Markets",
   platformId: platform.id,

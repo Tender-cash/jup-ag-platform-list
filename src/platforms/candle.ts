@@ -16,7 +16,7 @@ const stakingContract = {
   networkId: NetworkId.solana,
 };
 
-const minterService: ServiceRaw = {
+export const minterService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,

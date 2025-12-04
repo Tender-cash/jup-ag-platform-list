@@ -23,14 +23,14 @@ const boostContract = {
   networkId: NetworkId.solana,
 };
 
-const minterService: ServiceRaw = {
+export const minterService: ServiceRaw = {
   id: `${platform.id}-minter`,
   name: "Minter",
   platformId: platform.id,
   contractsRaw: [minterContract],
 };
 
-const boostService: ServiceRaw = {
+export const boostService: ServiceRaw = {
   id: `${platform.id}-boost`,
   name: "Boost",
   platformId: platform.id,

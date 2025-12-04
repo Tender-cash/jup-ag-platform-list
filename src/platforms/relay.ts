@@ -22,14 +22,14 @@ const relayContract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: `${platform.id}-bridge`,
   name: "Bridge",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const relayService: ServiceRaw = {
+export const relayService: ServiceRaw = {
   id: `${platform.id}-relay-bridge`,
   name: "Relay Bridge",
   platformId: platform.id,

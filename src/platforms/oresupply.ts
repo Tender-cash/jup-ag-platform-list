@@ -38,28 +38,28 @@ const v3Contract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: `${platform.id}-mining`,
   name: "Mining",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const v1Service: ServiceRaw = {
+export const v1Service: ServiceRaw = {
   id: `${platform.id}-v1`,
   name: "V1",
   platformId: platform.id,
   contractsRaw: [legacyStakingContract],
 };
 
-const v2Service: ServiceRaw = {
+export const v2Service: ServiceRaw = {
   id: `${platform.id}-v2`,
   name: "V2",
   platformId: platform.id,
   contractsRaw: [v2Contract],
 };
 
-const v3Service: ServiceRaw = {
+export const v3Service: ServiceRaw = {
   id: `${platform.id}-v3`,
   name: "V3",
   platformId: platform.id,

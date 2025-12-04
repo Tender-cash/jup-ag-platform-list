@@ -35,28 +35,28 @@ const rfqContract = {
   networkId: NetworkId.solana,
 };
 
-const clmmService: ServiceRaw = {
+export const clmmService: ServiceRaw = {
   id: "byreal-clmm",
   name: "CLMM",
   platformId: platform.id,
   contractsRaw: [clmmContract],
 };
 
-const resetService: ServiceRaw = {
+export const resetService: ServiceRaw = {
   id: "byreal-reset",
   name: "Reset Launchpad",
   platformId: platform.id,
   contractsRaw: [resetContract],
 };
 
-const routerService: ServiceRaw = {
+export const routerService: ServiceRaw = {
   id: "byreal-router",
   name: "Router",
   platformId: platform.id,
   contractsRaw: [routerContract],
 };
 
-const rfqService: ServiceRaw = {
+export const rfqService: ServiceRaw = {
   id: "byreal-rfq",
   name: "RFQ",
   platformId: platform.id,

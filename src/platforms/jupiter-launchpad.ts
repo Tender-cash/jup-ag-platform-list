@@ -23,14 +23,14 @@ const dtfContract = {
   networkId: NetworkId.solana,
 };
 
-const lfgService: ServiceRaw = {
+export const lfgService: ServiceRaw = {
   id: `${platform.id}-lfg`,
   name: "LFG",
   platformId: platform.id,
   contractsRaw: [lfgContract],
 };
 
-const dtfService: ServiceRaw = {
+export const dtfService: ServiceRaw = {
   id: `${platform.id}-dtf`,
   name: "DTF",
   platformId: platform.id,

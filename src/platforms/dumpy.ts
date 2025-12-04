@@ -14,7 +14,7 @@ const lendingContract = {
   networkId: NetworkId.solana,
 };
 
-const lendingService: ServiceRaw = {
+export const lendingService: ServiceRaw = {
   id: `${platform.id}-short-lending`,
   name: "Short Lending",
   platformId: platform.id,

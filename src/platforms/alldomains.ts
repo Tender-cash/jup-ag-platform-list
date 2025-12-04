@@ -33,7 +33,7 @@ const nameHouseContract = {
   networkId: NetworkId.solana,
 };
 
-const nameHouseService: ServiceRaw = {
+export const nameHouseService: ServiceRaw = {
   id: `${platform.id}-name-house`,
   name: "Name House",
   platformId: platform.id,

@@ -101,98 +101,98 @@ const launchpadContract = {
   networkId: NetworkId.solana,
 };
 
-const ammV4Service: ServiceRaw = {
+export const ammV4Service: ServiceRaw = {
   id: `${platform.id}-amm-v4`,
   name: "AMM v4",
   platformId: platform.id,
   contractsRaw: [ammV4Contract],
 };
 
-const ammV5Service: ServiceRaw = {
+export const ammV5Service: ServiceRaw = {
   id: `${platform.id}-amm-v5`,
   name: "AMM v5",
   platformId: platform.id,
   contractsRaw: [ammV5Contract],
 };
 
-const ammRootingService: ServiceRaw = {
+export const ammRootingService: ServiceRaw = {
   id: `${platform.id}-amm-rooting`,
   name: "Swap",
   platformId: platform.id,
   contractsRaw: [ammRootingContract],
 };
 
-const clmmService: ServiceRaw = {
+export const clmmService: ServiceRaw = {
   id: `${platform.id}-clmm`,
   name: "CLMM",
   platformId: platform.id,
   contractsRaw: [clmmContract],
 };
 
-const cpmmService: ServiceRaw = {
+export const cpmmService: ServiceRaw = {
   id: `${platform.id}-cpmm`,
   name: "CPMM",
   platformId: platform.id,
   contractsRaw: [cpmmContract],
 };
 
-const farmV3Service: ServiceRaw = {
+export const farmV3Service: ServiceRaw = {
   id: `${platform.id}-farm-v3`,
   name: "Stake",
   platformId: platform.id,
   contractsRaw: [farmV3Contract],
 };
 
-const farmV4Service: ServiceRaw = {
+export const farmV4Service: ServiceRaw = {
   id: `${platform.id}-farm-v4`,
   name: "Farm V4",
   platformId: platform.id,
   contractsRaw: [farmV4Contract],
 };
 
-const farmV5Service: ServiceRaw = {
+export const farmV5Service: ServiceRaw = {
   id: `${platform.id}-farm-v5`,
   name: "Farm V5",
   platformId: platform.id,
   contractsRaw: [farmV5Contract],
 };
 
-const farmV6Service: ServiceRaw = {
+export const farmV6Service: ServiceRaw = {
   id: `${platform.id}-farm-v6`,
   name: "Farm V6",
   platformId: platform.id,
   contractsRaw: [farmV6Contract],
 };
 
-const idoV1Service: ServiceRaw = {
+export const idoV1Service: ServiceRaw = {
   id: `${platform.id}-ido-v1`,
   name: "IDO V1",
   platformId: platform.id,
   contractsRaw: [idoContract],
 };
 
-const idoV2Service: ServiceRaw = {
+export const idoV2Service: ServiceRaw = {
   id: `${platform.id}-ido-v2`,
   name: "IDO V2",
   platformId: platform.id,
   contractsRaw: [idoV2Contract],
 };
 
-const idoV3Service: ServiceRaw = {
+export const idoV3Service: ServiceRaw = {
   id: `${platform.id}-ido-v3`,
   name: "IDO V3",
   platformId: platform.id,
   contractsRaw: [idoV3Contract],
 };
 
-const idoV4Service: ServiceRaw = {
+export const idoV4Service: ServiceRaw = {
   id: `${platform.id}-ido-v4`,
   name: "IDO V4",
   platformId: platform.id,
   contractsRaw: [idoV4Contract],
 };
 
-const launchpadService: ServiceRaw = {
+export const launchpadService: ServiceRaw = {
   id: `${platform.id}-launchpad`,
   name: "Launchpad",
   platformId: platform.id,

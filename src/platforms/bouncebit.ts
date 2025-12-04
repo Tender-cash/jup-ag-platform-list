@@ -31,21 +31,21 @@ const promoContract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: `${platform.id}-cedefi-v2`,
   name: "CeDeFi",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const rewardsService: ServiceRaw = {
+export const rewardsService: ServiceRaw = {
   id: `${platform.id}-cedefi`,
   name: "Rewards",
   platformId: platform.id,
   contractsRaw: [rewardsContract],
 };
 
-const promoService: ServiceRaw = {
+export const promoService: ServiceRaw = {
   id: `${platform.id}-promo`,
   name: "Promo",
   platformId: platform.id,

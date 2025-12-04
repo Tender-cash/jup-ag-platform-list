@@ -42,35 +42,35 @@ const minerContract = {
   networkId: NetworkId.solana,
 };
 
-const ljupService: ServiceRaw = {
+export const ljupService: ServiceRaw = {
   id: `${platform.id}-ljup`,
   name: "LJUP Minter",
   platformId: platform.id,
   contractsRaw: [ljupMinterContract],
 };
 
-const nokService: ServiceRaw = {
+export const nokService: ServiceRaw = {
   id: `${platform.id}-wNOK`,
   name: "wNOK Minter",
   platformId: platform.id,
   contractsRaw: [nokContract],
 };
 
-const safeLaunchService: ServiceRaw = {
+export const safeLaunchService: ServiceRaw = {
   id: `${platform.id}-safe-launch`,
   name: "SafeLaunch",
   platformId: platform.id,
   contractsRaw: [safeLaunchContract],
 };
 
-const bgldStakingService: ServiceRaw = {
+export const bgldStakingService: ServiceRaw = {
   id: `${platform.id}-bgld-staking`,
   name: "BGLD Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
 };
 
-const bgldMinerService: ServiceRaw = {
+export const bgldMinerService: ServiceRaw = {
   id: `${platform.id}-bgld-miner`,
   name: "BGLD Miner",
   platformId: platform.id,

@@ -33,21 +33,21 @@ const boostContract = {
   networkId: NetworkId.solana,
 };
 
-const airdropService: ServiceRaw = {
+export const airdropService: ServiceRaw = {
   id: `${platform.id}-markets`,
   name: "Markets V4",
   platformId: platform.id,
   contractsRaw: [marketsContract],
 };
 
-const redeemService: ServiceRaw = {
+export const redeemService: ServiceRaw = {
   id: `${platform.id}-redeem`,
   name: "Markets & Redeem V3",
   platformId: platform.id,
   contractsRaw: [redeemContract],
 };
 
-const boostService: ServiceRaw = {
+export const boostService: ServiceRaw = {
   id: `${platform.id}-boost`,
   name: "Boost",
   platformId: platform.id,

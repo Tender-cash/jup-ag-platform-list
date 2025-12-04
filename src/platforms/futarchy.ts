@@ -39,7 +39,7 @@ const ammContract = {
   networkId: NetworkId.solana,
 };
 
-const launchpadService: ServiceRaw = {
+export const launchpadService: ServiceRaw = {
   id: "futarchy-launchpad",
   name: "Launchpad",
   platformId: platform.id,

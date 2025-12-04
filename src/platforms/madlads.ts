@@ -16,7 +16,7 @@ const solboundContract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: `${platform.id}-launch`,
   name: "W Claim",
   platformId: platform.id,

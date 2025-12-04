@@ -63,49 +63,49 @@ const airdropContract = {
   networkId: NetworkId.solana,
 };
 
-const scopePriceService: ServiceRaw = {
+export const scopePriceService: ServiceRaw = {
   id: `${platform.id}-scope-price`,
   name: "Scope Price",
   platformId: platform.id,
   contractsRaw: [scopePriceContract],
 };
 
-const kaminoLendingService: ServiceRaw = {
+export const kaminoLendingService: ServiceRaw = {
   id: `${platform.id}-lend`,
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [kaminoLendContract],
 };
 
-const kaminoLimitOrderService: ServiceRaw = {
+export const kaminoLimitOrderService: ServiceRaw = {
   id: `${platform.id}-limit-order`,
   name: "Limit Order",
   platformId: platform.id,
   contractsRaw: [limitOrderContract],
 };
 
-const swapService: ServiceRaw = {
+export const swapService: ServiceRaw = {
   id: `${platform.id}-swap`,
   name: "Swap",
   platformId: platform.id,
   contractsRaw: [],
 };
 
-const kaminoLiquidityService: ServiceRaw = {
+export const kaminoLiquidityService: ServiceRaw = {
   id: `${platform.id}-liquidity`,
   name: "Liquidity",
   platformId: platform.id,
   contractsRaw: [poolsContract, kaminoFarmContract],
 };
 
-const vaultLeverageService: ServiceRaw = {
+export const vaultLeverageService: ServiceRaw = {
   id: `${platform.id}-leverage`,
   name: "Leverage",
   platformId: platform.id,
   contractsRaw: [leverageOnVaultContract],
 };
 
-const airdropService: ServiceRaw = {
+export const airdropService: ServiceRaw = {
   id: `${platform.id}-airdrop`,
   name: "Airdrop",
   platformId: platform.id,

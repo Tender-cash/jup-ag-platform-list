@@ -19,14 +19,14 @@ const contract = {
   networkId: NetworkId.solana,
 };
 
-const claimService: ServiceRaw = {
+export const claimService: ServiceRaw = {
   id: `${platform.id}-claim`,
   name: "Claim",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const bridgeService: ServiceRaw = {
+export const bridgeService: ServiceRaw = {
   id: `${platform.id}-bridge`,
   name: "Bridge",
   platformId: platform.id,

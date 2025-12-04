@@ -27,14 +27,14 @@ const daoContract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: `${platform.id}-fundraising`,
   name: "Fundraising",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const serviceDao: ServiceRaw = {
+export const serviceDao: ServiceRaw = {
   id: `${platform.id}-Curatiing`,
   name: "Curatiing",
   platformId: platform.id,

@@ -30,21 +30,21 @@ const airdropContract: ContractRaw = {
   networkId: NetworkId.solana,
 };
 
-const mainService: ServiceRaw = {
+export const mainService: ServiceRaw = {
   id: `${platform.id}-main`,
   name: "Liquidity & Trading",
   platformId: platform.id,
   contractsRaw: [mainContract],
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
 };
 
-const airdropService: ServiceRaw = {
+export const airdropService: ServiceRaw = {
   id: `${platform.id}-airdrop`,
   name: "Airdrop",
   platformId: platform.id,

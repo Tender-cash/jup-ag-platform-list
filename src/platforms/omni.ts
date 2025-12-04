@@ -15,7 +15,7 @@ const bridge: ContractRaw = {
   networkId: NetworkId.solana,
 };
 
-const bridgeService: ServiceRaw = {
+export const bridgeService: ServiceRaw = {
   id: `${platform.id}-bridge`,
   name: "bridge",
   platformId: platform.id,

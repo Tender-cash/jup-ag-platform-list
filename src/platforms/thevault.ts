@@ -19,7 +19,7 @@ const unstakePoolContract: ContractRaw = {
   networkId: NetworkId.solana,
 };
 
-const unstakePoolService: ServiceRaw = {
+export const unstakePoolService: ServiceRaw = {
   id: `${platform.id}-unstake-pool`,
   name: "Unstake Pool",
   platformId: platform.id,

@@ -17,7 +17,7 @@ const mainContract = {
   networkId: NetworkId.solana,
 };
 
-const vaultService: ServiceRaw = {
+export const vaultService: ServiceRaw = {
   id: `${platform.id}-vaults`,
   name: "Vaults",
   platformId: platform.id,

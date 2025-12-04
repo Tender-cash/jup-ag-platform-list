@@ -18,7 +18,7 @@ const contract = {
   networkId: NetworkId.solana,
 };
 
-const tradeService: ServiceRaw = {
+export const tradeService: ServiceRaw = {
   id: `${platform.id}-trade`,
   name: "Trade",
   platformId: platform.id,

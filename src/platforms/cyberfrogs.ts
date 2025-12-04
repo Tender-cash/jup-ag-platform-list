@@ -17,7 +17,7 @@ const autoThorContract = {
   networkId: NetworkId.solana,
 };
 
-const autoThorService: ServiceRaw = {
+export const autoThorService: ServiceRaw = {
   id: `${platform.id}-autothor`,
   name: "AutoThor",
   platformId: platform.id,

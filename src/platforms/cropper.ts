@@ -30,14 +30,14 @@ const clmmContract = {
   networkId: NetworkId.solana,
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
 };
 
-const clmmService: ServiceRaw = {
+export const clmmService: ServiceRaw = {
   id: `${platform.id}-liquidity`,
   name: "Liquidity",
   platformId: platform.id,

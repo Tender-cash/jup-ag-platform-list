@@ -18,7 +18,7 @@ const v3Contract = {
   networkId: NetworkId.solana,
 };
 
-const v3Service: ServiceRaw = {
+export const v3Service: ServiceRaw = {
   id: `${platform.id}-v3`,
   name: "Mining",
   platformId: platform.id,

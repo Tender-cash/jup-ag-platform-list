@@ -34,21 +34,21 @@ const airdropContract = {
   networkId: NetworkId.solana,
 };
 
-const perpsService: ServiceRaw = {
+export const perpsService: ServiceRaw = {
   id: `${platform.id}-main`,
   name: "Main",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const marketMakerService: ServiceRaw = {
+export const marketMakerService: ServiceRaw = {
   id: `${platform.id}-market-maker`,
   name: "Market Maker",
   platformId: platform.id,
   contractsRaw: [proxyContract],
 };
 
-const airdropService: ServiceRaw = {
+export const airdropService: ServiceRaw = {
   id: `${platform.id}-airdrop`,
   name: "Airdrop",
   platformId: platform.id,

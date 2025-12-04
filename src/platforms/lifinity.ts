@@ -32,14 +32,14 @@ const rewarderContract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: `${platform.id}-locker`,
   name: "Locker",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const rewarderService: ServiceRaw = {
+export const rewarderService: ServiceRaw = {
   id: `${platform.id}-Reward`,
   name: "Reward",
   platformId: platform.id,

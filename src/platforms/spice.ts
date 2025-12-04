@@ -17,7 +17,7 @@ const stakingContract = {
   networkId: NetworkId.solana,
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: "spice-staking",
   name: "Spice",
   platformId: platform.id,

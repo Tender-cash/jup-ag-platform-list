@@ -23,14 +23,14 @@ const mergeContract = {
   networkId: NetworkId.solana,
 };
 
-const minerService: ServiceRaw = {
+export const minerService: ServiceRaw = {
   id: `${platform.id}-miner`,
   name: "Miner",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const mergeMinerService: ServiceRaw = {
+export const mergeMinerService: ServiceRaw = {
   id: `${platform.id}-merge-miner`,
   name: "Merge Miner",
   platformId: platform.id,

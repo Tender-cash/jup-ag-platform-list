@@ -32,21 +32,21 @@ export const usxContract = {
   networkId: NetworkId.solana,
 };
 
-const yieldVaultService: ServiceRaw = {
+export const yieldVaultService: ServiceRaw = {
   id: `${platform.id}-yield-vault`,
   name: "Yield Vault",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const usxJustEarnService: ServiceRaw = {
+export const usxJustEarnService: ServiceRaw = {
   id: `${platform.id}-usx-just-earn`,
   name: "USX Just Earn",
   platformId: platform.id,
   contractsRaw: [usxJustEarnContract],
 };
 
-const usxService: ServiceRaw = {
+export const usxService: ServiceRaw = {
   id: `${platform.id}-usx`,
   name: "Lock",
   platformId: platform.id,

@@ -33,21 +33,21 @@ const singleValidatorStakePoolContract = {
   networkId: NetworkId.solana,
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-stake`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [solanaStakingContract],
 };
 
-const stakePoolService: ServiceRaw = {
+export const stakePoolService: ServiceRaw = {
   id: `${platform.id}-stake-pool`,
   name: "Stake Pool",
   platformId: platform.id,
   contractsRaw: [solanaStakePoolContract],
 };
 
-const singleValidatorStakePoolService: ServiceRaw = {
+export const singleValidatorStakePoolService: ServiceRaw = {
   id: `${platform.id}-single-validator-stake-pool`,
   name: "Single-Validator Stake Pool",
   platformId: platform.id,

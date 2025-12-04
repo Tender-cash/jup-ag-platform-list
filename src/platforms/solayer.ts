@@ -48,35 +48,35 @@ const endoAvsContract = {
   networkId: NetworkId.solana,
 };
 
-const solayerService: ServiceRaw = {
+export const solayerService: ServiceRaw = {
   id: `${platform.id}`,
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [solayerContract],
 };
 
-const restakingService: ServiceRaw = {
+export const restakingService: ServiceRaw = {
   id: `${platform.id}-restaking`,
   name: "Restaking",
   platformId: platform.id,
   contractsRaw: [],
 };
 
-const airdropService: ServiceRaw = {
+export const airdropService: ServiceRaw = {
   id: `${platform.id}-airdrop`,
   name: "Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract],
 };
 
-const sUSDService: ServiceRaw = {
+export const sUSDService: ServiceRaw = {
   id: `${platform.id}-susd`,
   name: "sUSD",
   platformId: platform.id,
   contractsRaw: [sUDCContract],
 };
 
-const delegateService: ServiceRaw = {
+export const delegateService: ServiceRaw = {
   id: `${platform.id}-delegate`,
   name: "Delegate",
   platformId: platform.id,

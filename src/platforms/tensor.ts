@@ -44,35 +44,35 @@ const luckyBuyContract = {
   networkId: NetworkId.solana,
 };
 
-const marketplaceService: ServiceRaw = {
+export const marketplaceService: ServiceRaw = {
   id: `${platform.id}-swap`,
   name: "Marketplace",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const cnftService: ServiceRaw = {
+export const cnftService: ServiceRaw = {
   id: `${platform.id}-cnft`,
   name: "Marketplace",
   platformId: platform.id,
   contractsRaw: [cnftContract],
 };
 
-const bidService: ServiceRaw = {
+export const bidService: ServiceRaw = {
   id: `${platform.id}-bid`,
   name: "Bid",
   platformId: platform.id,
   contractsRaw: [bidContract],
 };
 
-const tammService: ServiceRaw = {
+export const tammService: ServiceRaw = {
   id: `${platform.id}-amm`,
   name: "AMM",
   platformId: platform.id,
   contractsRaw: [ammContract],
 };
 
-const luckyBuyService: ServiceRaw = {
+export const luckyBuyService: ServiceRaw = {
   id: `${platform.id}-lucky-buy`,
   name: "Lucky Buy",
   platformId: platform.id,

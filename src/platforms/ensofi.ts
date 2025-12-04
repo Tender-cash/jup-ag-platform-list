@@ -33,21 +33,21 @@ const liquidityContract = {
   networkId: NetworkId.solana,
 };
 
-const lendingService: ServiceRaw = {
+export const lendingService: ServiceRaw = {
   id: `${platform.id}-lending`,
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [lendingContract],
 };
 
-const lendingFlexService: ServiceRaw = {
+export const lendingFlexService: ServiceRaw = {
   id: `${platform.id}-lending-flex`,
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [lendingFlexContract],
 };
 
-const liquidityService: ServiceRaw = {
+export const liquidityService: ServiceRaw = {
   id: `${platform.id}-liquidity`,
   name: "Liquidity",
   platformId: platform.id,

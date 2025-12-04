@@ -28,14 +28,14 @@ const stakingContract = {
   networkId: NetworkId.solana,
 };
 
-const mainService: ServiceRaw = {
+export const mainService: ServiceRaw = {
   id: `${platform.id}-markets`,
   name: "Markets",
   platformId: platform.id,
   contractsRaw: [mainContract],
 };
 
-const stakingService: ServiceRaw = {
+export const stakingService: ServiceRaw = {
   id: `${platform.id}-staking`,
   name: "Staking",
   platformId: platform.id,

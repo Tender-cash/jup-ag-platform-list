@@ -20,7 +20,7 @@ const lendingContract = {
   networkId: NetworkId.solana,
 };
 
-const lendingService: ServiceRaw = {
+export const lendingService: ServiceRaw = {
   id: `${platform.id}-lending`,
   name: "Lending",
   platformId: platform.id,

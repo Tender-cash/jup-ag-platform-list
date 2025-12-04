@@ -23,14 +23,14 @@ const governanceContract = {
   networkId: NetworkId.solana,
 };
 
-const service: ServiceRaw = {
+export const service: ServiceRaw = {
   id: `${platform.id}`,
   name: "Locker",
   platformId: platform.id,
   contractsRaw: [contract],
 };
 
-const governanceService: ServiceRaw = {
+export const governanceService: ServiceRaw = {
   id: `${platform.id}-governance`,
   name: "Governance",
   platformId: platform.id,

@@ -37,21 +37,21 @@ const rewardContract = {
   networkId: NetworkId.solana,
 };
 
-const lendingService: ServiceRaw = {
+export const lendingService: ServiceRaw = {
   id: `${platform.id}-lending`,
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [saveContract],
 };
 
-const migrationService: ServiceRaw = {
+export const migrationService: ServiceRaw = {
   id: `${platform.id}-migration`,
   name: "Migration",
   platformId: platform.id,
   contractsRaw: [migrationContract],
 };
 
-const rewardService: ServiceRaw = {
+export const rewardService: ServiceRaw = {
   id: `${platform.id}-reward`,
   name: "Reward",
   platformId: platform.id,
