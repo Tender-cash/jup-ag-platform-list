@@ -14,9 +14,14 @@ export const platform: PlatformRaw = {
   tags: ["tool", "dapp"],
 };
 
-// Contracts (exported for cross-platform use)
+const coreContract = {
+  name: `Core`,
+  address: "CoREENxT6tW1HoK8ypY1SxRMZTcVPm7R94rH4PZNhX7d",
+  networkId: NetworkId.solana,
+};
+
 export const metaplexContract = {
-  name: "Metaplex",
+  name: "Token Metadata",
   address: "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s",
   networkId: NetworkId.solana,
 };
@@ -27,4 +32,43 @@ export const bubblegumContract = {
   networkId: NetworkId.solana,
 };
 
-export const services: ServiceRaw[] = [];
+export const candyMachineContract = {
+  name: `Candy Machine`,
+  address: "CMAGAKJ67e9hRZgfC5SFTbZH8MgEmtqazKXjmkaJjWTJ",
+  networkId: NetworkId.solana,
+};
+
+export const cnftService: ServiceRaw = {
+  id: `${platform.id}-cnft`,
+  name: "Bubblegum (cNFT)",
+  platformId: platform.id,
+  contractsRaw: [bubblegumContract],
+};
+
+export const metadataService: ServiceRaw = {
+  id: `${platform.id}-cnft`,
+  name: "Bubblegum (cNFT)",
+  platformId: platform.id,
+  contractsRaw: [bubblegumContract],
+};
+
+export const coreService: ServiceRaw = {
+  id: `${platform.id}-core`,
+  name: "Core",
+  platformId: platform.id,
+  contractsRaw: [coreContract],
+};
+
+export const candyMachineService: ServiceRaw = {
+  id: `${platform.id}-candy-machine`,
+  name: "Candy Machine",
+  platformId: platform.id,
+  contractsRaw: [candyMachineContract],
+};
+
+export const services: ServiceRaw[] = [
+  cnftService,
+  metadataService,
+  coreService,
+  candyMachineService,
+];
