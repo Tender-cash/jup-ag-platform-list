@@ -47,21 +47,21 @@ const destContract = {
   networkId: NetworkId.solana,
 };
 
-const transferService: ServiceRaw = {
+export const transferService: ServiceRaw = {
   id: `${platform.id}-transfer`,
   name: "Transfer",
   platformId: platform.id,
   contractsRaw: [transferContract],
 };
 
-const vaultService: ServiceRaw = {
+export const vaultService: ServiceRaw = {
   id: `${platform.id}-vault`,
   name: "Vault",
   platformId: platform.id,
   contractsRaw: [vaultContract],
 };
 
-const airdropService: ServiceRaw = {
+export const airdropService: ServiceRaw = {
   id: `${platform.id}-airdrop`,
   name: "Airdrop",
   platformId: platform.id,

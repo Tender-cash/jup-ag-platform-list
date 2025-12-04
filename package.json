@@ -12,6 +12,10 @@
     ".": {
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
+    },
+    "./platforms/*": {
+      "types": "./dist/platforms/*.d.ts",
+      "default": "./dist/platforms/*.js"
     }
   },
   "files": [
