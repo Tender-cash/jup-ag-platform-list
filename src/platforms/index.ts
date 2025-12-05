@@ -56,6 +56,7 @@ import * as degencoinflip from "./degencoinflip";
 import * as degods from "./degods";
 import * as dflow from "./dflow";
 import * as divvy from "./divvy";
+import * as domin8 from "./domin8";
 import * as doubleup from "./doubleup";
 import * as drift from "./drift";
 import * as drip from "./drip";
@@ -90,6 +91,7 @@ import * as haven from "./haven";
 import * as hawksight from "./hawksight";
 import * as hedgehog from "./hedgehog";
 import * as hedgy from "./hedgy";
+import * as helio from "./helio";
 import * as helium from "./helium";
 import * as helius from "./helius";
 import * as holdium from "./holdium";
@@ -299,6 +301,7 @@ export const platforms: PlatformRaw[] = [
   degods.platform,
   dflow.platform,
   divvy.platform,
+  domin8.platform,
   doubleup.platform,
   drift.platform,
   drip.platform,
@@ -333,6 +336,7 @@ export const platforms: PlatformRaw[] = [
   hawksight.platform,
   hedgehog.platform,
   hedgy.platform,
+  helio.platform,
   helium.platform,
   helius.platform,
   holdium.platform,
@@ -543,6 +547,7 @@ export const services: ServiceRaw[] = [
   ...degods.services,
   ...dflow.services,
   ...divvy.services,
+  ...domin8.services,
   ...doubleup.services,
   ...drift.services,
   ...drip.services,
@@ -577,6 +582,7 @@ export const services: ServiceRaw[] = [
   ...hawksight.services,
   ...hedgehog.services,
   ...hedgy.services,
+  ...helio.services,
   ...helium.services,
   ...helius.services,
   ...holdium.services,

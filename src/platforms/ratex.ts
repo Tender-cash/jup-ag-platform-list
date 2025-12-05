@@ -58,7 +58,7 @@ export const programIds = [
   "RateFzvQT8Dz2HqDHAQj22ujp8B5kaBm2FUUkSoLgZm",
 ];
 
-export const services: ServiceRaw = {
+export const service: ServiceRaw = {
   id: `ratex-main`,
   name: "RateX",
   platformId: "ratex",
@@ -68,3 +68,5 @@ export const services: ServiceRaw = {
     networkId: NetworkId.solana,
   })),
 };
+
+export const services: ServiceRaw[] = [service];
