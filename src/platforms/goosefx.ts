@@ -39,6 +39,8 @@ export const singleTokenPoolsService: ServiceRaw = {
   name: "Single Token Pools",
   platformId: platform.id,
   contractsRaw: [singleTokenPoolContract],
+  description:
+    "Single-sided liquidity pools allowing deposits of a single asset while earning trading fees without impermanent loss risk.",
 };
 
 export const dualTokenPoolsService: ServiceRaw = {
@@ -46,6 +48,8 @@ export const dualTokenPoolsService: ServiceRaw = {
   name: "Dual Token Pools",
   platformId: platform.id,
   contractsRaw: [dualTokenPoolContract],
+  description:
+    "Traditional AMM pools requiring dual-asset deposits for liquidity provision and earning trading fees.",
 };
 
 export const lpStakingService: ServiceRaw = {
@@ -53,6 +57,8 @@ export const lpStakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "GOFX token staking for earning additional protocol rewards and governance participation.",
 };
 
 export const services: ServiceRaw[] = [

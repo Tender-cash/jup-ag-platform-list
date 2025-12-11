@@ -27,6 +27,9 @@ export const marketService: ServiceRaw = {
   name: "Market",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://www.phoenix.trade/",
+  description:
+    "On-chain central limit order book enabling traders to place limit and market orders with full price-time priority matching.",
 };
 
 export const services: ServiceRaw[] = [marketService];

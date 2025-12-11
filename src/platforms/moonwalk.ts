@@ -25,6 +25,9 @@ export const gameService: ServiceRaw = {
   name: "Game",
   platformId: platform.id,
   contractsRaw: [mainContract],
+  link: "https://app.moonwalk.fit/",
+  description:
+    "Move-to-earn fitness challenges where participants deposit crypto and achieve daily step goals to retain stakes and earn rewards from forfeited pools.",
 };
 
 export const airdropService: ServiceRaw = {

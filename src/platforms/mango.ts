@@ -39,6 +39,8 @@ export const airdropService: ServiceRaw = {
   name: "Markets V4",
   platformId: platform.id,
   contractsRaw: [marketsContract],
+  description:
+    "Unified trading interface for perpetuals, spot trading, and borrowing with cross-collateralized margin accounts.",
 };
 
 export const redeemService: ServiceRaw = {
@@ -46,6 +48,8 @@ export const redeemService: ServiceRaw = {
   name: "Markets & Redeem V3",
   platformId: platform.id,
   contractsRaw: [redeemContract],
+  description:
+    "Legacy V3 markets and token redemption for migrating positions and claiming funds from deprecated contracts.",
 };
 
 export const boostService: ServiceRaw = {
@@ -53,6 +57,8 @@ export const boostService: ServiceRaw = {
   name: "Boost",
   platformId: platform.id,
   contractsRaw: [boostContract],
+  description:
+    "Leveraged staking product enabling amplified exposure to yield-bearing assets through automated borrowing loops.",
 };
 
 export const services: ServiceRaw[] = [

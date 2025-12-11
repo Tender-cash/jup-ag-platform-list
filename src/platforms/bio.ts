@@ -32,13 +32,18 @@ export const service: ServiceRaw = {
   name: "Fundraising",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://www.bio.xyz/launchpad",
+  description:
+    "Permissionless launchpad enabling global communities to fund and co-own new drugs and therapeutics through BioDAO token generation events.",
 };
 
 export const serviceDao: ServiceRaw = {
-  id: `${platform.id}-Curatiing`,
-  name: "Curatiing",
+  id: `${platform.id}-curating`,
+  name: "Curating",
   platformId: platform.id,
   contractsRaw: [daoContract],
+  description:
+    "BIO token staking and curation system allowing holders to signal support for BioDAOs, access funding whitelists, and earn curation rewards.",
 };
 
 export const services: ServiceRaw[] = [service, serviceDao];

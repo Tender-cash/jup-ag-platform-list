@@ -56,6 +56,8 @@ export const bootstrapperService: ServiceRaw = {
   name: "Bootstrapper",
   platformId: platform.id,
   contractsRaw: [bootstrapperContract],
+  description:
+    "Network initialization service for setting up cross-chain infrastructure and validator coordination.",
 };
 
 export const bitcoinSPVService: ServiceRaw = {
@@ -63,6 +65,8 @@ export const bitcoinSPVService: ServiceRaw = {
   name: "BitcoinSPV",
   platformId: platform.id,
   contractsRaw: [bitcoinSPVContract],
+  description:
+    "Simplified Payment Verification for Bitcoin, enabling trustless verification of Bitcoin transactions without running a full node.",
 };
 
 export const layerCAService: ServiceRaw = {
@@ -70,6 +74,8 @@ export const layerCAService: ServiceRaw = {
   name: "LayerCA",
   platformId: platform.id,
   contractsRaw: [layerCAContract],
+  description:
+    "Cross-chain communication authority managing message routing and verification across supported networks.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -77,6 +83,9 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [delegatorContract],
+  link: "https://app.zeusguardian.io/",
+  description:
+    "Guardian staking program allowing users to delegate tokens to secure the cross-chain messaging network and earn rewards.",
 };
 
 export const liquidityManagementService: ServiceRaw = {
@@ -84,6 +93,8 @@ export const liquidityManagementService: ServiceRaw = {
   name: "LiquidityManagement",
   platformId: platform.id,
   contractsRaw: [liquidityManagementContract],
+  description:
+    "Cross-chain liquidity orchestration for managing asset pools and ensuring bridge solvency across networks.",
 };
 
 export const twoWayPegService: ServiceRaw = {
@@ -91,6 +102,8 @@ export const twoWayPegService: ServiceRaw = {
   name: "TwoWayPeg",
   platformId: platform.id,
   contractsRaw: [twoWayPegContract],
+  description:
+    "Bidirectional Bitcoin bridge enabling native BTC transfers between Bitcoin and supported chains with cryptographic proof verification.",
 };
 
 export const services: ServiceRaw[] = [

@@ -42,6 +42,9 @@ export const clmmService: ServiceRaw = {
   name: "CLMM",
   platformId: platform.id,
   contractsRaw: [clmmContract],
+  link: "https://www.byreal.io/pools",
+  description:
+    "Concentrated liquidity market maker pools enabling capital-efficient liquidity provision with customizable price ranges.",
 };
 
 export const resetService: ServiceRaw = {
@@ -49,6 +52,8 @@ export const resetService: ServiceRaw = {
   name: "Reset Launchpad",
   platformId: platform.id,
   contractsRaw: [resetContract],
+  description:
+    "Fair token launchpad with Smart Price Ladder and Fairshare Engine for democratized IDO access and transparent price-based allocation.",
 };
 
 export const routerService: ServiceRaw = {
@@ -56,6 +61,8 @@ export const routerService: ServiceRaw = {
   name: "Router",
   platformId: platform.id,
   contractsRaw: [routerContract],
+  description:
+    "Smart-routing engine combining CLMM and RFQ mechanisms to find optimal trade paths with minimal slippage.",
 };
 
 export const rfqService: ServiceRaw = {
@@ -63,6 +70,9 @@ export const rfqService: ServiceRaw = {
   name: "RFQ",
   platformId: platform.id,
   contractsRaw: [rfqContract],
+  link: "https://www.byreal.io/swap",
+  description:
+    "Request-for-Quote system enabling gasless, zero-slippage trades with MEV protection through CEX liquidity integration.",
 };
 
 export const services: ServiceRaw[] = [

@@ -28,6 +28,9 @@ export const service: ServiceRaw = {
   name: "Locker",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://tribeca.so/",
+  description:
+    "Voting escrow locker converting governance tokens into veTokens with time-weighted voting power for long-term aligned participants.",
 };
 
 export const governanceService: ServiceRaw = {
@@ -35,6 +38,8 @@ export const governanceService: ServiceRaw = {
   name: "Governance",
   platformId: platform.id,
   contractsRaw: [governanceContract],
+  description:
+    "DAO governance protocol enabling proposal creation, voting, and execution through smart wallet multisig functionality.",
 };
 
 export const services: ServiceRaw[] = [service, governanceService];

@@ -28,6 +28,8 @@ export const lfgService: ServiceRaw = {
   name: "LFG",
   platformId: platform.id,
   contractsRaw: [lfgContract],
+  description:
+    "Token launch platform enabling new projects to raise capital through community-driven fair launches.",
 };
 
 export const dtfService: ServiceRaw = {
@@ -35,6 +37,8 @@ export const dtfService: ServiceRaw = {
   name: "DTF",
   platformId: platform.id,
   contractsRaw: [dtfContract],
+  description:
+    "Direct Token Financing presale system enabling projects to distribute tokens directly to community members.",
 };
 
 export const services: ServiceRaw[] = [lfgService, dtfService];

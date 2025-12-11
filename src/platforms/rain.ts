@@ -45,6 +45,9 @@ export const defiService: ServiceRaw = {
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [contractDefiLending],
+  link: "https://rain.fi/",
+  description:
+    "Peer-to-peer token lending allowing users to create or accept loan offers with customizable terms, rates, and collateral requirements.",
 };
 
 export const nftService: ServiceRaw = {
@@ -52,6 +55,8 @@ export const nftService: ServiceRaw = {
   name: "NFT Lending",
   platformId: platform.id,
   contractsRaw: [contractNftLending],
+  description:
+    "NFT-collateralized lending enabling users to borrow against NFT assets with peer-to-peer loan offers and flexible repayment terms.",
 };
 
 export const vaultsService: ServiceRaw = {
@@ -59,6 +64,8 @@ export const vaultsService: ServiceRaw = {
   name: "Vaults",
   platformId: platform.id,
   contractsRaw: [contractBank],
+  description:
+    "Lending vaults aggregating depositor funds to automatically fulfill loan requests and earn passive yield from interest payments.",
 };
 
 export const liquidService: ServiceRaw = {
@@ -66,6 +73,8 @@ export const liquidService: ServiceRaw = {
   name: "Liquid",
   platformId: platform.id,
   contractsRaw: [liquidContract],
+  description:
+    "Liquid staking product providing receipt tokens for vault deposits, enabling users to maintain liquidity while earning lending yields.",
 };
 
 export const services: ServiceRaw[] = [

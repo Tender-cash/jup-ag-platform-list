@@ -25,6 +25,8 @@ export const aggregatorService: ServiceRaw = {
   name: "Aggregator",
   platformId: platform.id,
   contractsRaw: [aggregator],
+  description:
+    "DEX aggregator finding optimal swap routes across multiple liquidity sources for best execution prices.",
 };
 
 export const aggregatorV6Service: ServiceRaw = {

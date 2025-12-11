@@ -50,6 +50,9 @@ export const marketplaceService: ServiceRaw = {
   name: "Marketplace",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://www.tensor.trade/",
+  description:
+    "NFT marketplace enabling instant buying, selling, and listing of NFTs with advanced trading features and real-time analytics.",
 };
 
 export const cnftService: ServiceRaw = {
@@ -57,6 +60,8 @@ export const cnftService: ServiceRaw = {
   name: "Marketplace",
   platformId: platform.id,
   contractsRaw: [cnftContract],
+  description:
+    "Compressed NFT trading support enabling cost-efficient transactions for large-scale NFT collections using state compression.",
 };
 
 export const bidService: ServiceRaw = {
@@ -64,6 +69,8 @@ export const bidService: ServiceRaw = {
   name: "Bid",
   platformId: platform.id,
   contractsRaw: [bidContract],
+  description:
+    "Collection-wide bidding system allowing users to place offers on any NFT within a collection at a specified price.",
 };
 
 export const tammService: ServiceRaw = {
@@ -71,6 +78,8 @@ export const tammService: ServiceRaw = {
   name: "AMM",
   platformId: platform.id,
   contractsRaw: [ammContract],
+  description:
+    "Concentrated liquidity AMM for NFTs enabling market makers to provide liquidity within price ranges and earn customizable fees up to 25%.",
 };
 
 export const luckyBuyService: ServiceRaw = {
@@ -78,6 +87,8 @@ export const luckyBuyService: ServiceRaw = {
   name: "Lucky Buy",
   platformId: platform.id,
   contractsRaw: [luckyBuyContract],
+  description:
+    "Gamified NFT purchasing feature offering users a chance to win rare NFTs at discounted prices through randomized selection mechanics.",
 };
 
 export const services: ServiceRaw[] = [

@@ -36,6 +36,8 @@ export const service: ServiceRaw = {
   name: "Ticket",
   platformId: platform.id,
   contractsRaw: [contract],
+  description:
+    "Delayed unstaking ticket system for converting mSOL back to SOL at a 1:1 ratio after the standard unstaking period.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -50,6 +52,9 @@ export const nativeStakeService: ServiceRaw = {
   name: "Native Stake",
   platformId: platform.id,
   contractsRaw: [],
+  link: "https://marinade.finance/app/native/",
+  description:
+    "Non-custodial native staking service that delegates SOL directly to validators selected by an automated strategy promoting network decentralization.",
 };
 
 export const services: ServiceRaw[] = [

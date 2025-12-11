@@ -44,6 +44,9 @@ export const launchpadService: ServiceRaw = {
   name: "Launchpad",
   platformId: platform.id,
   contractsRaw: [launchpadContract],
+  link: "https://metadao.fi/launchpad",
+  description:
+    "Futarchy-governed token launchpad issuing ownership coins with on-chain treasuries and performance-locked team allocations.",
 };
 
 export const decisionMarketService: ServiceRaw = {
@@ -51,6 +54,9 @@ export const decisionMarketService: ServiceRaw = {
   name: "Decision Market",
   platformId: platform.id,
   contractsRaw: [contract, conditionalContract, ammContract],
+  link: "https://metadao.fi/",
+  description:
+    "Prediction market governance system where proposals pass or fail based on their predicted impact on token price via conditional markets.",
 };
 
 export const services: ServiceRaw[] = [launchpadService, decisionMarketService];

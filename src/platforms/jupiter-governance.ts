@@ -35,6 +35,8 @@ export const governanceService: ServiceRaw = {
   name: "Vote",
   platformId: platform.id,
   contractsRaw: [jupiterGovernanceContract, jupiterVoteContract],
+  description:
+    "Governance voting system for JUP holders to participate in protocol decisions and proposals.",
 };
 
 export const asrService: ServiceRaw = {
@@ -42,6 +44,8 @@ export const asrService: ServiceRaw = {
   name: "ASR",
   platformId: platform.id,
   contractsRaw: [asrContract],
+  description:
+    "Active Staking Rewards distribution for JUP stakers who participate in governance voting.",
 };
 
 export const services: ServiceRaw[] = [asrService, governanceService];

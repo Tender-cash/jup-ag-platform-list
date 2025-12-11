@@ -41,6 +41,9 @@ export const strategiesService: ServiceRaw = {
   name: "Strategies",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://www.app.neutral.trade/",
+  description:
+    "Marketplace of battle-tested quantitative trading strategies including basis trading, funding rate arbitrage, and delta-neutral approaches.",
 };
 
 export const vaultsService: ServiceRaw = {
@@ -52,6 +55,8 @@ export const vaultsService: ServiceRaw = {
     neutral2VaultsContract,
     neutral3VaultsContract,
   ],
+  description:
+    "Non-custodial JLP-powered delta-neutral vaults delivering double-digit yields for USDC, SOL, ETH, and wBTC via institutional-grade strategies.",
 };
 
 export const services: ServiceRaw[] = [strategiesService, vaultsService];

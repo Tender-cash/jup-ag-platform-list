@@ -34,6 +34,9 @@ export const service: ServiceRaw = {
   name: "Bridge",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://core.allbridge.io/",
+  description:
+    "Cross-chain bridge enabling seamless transfers of stablecoins and native assets between multiple blockchain networks with minimal fees.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -41,6 +44,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "Liquidity pool staking allowing users to provide assets for bridge liquidity and earn fees from cross-chain transfers.",
 };
 
 export const services: ServiceRaw[] = [service, stakingService];

@@ -50,6 +50,8 @@ const airdropService: ServiceRaw = {
   name: "Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract],
+  description:
+    "Token distribution program for domain holders and early SNS ecosystem participants.",
 };
 
 const offerService: ServiceRaw = {
@@ -57,6 +59,8 @@ const offerService: ServiceRaw = {
   name: "Offers",
   platformId: platform.id,
   contractsRaw: [contract],
+  description:
+    "Domain marketplace enabling users to make and accept offers for .sol domain names.",
 };
 
 export const mainService: ServiceRaw = {
@@ -64,6 +68,9 @@ export const mainService: ServiceRaw = {
   name: "Name Service",
   platformId: platform.id,
   contractsRaw: [nameServiceContract, registrarContract, recordContract],
+  link: "https://www.sns.id/",
+  description:
+    "Domain name service allowing users to register human-readable .sol addresses and link them to wallet addresses, social profiles, and on-chain records.",
 };
 
 export const services: ServiceRaw[] = [

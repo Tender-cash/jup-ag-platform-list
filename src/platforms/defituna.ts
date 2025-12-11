@@ -37,6 +37,9 @@ export const defiTunaService: ServiceRaw = {
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [defiTunaContract],
+  link: "https://defituna.com/lending",
+  description:
+    "Lending pools enabling users to supply assets for yield or borrow to open leveraged concentrated liquidity positions up to 5x.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -44,6 +47,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "TUNA token staking allowing holders to lock tokens and earn protocol revenue share from trading and lending fees.",
 };
 
 export const fusionAmmService: ServiceRaw = {
@@ -51,6 +56,9 @@ export const fusionAmmService: ServiceRaw = {
   name: "Fusion AMM",
   platformId: platform.id,
   contractsRaw: [fusionAmmContract],
+  link: "https://defituna.com/swap",
+  description:
+    "Fusion AMM combining concentrated liquidity with native limit orders for capital-efficient trading and seamless order execution.",
 };
 
 export const services: ServiceRaw[] = [

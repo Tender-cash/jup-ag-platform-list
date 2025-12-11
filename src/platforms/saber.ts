@@ -34,6 +34,8 @@ export const swapService: ServiceRaw = {
   name: "Swap",
   platformId: platform.id,
   contractsRaw: [stableswapContract, swapContract],
+  description:
+    "Stable swap AMM optimized for trading pegged assets with low slippage and minimal impermanent loss.",
 };
 
 export const routerService: ServiceRaw = {
@@ -41,6 +43,8 @@ export const routerService: ServiceRaw = {
   name: "Router",
   platformId: platform.id,
   contractsRaw: [routerContract],
+  description:
+    "Smart routing system finding optimal swap paths across multiple Saber pools for best execution.",
 };
 
 export const services: ServiceRaw[] = [swapService, routerService];

@@ -35,6 +35,9 @@ export const exchangeService: ServiceRaw = {
   name: "Exchange",
   platformId: platform.id,
   contractsRaw: [exchangeContract],
+  link: "https://hylo.so/",
+  description:
+    "Protocol for minting hyUSD stablecoin backed by LSTs and xSOL leveraged positions with slippage-free liquidity and no oracle dependencies.",
 };
 
 export const stabilityPoolService: ServiceRaw = {
@@ -42,6 +45,8 @@ export const stabilityPoolService: ServiceRaw = {
   name: "Stability Pool",
   platformId: platform.id,
   contractsRaw: [stabilityPoolContract],
+  description:
+    "Insurance vault staking hyUSD to backstop protocol solvency, earning yield from LST staking rewards, protocol fees, and rebalancing premiums.",
 };
 
 export const services: ServiceRaw[] = [exchangeService, stabilityPoolService];

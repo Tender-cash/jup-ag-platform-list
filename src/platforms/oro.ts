@@ -26,6 +26,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [staking],
+  description:
+    "Token staking for earning yield rewards and participating in protocol governance.",
 };
 
 export const coreService: ServiceRaw = {
@@ -33,6 +35,8 @@ export const coreService: ServiceRaw = {
   name: "Core",
   platformId: platform.id,
   contractsRaw: [core],
+  description:
+    "Core protocol infrastructure managing yield strategies and asset allocation.",
 };
 
 export const services: ServiceRaw[] = [stakingService, coreService];

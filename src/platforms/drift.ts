@@ -45,6 +45,9 @@ export const perpsService: ServiceRaw = {
   name: "Main",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://app.drift.trade/",
+  description:
+    "Cross-margined perpetual futures trading with up to 10x leverage, combining an on-chain order book with AMM liquidity for deep markets.",
 };
 
 export const marketMakerService: ServiceRaw = {
@@ -52,6 +55,8 @@ export const marketMakerService: ServiceRaw = {
   name: "Market Maker",
   platformId: platform.id,
   contractsRaw: [proxyContract],
+  description:
+    "Just-in-time (JIT) liquidity proxy enabling market makers to provide liquidity and fill orders at optimal prices with reduced latency.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -66,6 +71,9 @@ export const vaultsService: ServiceRaw = {
   name: "Vaults",
   platformId: platform.id,
   contractsRaw: [vaultsContract],
+  link: "https://app.drift.trade/vaults",
+  description:
+    "Managed strategy vaults allowing users to deposit funds and earn yield through automated trading strategies run by professional managers.",
 };
 
 export const services: ServiceRaw[] = [

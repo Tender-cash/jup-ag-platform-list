@@ -35,6 +35,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "CRP token staking for earning protocol fee share and governance voting rights.",
 };
 
 export const clmmService: ServiceRaw = {
@@ -42,6 +44,8 @@ export const clmmService: ServiceRaw = {
   name: "Liquidity",
   platformId: platform.id,
   contractsRaw: [clmmContract],
+  description:
+    "Concentrated liquidity market maker pools enabling capital-efficient liquidity provision with custom price ranges.",
 };
 
 export const services: ServiceRaw[] = [stakingService, clmmService];

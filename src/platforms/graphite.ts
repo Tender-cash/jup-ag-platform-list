@@ -35,6 +35,8 @@ export const service: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "Token staking for earning rewards and participating in Taiyo ecosystem benefits.",
 };
 
 export const nftGen1service: ServiceRaw = {
@@ -42,6 +44,8 @@ export const nftGen1service: ServiceRaw = {
   name: "Taiyo Gen1 Staking",
   platformId: platform.id,
   contractsRaw: [nftGen1StakingContract],
+  description:
+    "NFT staking for Taiyo Robotics Gen1 collection holders to earn rewards and access utilities.",
 };
 
 export const nftGen2service: ServiceRaw = {
@@ -49,6 +53,8 @@ export const nftGen2service: ServiceRaw = {
   name: "Taiyo Gen2 Staking",
   platformId: platform.id,
   contractsRaw: [nftGen2StakingContract],
+  description:
+    "NFT staking for Taiyo Robotics Gen2 collection holders to earn rewards and access utilities.",
 };
 
 export const services: ServiceRaw[] = [service, nftGen1service, nftGen2service];

@@ -47,6 +47,9 @@ export const service: ServiceRaw = {
   name: "Permissionless",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://app.huma.finance/",
+  description:
+    "Open liquidity pools allowing any user to provide capital and earn yield from payment financing and cross-border transaction flows.",
 };
 
 export const institutionalService: ServiceRaw = {
@@ -54,6 +57,8 @@ export const institutionalService: ServiceRaw = {
   name: "Institutional",
   platformId: platform.id,
   contractsRaw: [institutionalContract],
+  description:
+    "KYC-gated liquidity pools for accredited investors seeking higher yields from institutional-grade payment financing opportunities.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -61,6 +66,8 @@ export const airdropService: ServiceRaw = {
   name: "Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract],
+  description:
+    "Token distribution program for HUMA governance tokens to early users and liquidity providers.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -68,6 +75,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "HUMA token staking for governance participation and earning protocol revenue share.",
 };
 
 export const services: ServiceRaw[] = [

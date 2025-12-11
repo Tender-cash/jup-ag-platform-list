@@ -45,6 +45,9 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://staking.pyth.network/",
+  description:
+    "PYTH token staking enabling holders to participate in data validation, earn rewards, and contribute to oracle network security.",
 };
 
 export const governanceService: ServiceRaw = {
@@ -52,6 +55,8 @@ export const governanceService: ServiceRaw = {
   name: "Governance",
   platformId: platform.id,
   contractsRaw: [governanceContract],
+  description:
+    "On-chain governance system allowing PYTH stakers to vote on protocol improvements, parameter changes, and network upgrades.",
 };
 
 export const expressRelayService: ServiceRaw = {
@@ -59,6 +64,8 @@ export const expressRelayService: ServiceRaw = {
   name: "Express Relay",
   platformId: platform.id,
   contractsRaw: [expressRelayContract],
+  description:
+    "MEV protection service routing liquidation and arbitrage opportunities to a competitive auction, returning value to DeFi protocols and users.",
 };
 
 export const airdropService: ServiceRaw = {

@@ -25,6 +25,8 @@ export const depositService: ServiceRaw = {
   name: "Deposit",
   platformId: platform.id,
   contractsRaw: [contract],
+  description:
+    "Casino deposit service for funding accounts with crypto to play provably fair games.",
 };
 
 export const withdrawService: ServiceRaw = {
@@ -32,6 +34,8 @@ export const withdrawService: ServiceRaw = {
   name: "Withdraw",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Casino withdrawal service for cashing out winnings and remaining balances.",
 };
 
 export const services: ServiceRaw[] = [depositService, withdrawService];

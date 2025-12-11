@@ -52,6 +52,9 @@ export const transferService: ServiceRaw = {
   name: "Transfer",
   platformId: platform.id,
   contractsRaw: [transferContract],
+  link: "https://app.debridge.finance/",
+  description:
+    "Cross-chain asset transfer service enabling token bridging between blockchains with native liquidity and fast finality.",
 };
 
 export const vaultService: ServiceRaw = {
@@ -59,6 +62,8 @@ export const vaultService: ServiceRaw = {
   name: "Vault",
   platformId: platform.id,
   contractsRaw: [vaultContract],
+  description:
+    "Liquidity vault holding bridged assets, enabling capital-efficient cross-chain transfers without wrapped token overhead.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -73,6 +78,9 @@ export const dlnService: ServiceRaw = {
   name: "DLN",
   platformId: platform.id,
   contractsRaw: [sourceContract, destContract],
+  link: "https://dln.trade/",
+  description:
+    "Decentralized Liquidity Network providing limit order cross-chain trading with guaranteed rates and MEV protection through solver competition.",
 };
 
 export const services: ServiceRaw[] = [

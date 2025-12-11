@@ -39,6 +39,8 @@ const nameHouseService: ServiceRaw = {
   name: "Name House",
   platformId: platform.id,
   contractsRaw: [nameHouseContract],
+  description:
+    "Domain registry and management system for organizing and resolving registered domain names.",
 };
 
 export const nameService: ServiceRaw = {
@@ -46,6 +48,8 @@ export const nameService: ServiceRaw = {
   name: "Name Service",
   platformId: platform.id,
   contractsRaw: [contract, coSignerContract],
+  description:
+    "Domain registration and TLD creation service enabling users to mint custom domain names as NFTs.",
 };
 
 export const services: ServiceRaw[] = [nameHouseService, nameService];

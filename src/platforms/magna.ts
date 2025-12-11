@@ -29,6 +29,8 @@ export const airdropService: ServiceRaw = {
   name: "Vesting Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract],
+  description:
+    "Token distribution with vesting schedules enabling projects to conduct airdrops with customizable unlock periods and cliff dates.",
 };
 
 export const service: ServiceRaw = {
@@ -36,6 +38,9 @@ export const service: ServiceRaw = {
   name: "Asset Management",
   platformId: platform.id,
   contractsRaw: [maintContract],
+  link: "https://www.magna.so/",
+  description:
+    "Token management platform for cap table tracking, vesting automation, and custody solutions across multiple chains.",
 };
 
 export const services: ServiceRaw[] = [airdropService, service];

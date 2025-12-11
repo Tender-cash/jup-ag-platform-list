@@ -24,6 +24,8 @@ export const claimService: ServiceRaw = {
   name: "Claim",
   platformId: platform.id,
   contractsRaw: [swiftContract],
+  description:
+    "Redemption service for claiming bridged tokens after cross-chain transfer completion.",
 };
 
 export const bridgeService: ServiceRaw = {
@@ -31,6 +33,8 @@ export const bridgeService: ServiceRaw = {
   name: "Bridge",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Cross-chain token bridge using auction-driven transfers for optimal speed and cost across multiple networks.",
 };
 
 export const services: ServiceRaw[] = [claimService, bridgeService];

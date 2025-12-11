@@ -48,6 +48,8 @@ export const leverageService: ServiceRaw = {
   name: "Solfarm Leverage",
   platformId: platform.id,
   contractsRaw: [leverageContract],
+  description:
+    "Leveraged yield farming enabling amplified LP positions through borrowed capital with automated rebalancing.",
 };
 
 export const v2Service: ServiceRaw = {
@@ -55,6 +57,8 @@ export const v2Service: ServiceRaw = {
   name: "V2",
   platformId: platform.id,
   contractsRaw: [v2Contract],
+  description:
+    "Auto-compounding vaults automatically reinvesting farming rewards to maximize yield without manual intervention.",
 };
 
 export const lendingService: ServiceRaw = {
@@ -62,6 +66,8 @@ export const lendingService: ServiceRaw = {
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [lendingContract],
+  description:
+    "Lending pools for depositing assets to earn interest or borrowing for leveraged farming strategies.",
 };
 
 export const stakeService: ServiceRaw = {
@@ -69,6 +75,8 @@ export const stakeService: ServiceRaw = {
   name: "Stake",
   platformId: platform.id,
   contractsRaw: [stakeContract],
+  description:
+    "TULIP token staking for earning protocol fee share and governance voting rights.",
 };
 
 export const services: ServiceRaw[] = [

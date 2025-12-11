@@ -36,6 +36,9 @@ export const mainService: ServiceRaw = {
   name: "Liquidity & Trading",
   platformId: platform.id,
   contractsRaw: [mainContract],
+  link: "https://app.parcl.co/",
+  description:
+    "Perpetual trading platform for real estate price indices, allowing users to go long or short on city housing markets with leverage.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -43,6 +46,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "Token staking program allowing users to lock PRCL tokens to earn rewards and participate in protocol governance.",
 };
 
 export const airdropService: ServiceRaw = {

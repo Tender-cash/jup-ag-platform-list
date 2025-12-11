@@ -33,6 +33,8 @@ export const stakingService: ServiceRaw = {
   name: "Marketplace",
   platformId: platform.id,
   contractsRaw: [mainContract],
+  description:
+    "NFT marketplace for listing, buying, and selling digital collectibles with collection-based browsing.",
 };
 
 export const globalOfferV1Service: ServiceRaw = {
@@ -40,6 +42,8 @@ export const globalOfferV1Service: ServiceRaw = {
   name: "Global Offer V1",
   platformId: platform.id,
   contractsRaw: [globalOfferV1Contract],
+  description:
+    "Collection-wide offer system allowing buyers to place bids on any NFT within a collection.",
 };
 
 export const globalOfferService: ServiceRaw = {
@@ -47,6 +51,8 @@ export const globalOfferService: ServiceRaw = {
   name: "Global Offer V2",
   platformId: platform.id,
   contractsRaw: [globalOfferV2Contract],
+  description:
+    "Enhanced collection-wide bidding with improved offer management and trait-based filtering support.",
 };
 
 export const services: ServiceRaw[] = [

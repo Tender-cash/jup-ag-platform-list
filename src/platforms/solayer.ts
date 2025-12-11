@@ -53,6 +53,9 @@ export const solayerService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [solayerContract],
+  link: "https://app.solayer.org/",
+  description:
+    "Native restaking service allowing users to stake SOL and receive sSOL, a liquid staking token that accrues staking rewards.",
 };
 
 export const restakingService: ServiceRaw = {
@@ -60,6 +63,8 @@ export const restakingService: ServiceRaw = {
   name: "Restaking",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Restaking protocol enabling staked assets to secure additional services (AVS) while earning enhanced yields from multiple sources.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -67,6 +72,8 @@ export const airdropService: ServiceRaw = {
   name: "Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract],
+  description:
+    "LAYER token distribution program for early adopters and protocol contributors.",
 };
 
 export const sUSDService: ServiceRaw = {
@@ -74,6 +81,8 @@ export const sUSDService: ServiceRaw = {
   name: "sUSD",
   platformId: platform.id,
   contractsRaw: [sUDCContract],
+  description:
+    "Yield-bearing stablecoin backed by restaked assets, allowing users to earn staking and restaking yields while holding a dollar-pegged token.",
 };
 
 export const delegateService: ServiceRaw = {
@@ -81,6 +90,8 @@ export const delegateService: ServiceRaw = {
   name: "Delegate",
   platformId: platform.id,
   contractsRaw: [endoAvsContract],
+  description:
+    "Endogenous AVS delegation enabling restakers to allocate stake to decentralized applications for stake-weighted quality of service benefits.",
 };
 
 export const withdrawService: ServiceRaw = {
@@ -88,6 +99,8 @@ export const withdrawService: ServiceRaw = {
   name: "Withdraw",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Unstaking service for redeeming sSOL tokens back to native SOL with cooldown period.",
 };
 
 export const services: ServiceRaw[] = [

@@ -31,6 +31,8 @@ export const farmService: ServiceRaw = {
   name: "Farms",
   platformId: platform.id,
   contractsRaw: [farmContract],
+  description:
+    "Yield farming program for staking LP tokens to earn additional token rewards.",
 };
 
 export const poolService: ServiceRaw = {
@@ -38,6 +40,8 @@ export const poolService: ServiceRaw = {
   name: "Pools",
   platformId: platform.id,
   contractsRaw: [poolContract],
+  description:
+    "AMM liquidity pools enabling token swaps and liquidity provision with automated market making.",
 };
 
 export const services: ServiceRaw[] = [farmService, poolService];

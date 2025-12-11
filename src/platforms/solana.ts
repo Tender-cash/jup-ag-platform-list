@@ -74,6 +74,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [solanaStakingContract],
+  description:
+    "Native stake program for delegating SOL to validators and earning staking rewards.",
 };
 
 export const stakePoolService: ServiceRaw = {
@@ -81,6 +83,8 @@ export const stakePoolService: ServiceRaw = {
   name: "Stake Pool",
   platformId: platform.id,
   contractsRaw: [solanaStakePoolContract],
+  description:
+    "Stake pool program enabling liquid staking through pooled validator delegation.",
 };
 
 export const singleValidatorStakePoolService: ServiceRaw = {
@@ -88,6 +92,8 @@ export const singleValidatorStakePoolService: ServiceRaw = {
   name: "Single-Validator Stake Pool",
   platformId: platform.id,
   contractsRaw: [singleValidatorStakePoolContract],
+  description:
+    "Simplified stake pool for liquid staking with a single validator operator.",
 };
 
 export const closeAccountService: ServiceRaw = {
@@ -95,6 +101,8 @@ export const closeAccountService: ServiceRaw = {
   name: "Close Token Account",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Token account closure reclaiming rent-exempt SOL from empty token accounts.",
 };
 
 export const createAccountService: ServiceRaw = {
@@ -102,6 +110,8 @@ export const createAccountService: ServiceRaw = {
   name: "Create Token Account",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Associated token account creation for holding SPL tokens.",
 };
 
 export const addressLookupTableService: ServiceRaw = {
@@ -109,6 +119,8 @@ export const addressLookupTableService: ServiceRaw = {
   name: "Address Lookup Table",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Lookup table management for compressing transaction account addresses.",
 };
 
 export const transferService: ServiceRaw = {
@@ -116,6 +128,8 @@ export const transferService: ServiceRaw = {
   name: "Transfer",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Native SOL and SPL token transfers between accounts.",
 };
 
 export const burnService: ServiceRaw = {
@@ -123,6 +137,8 @@ export const burnService: ServiceRaw = {
   name: "Burn",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Token burning permanently removing tokens from circulation.",
 };
 
 export const delegateService: ServiceRaw = {
@@ -130,6 +146,8 @@ export const delegateService: ServiceRaw = {
   name: "Delegate",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Token delegation granting spending authority to another account.",
 };
 
 export const setAuthorityService: ServiceRaw = {
@@ -137,6 +155,8 @@ export const setAuthorityService: ServiceRaw = {
   name: "Set Authority",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Authority management for modifying token mint or freeze permissions.",
 };
 
 export {

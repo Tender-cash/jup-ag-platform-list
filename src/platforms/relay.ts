@@ -27,9 +27,11 @@ const relayContract = {
 
 export const bridgeService: ServiceRaw = {
   id: `${platform.id}-bridge`,
-  name: "Bridge",
+  name: "WSOL Unwrapper",
   platformId: platform.id,
   contractsRaw: [contract],
+  description:
+    "Utility contract for unwrapping wrapped SOL during cross-chain transactions to deliver native SOL to recipients.",
 };
 
 export const relayService: ServiceRaw = {
@@ -37,6 +39,9 @@ export const relayService: ServiceRaw = {
   name: "Relay Bridge",
   platformId: platform.id,
   contractsRaw: [relayContract],
+  link: "https://relay.link/bridge",
+  description:
+    "Cross-chain bridging protocol enabling instant, low-cost transactions across 85+ networks through a permissionless relayer network.",
 };
 
 export const services: ServiceRaw[] = [bridgeService, relayService];

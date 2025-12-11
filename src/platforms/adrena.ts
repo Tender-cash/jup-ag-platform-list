@@ -30,6 +30,9 @@ export const service: ServiceRaw = {
   name: "Core",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://app.adrena.xyz/trade",
+  description:
+    "Perpetual futures trading with up to 100x leverage, zero price impact, and non-custodial execution using Pyth oracle for real-time pricing.",
 };
 
 export const services: ServiceRaw[] = [service];

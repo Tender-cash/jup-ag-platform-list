@@ -45,6 +45,9 @@ export const poolsService: ServiceRaw = {
   name: "Pools",
   platformId: platform.id,
   contractsRaw: [pools],
+  link: "https://www.orca.so/pools",
+  description:
+    "Standard AMM liquidity pools using the constant product model, allowing users to provide liquidity across the full price range and earn trading fees from swaps.",
 };
 
 export const farmsService: ServiceRaw = {
@@ -52,6 +55,8 @@ export const farmsService: ServiceRaw = {
   name: "Aqua Farms",
   platformId: platform.id,
   contractsRaw: [aquaFarms],
+  description:
+    "Yield farming program that rewards liquidity providers with additional token incentives on top of trading fees for participating in selected pools.",
 };
 
 export const whirlpoolsService: ServiceRaw = {
@@ -59,6 +64,9 @@ export const whirlpoolsService: ServiceRaw = {
   name: "Whirlpools",
   platformId: platform.id,
   contractsRaw: [whirlpool],
+  link: "https://www.orca.so/pools",
+  description:
+    "Concentrated liquidity pools allowing liquidity providers to allocate capital within custom price ranges for improved capital efficiency and higher fee earnings.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -66,6 +74,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [staking],
+  description:
+    "Token staking program allowing users to lock their governance tokens to participate in protocol governance and earn staking rewards.",
 };
 
 export const services: ServiceRaw[] = [

@@ -46,6 +46,9 @@ export const vestingService: ServiceRaw = {
   name: "Vesting",
   platformId: platform.id,
   contractsRaw: [vestingContract],
+  link: "https://app.streamflow.finance/vesting",
+  description:
+    "Token vesting infrastructure for creating customizable vesting schedules with cliff periods, linear unlocks, and automated distributions.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -53,6 +56,9 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  link: "https://app.streamflow.finance/staking",
+  description:
+    "Token staking solution enabling projects to create custom staking programs with flexible reward mechanisms and lock periods.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -60,6 +66,9 @@ export const airdropService: ServiceRaw = {
   name: "Airdrops",
   platformId: platform.id,
   contractsRaw: [airdropsContract],
+  link: "https://app.streamflow.finance/airdrops",
+  description:
+    "Batch token distribution tool for executing large-scale airdrops with merkle tree verification and gas-efficient claim mechanisms.",
 };
 
 export const airdropDistributionService: ServiceRaw = {

@@ -26,6 +26,9 @@ export const service: ServiceRaw = {
   name: "Sharky",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://sharky.fi/",
+  description:
+    "Escrowless NFT lending protocol enabling instant SOL loans against NFT collateral with fixed rates, or earning yield by lending to borrowers.",
 };
 
 export const services: ServiceRaw[] = [service];

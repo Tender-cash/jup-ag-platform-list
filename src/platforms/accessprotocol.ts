@@ -27,6 +27,9 @@ export const service: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://hub.accessprotocol.co/",
+  description:
+    "Stake-for-access mechanism allowing users to stake ACS tokens to unlock premium content and services from creators and publishers.",
 };
 
 export const services: ServiceRaw[] = [service];

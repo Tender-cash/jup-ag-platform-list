@@ -29,16 +29,21 @@ const transmitterContract = {
 
 export const minterService: ServiceRaw = {
   id: `${platform.id}-cctp-minter`,
-  name: "CCTP",
+  name: "CCTP Minter",
   platformId: platform.id,
   contractsRaw: [minterContract],
+  link: "https://www.circle.com/usdc-multichain/cross-chain-transfer-protocol",
+  description:
+    "Cross-Chain Transfer Protocol minting component that creates native USDC on destination chains after cross-chain transfers.",
 };
 
 export const transmitterService: ServiceRaw = {
   id: `${platform.id}-cctp-transmitter`,
-  name: "CCTP",
+  name: "CCTP Transmitter",
   platformId: platform.id,
   contractsRaw: [transmitterContract],
+  description:
+    "Cross-Chain Transfer Protocol message transmitter handling attestation and verification of cross-chain USDC transfers.",
 };
 
 export const services: ServiceRaw[] = [minterService, transmitterService];

@@ -37,6 +37,9 @@ export const service: ServiceRaw = {
   name: "Fragmetric",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://fragmetric.xyz/",
+  description:
+    "Liquid restaking protocol enabling users to restake SOL-based LSTs to secure additional networks while earning enhanced yields through fragSOL.",
 };
 
 export const airdropService: ServiceRaw = {

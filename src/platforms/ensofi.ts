@@ -35,16 +35,22 @@ const liquidityContract = {
 
 export const lendingService: ServiceRaw = {
   id: `${platform.id}-lending`,
-  name: "Lending",
+  name: "Fixed Lending",
   platformId: platform.id,
   contractsRaw: [lendingContract],
+  link: "https://app.ensofi.xyz/fixed-lending",
+  description:
+    "Peer-to-peer fixed-rate lending market where lenders create custom offers with specified rates and durations for predictable yields.",
 };
 
 export const lendingFlexService: ServiceRaw = {
   id: `${platform.id}-lending-flex`,
-  name: "Lending",
+  name: "Flexible Lending",
   platformId: platform.id,
   contractsRaw: [lendingFlexContract],
+  link: "https://app.ensofi.xyz/flex-lending",
+  description:
+    "Flexible-term lending pools allowing borrowers and lenders to enter and exit positions with variable rates based on utilization.",
 };
 
 export const liquidityService: ServiceRaw = {
@@ -52,6 +58,8 @@ export const liquidityService: ServiceRaw = {
   name: "Liquidity",
   platformId: platform.id,
   contractsRaw: [liquidityContract],
+  description:
+    "Cross-chain liquidity infrastructure enabling borrowers to access funds and use collateral across multiple blockchains.",
 };
 
 export const services: ServiceRaw[] = [

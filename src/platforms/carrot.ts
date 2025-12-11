@@ -32,6 +32,9 @@ export const minterService: ServiceRaw = {
   name: "Minter",
   platformId: platform.id,
   contractsRaw: [minterContract],
+  link: "https://deficarrot.com/",
+  description:
+    "Stablecoin yield aggregator minting CRT tokens backed by USDC, USDT, and PYUSD deposits earning optimized yields across lending protocols.",
 };
 
 export const boostService: ServiceRaw = {
@@ -39,6 +42,8 @@ export const boostService: ServiceRaw = {
   name: "Boost",
   platformId: platform.id,
   contractsRaw: [boostContract],
+  description:
+    "Leveraged yield strategy using recursive lending loops to amplify returns on yield-bearing assets within a single transaction.",
 };
 
 export const services: ServiceRaw[] = [minterService, boostService];

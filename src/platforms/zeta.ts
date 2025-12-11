@@ -34,6 +34,9 @@ export const mainService: ServiceRaw = {
   name: "Markets",
   platformId: platform.id,
   contractsRaw: [mainContract],
+  link: "https://www.zeta.markets/",
+  description:
+    "Perpetual futures trading with up to 20x leverage, cross-margin support, and sub-second settlements with near-zero gas fees.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -41,6 +44,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "Vote-escrow ZEX staking earning a share of trading fees while providing governance voting power proportional to lock duration.",
 };
 
 export const services: ServiceRaw[] = [mainService, stakingService];

@@ -51,6 +51,8 @@ export const voteService: ServiceRaw = {
   name: "Vote",
   platformId: platform.id,
   contractsRaw: [voteContract],
+  description:
+    "Governance voting system allowing token holders to participate in protocol decisions and validator gauge voting.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -58,6 +60,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "Token staking program enabling users to lock CLOUD tokens to earn rewards and boost their governance voting power.",
 };
 
 export const poolService: ServiceRaw = {
@@ -65,6 +69,9 @@ export const poolService: ServiceRaw = {
   name: "Infinity Pool",
   platformId: platform.id,
   contractsRaw: [infContract],
+  link: "https://app.sanctum.so/infinity",
+  description:
+    "Multi-LST liquidity pool enabling instant swaps between any liquid staking tokens with minimal slippage, powered by on-chain stake account valuations.",
 };
 
 export const routerService: ServiceRaw = {
@@ -72,6 +79,9 @@ export const routerService: ServiceRaw = {
   name: "Router",
   platformId: platform.id,
   contractsRaw: [routerContract],
+  link: "https://app.sanctum.so/trade",
+  description:
+    "LST routing service that finds optimal paths for converting between native SOL, stake accounts, and any liquid staking token.",
 };
 
 export const asrService: ServiceRaw = {
@@ -79,6 +89,8 @@ export const asrService: ServiceRaw = {
   name: "ASR",
   platformId: platform.id,
   contractsRaw: [asrContract],
+  description:
+    "Airdrop Staking Rewards program distributing partner token rewards to users who stake their LSTs in the protocol.",
 };
 
 export const services: ServiceRaw[] = [

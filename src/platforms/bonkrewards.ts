@@ -51,6 +51,9 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://bonkrewards.com/stake",
+  description:
+    "BONK staking program allowing holders to lock tokens and earn rewards from the BONK Rewards Pool while gaining governance voting rights.",
 };
 
 export const fireService: ServiceRaw = {
@@ -58,6 +61,8 @@ export const fireService: ServiceRaw = {
   name: "Fire",
   platformId: platform.id,
   contractsRaw: [fireContract],
+  description:
+    "Token burn mechanism enabling the community to permanently remove BONK from circulation through scheduled burns and special events like BURNmas.",
 };
 
 export const swapService: ServiceRaw = {
@@ -65,6 +70,9 @@ export const swapService: ServiceRaw = {
   name: "Swap",
   platformId: platform.id,
   contractsRaw: [swapContract],
+  link: "https://bonkrewards.com/swap",
+  description:
+    "Decentralized exchange for swapping tokens and providing liquidity to AMM pools within the BONK ecosystem.",
 };
 
 export const bonkMasService: ServiceRaw = {
@@ -79,6 +87,8 @@ export const daoService: ServiceRaw = {
   name: "DAO",
   platformId: platform.id,
   contractsRaw: [daoContract],
+  description:
+    "Decentralized governance system enabling staked BONK holders to submit proposals and vote on community initiatives, grants, and ecosystem development.",
 };
 
 export const services: ServiceRaw[] = [

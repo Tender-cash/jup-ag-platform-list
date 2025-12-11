@@ -39,6 +39,9 @@ export const stablePoolsService: ServiceRaw = {
   name: "Stable Pools",
   platformId: platform.id,
   contractsRaw: [stablePoolContract],
+  link: "https://app.stabble.org/pools",
+  description:
+    "Optimized AMM pools for stablecoins and pegged assets with low slippage and minimal impermanent loss through stable swap curves.",
 };
 
 export const weightedPoolsService: ServiceRaw = {
@@ -46,6 +49,9 @@ export const weightedPoolsService: ServiceRaw = {
   name: "Weighted Pools",
   platformId: platform.id,
   contractsRaw: [weghtedPoolContract],
+  link: "https://app.stabble.org/pools",
+  description:
+    "Balancer-style weighted pools supporting custom asset ratios for diversified liquidity provision beyond standard 50/50 splits.",
 };
 
 export const lpStakingService: ServiceRaw = {
@@ -53,6 +59,8 @@ export const lpStakingService: ServiceRaw = {
   name: "LP Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "LP token staking program rewarding liquidity providers with additional STB token incentives on top of trading fees.",
 };
 
 export const services: ServiceRaw[] = [

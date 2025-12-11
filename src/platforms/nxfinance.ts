@@ -46,6 +46,9 @@ export const service: ServiceRaw = {
   name: "Lend",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://app.nxfinance.io/lend",
+  description:
+    "Lending market allowing users to supply assets to earn interest or borrow against their collateral with dynamic rates.",
 };
 
 export const leverageService: ServiceRaw = {
@@ -53,6 +56,9 @@ export const leverageService: ServiceRaw = {
   name: "Leverage",
   platformId: platform.id,
   contractsRaw: [leverageContract],
+  link: "https://app.nxfinance.io/leverage",
+  description:
+    "Leveraged position management enabling users to amplify exposure to yield-bearing assets through automated borrowing loops.",
 };
 
 export const vaultsService: ServiceRaw = {
@@ -60,6 +66,8 @@ export const vaultsService: ServiceRaw = {
   name: "Vaults",
   platformId: platform.id,
   contractsRaw: [vaultsContract],
+  description:
+    "Automated yield vaults managing strategies to optimize returns on deposited assets through various DeFi protocols.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -67,6 +75,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "Token staking program enabling users to lock tokens for governance participation and protocol fee sharing.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -74,6 +84,8 @@ export const airdropService: ServiceRaw = {
   name: "Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract],
+  description:
+    "Token distribution program for protocol governance tokens to early users and participants.",
 };
 
 export const services: ServiceRaw[] = [

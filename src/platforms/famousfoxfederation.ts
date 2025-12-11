@@ -36,6 +36,9 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  link: "https://famousfoxes.com/stake",
+  description:
+    "NFT staking program allowing Fox holders to lock their NFTs and earn daily FOXY token rewards while retaining DAO eligibility.",
 };
 
 export const mainService: ServiceRaw = {
@@ -50,6 +53,9 @@ export const missionsService: ServiceRaw = {
   name: "Missions",
   platformId: platform.id,
   contractsRaw: [missionsContract],
+  link: "https://famousfoxes.com/missions",
+  description:
+    "Gamified staking feature where Foxes embark on themed adventures to earn Treasury Chests and FAME tokens for cosmetic upgrades.",
 };
 
 export const services: ServiceRaw[] = [

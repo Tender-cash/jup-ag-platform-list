@@ -39,9 +39,12 @@ const stakingContract2 = {
 
 export const mainService: ServiceRaw = {
   id: `${platform.id}-main`,
-  name: "Main",
+  name: "Trading",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://orderly.network/",
+  description:
+    "Omnichain CLOB infrastructure providing shared liquidity orderbook trading across 18+ blockchains for perpetuals DEX builders.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -49,6 +52,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract, stakingContract2],
+  description:
+    "ORDER token staking granting ownership of the Orderly treasury funded by 60% of protocol revenue and cross-chain reward claiming.",
 };
 
 export const services: ServiceRaw[] = [mainService, stakingService];

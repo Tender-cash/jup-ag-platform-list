@@ -36,6 +36,8 @@ export const earnService: ServiceRaw = {
   name: "Sol Earn",
   platformId: platform.id,
   contractsRaw: [earnContract],
+  description:
+    "SOL deposit pools generating yield from memecoin trading activity and protocol fees.",
 };
 
 export const tradeService: ServiceRaw = {
@@ -43,6 +45,8 @@ export const tradeService: ServiceRaw = {
   name: "Trade",
   platformId: platform.id,
   contractsRaw: [tradeContract],
+  description:
+    "Permissionless memecoin trading interface for buying and selling tokens on the bonding curve.",
 };
 
 export const lendService: ServiceRaw = {
@@ -50,6 +54,8 @@ export const lendService: ServiceRaw = {
   name: "Memecoin Yielding",
   platformId: platform.id,
   contractsRaw: [lendContract],
+  description:
+    "Yield generation through memecoin lending pools enabling passive income from token borrowing demand.",
 };
 
 export const services: ServiceRaw[] = [earnService, tradeService, lendService];

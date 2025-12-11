@@ -39,6 +39,9 @@ export const bondsService: ServiceRaw = {
   name: "Bonds",
   platformId: platform.id,
   contractsRaw: [bondsContract],
+  link: "https://banx.gg/",
+  description:
+    "Perpetual loans on NFTs and tokens using a bonds mechanism with no expiration dates and protection against price-based liquidations.",
 };
 
 export const vaultsService: ServiceRaw = {
@@ -46,6 +49,8 @@ export const vaultsService: ServiceRaw = {
   name: "Vaults",
   platformId: platform.id,
   contractsRaw: [vaultsContract],
+  description:
+    "Lending vaults where users deposit SOL to fund loans and earn yield from interest paid by borrowers.",
 };
 
 export const airdropService: ServiceRaw = {

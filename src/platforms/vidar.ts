@@ -47,6 +47,8 @@ export const ljupService: ServiceRaw = {
   name: "LJUP Minter",
   platformId: platform.id,
   contractsRaw: [ljupMinterContract],
+  description:
+    "Token minting service for creating liquid JUP (LJUP) tokens representing staked JUP positions.",
 };
 
 export const nokService: ServiceRaw = {
@@ -54,6 +56,8 @@ export const nokService: ServiceRaw = {
   name: "wNOK Minter",
   platformId: platform.id,
   contractsRaw: [nokContract],
+  description:
+    "Token minting service for creating wrapped NOK (wNOK) tokens on-chain.",
 };
 
 export const safeLaunchService: ServiceRaw = {
@@ -61,6 +65,8 @@ export const safeLaunchService: ServiceRaw = {
   name: "SafeLaunch",
   platformId: platform.id,
   contractsRaw: [safeLaunchContract],
+  description:
+    "Token launchpad with safety mechanisms for fair and secure new token launches.",
 };
 
 export const bgldStakingService: ServiceRaw = {
@@ -68,6 +74,8 @@ export const bgldStakingService: ServiceRaw = {
   name: "BGLD Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "BGLD token staking for earning rewards and participating in protocol governance.",
 };
 
 export const bgldMinerService: ServiceRaw = {
@@ -75,6 +83,8 @@ export const bgldMinerService: ServiceRaw = {
   name: "BGLD Miner",
   platformId: platform.id,
   contractsRaw: [minerContract],
+  description:
+    "Liquidity mining program for earning BGLD token rewards through protocol participation.",
 };
 
 export const services: ServiceRaw[] = [

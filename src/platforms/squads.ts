@@ -25,6 +25,9 @@ export const service: ServiceRaw = {
   name: "Multisig",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://squads.so/",
+  description:
+    "Multi-signature smart account protocol enabling teams to require multiple approvals for transactions, program upgrades, and treasury management.",
 };
 
 export const services: ServiceRaw[] = [service];

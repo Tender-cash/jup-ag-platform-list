@@ -38,13 +38,17 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "UXP token staking for earning protocol revenue share and governance participation rights.",
 };
 
 export const mainService: ServiceRaw = {
   id: `${platform.id}-main`,
-  name: "Main",
+  name: "Mint",
   platformId: platform.id,
   contractsRaw: [mainContract],
+  description:
+    "UXD stablecoin minting and redemption using delta-neutral positions against SOL collateral.",
 };
 
 export const services: ServiceRaw[] = [stakingService, mainService];

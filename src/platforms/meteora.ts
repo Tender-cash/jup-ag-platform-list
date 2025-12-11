@@ -79,6 +79,8 @@ export const stableSwapService: ServiceRaw = {
   name: "Stable Swap",
   platformId: platform.id,
   contractsRaw: [mercurialStableSwap],
+  description:
+    "Optimized AMM for swapping between pegged assets like stablecoins and wrapped tokens with minimal slippage and low fees.",
 };
 
 export const vaultsService: ServiceRaw = {
@@ -86,6 +88,9 @@ export const vaultsService: ServiceRaw = {
   name: "Vaults",
   platformId: platform.id,
   contractsRaw: [meteoraVaults],
+  link: "https://app.meteora.ag/vaults",
+  description:
+    "Dynamic vaults that automatically allocate deposited assets to lending protocols and liquidity pools to optimize yield generation.",
 };
 
 export const poolsService: ServiceRaw = {
@@ -93,6 +98,9 @@ export const poolsService: ServiceRaw = {
   name: "Pools",
   platformId: platform.id,
   contractsRaw: [meteoraPools],
+  link: "https://app.meteora.ag/pools",
+  description:
+    "Standard AMM liquidity pools for token pairs allowing users to provide liquidity and earn trading fees from swaps.",
 };
 
 export const farmsService: ServiceRaw = {
@@ -100,6 +108,8 @@ export const farmsService: ServiceRaw = {
   name: "Farms",
   platformId: platform.id,
   contractsRaw: [meteoraFarms],
+  description:
+    "Yield farming program rewarding liquidity providers with additional token incentives for staking their LP tokens.",
 };
 
 export const dlmmService: ServiceRaw = {
@@ -107,6 +117,9 @@ export const dlmmService: ServiceRaw = {
   name: "DLMM",
   platformId: platform.id,
   contractsRaw: [meteoraDlmm],
+  link: "https://app.meteora.ag/dlmm",
+  description:
+    "Dynamic Liquidity Market Maker using discrete price bins for zero-slippage swaps and dynamic fees that adjust based on market volatility.",
 };
 
 export const dlmmVaultsService: ServiceRaw = {
@@ -114,6 +127,8 @@ export const dlmmVaultsService: ServiceRaw = {
   name: "DLMM Vaults",
   platformId: platform.id,
   contractsRaw: [meteoraDlmmVaults],
+  description:
+    "Automated vaults that manage DLMM positions, automatically rebalancing liquidity within optimal price ranges to maximize fee earnings.",
 };
 
 export const dammV2Service: ServiceRaw = {
@@ -128,6 +143,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [m3m3],
+  description:
+    "M3M3 staking mechanism that rewards top stakers from memecoin trading fees, creating sustainable incentives for long-term token holders.",
 };
 
 export const bondingCurveService: ServiceRaw = {
@@ -135,6 +152,8 @@ export const bondingCurveService: ServiceRaw = {
   name: "Bonding Curve",
   platformId: platform.id,
   contractsRaw: [bondingCurve],
+  description:
+    "Token launch infrastructure using bonding curves for price discovery, enabling new tokens to bootstrap liquidity before migrating to standard AMM pools.",
 };
 
 export const zapService: ServiceRaw = {
@@ -142,6 +161,8 @@ export const zapService: ServiceRaw = {
   name: "Zap",
   platformId: platform.id,
   contractsRaw: [zap],
+  description:
+    "One-click liquidity provision that automatically converts a single token into balanced LP positions, simplifying the deposit process.",
 };
 
 export const liquidityAirdropService: ServiceRaw = {
@@ -149,6 +170,8 @@ export const liquidityAirdropService: ServiceRaw = {
   name: "Liquidity Airdrop",
   platformId: platform.id,
   contractsRaw: [liquidityAirdrop],
+  description:
+    "Distribution mechanism for token projects to reward early liquidity providers with airdrops based on their participation in pools.",
 };
 
 export const services: ServiceRaw[] = [

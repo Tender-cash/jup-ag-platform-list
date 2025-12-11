@@ -28,6 +28,8 @@ export const paymentService: ServiceRaw = {
   name: "Payment",
   platformId: platform.id,
   contractsRaw: [contractV2],
+  description:
+    "Crypto payment processing enabling merchants to accept token payments with fiat conversion options.",
 };
 
 export const paymentV2Service: ServiceRaw = {

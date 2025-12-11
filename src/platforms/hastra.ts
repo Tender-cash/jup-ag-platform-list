@@ -28,6 +28,9 @@ export const mintService: ServiceRaw = {
   name: "Mint",
   platformId: platform.id,
   contractsRaw: [mintContract],
+  link: "https://www.hastra.io/",
+  description:
+    "Minting service for PRIME liquid staking tokens backed by Figure's RWA loan originations via Chainlink oracle infrastructure.",
 };
 
 export const stakeService: ServiceRaw = {
@@ -35,6 +38,8 @@ export const stakeService: ServiceRaw = {
   name: "Stake",
   platformId: platform.id,
   contractsRaw: [stakeContract],
+  description:
+    "Staking vault enabling users to amplify yield earnings while maintaining asset liquidity through the PRIME token system.",
 };
 
 export const services: ServiceRaw[] = [mintService, stakeService];

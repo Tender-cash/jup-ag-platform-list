@@ -40,6 +40,8 @@ export const minerService: ServiceRaw = {
   name: "Miner",
   platformId: platform.id,
   contractsRaw: [contract],
+  description:
+    "Liquidity mining program for staking LP tokens and earning protocol token rewards.",
 };
 
 export const mergeMinerService: ServiceRaw = {
@@ -47,6 +49,8 @@ export const mergeMinerService: ServiceRaw = {
   name: "Merge Miner",
   platformId: platform.id,
   contractsRaw: [mergeContract],
+  description:
+    "Combined mining allowing single LP token staking to earn rewards from multiple quarries simultaneously.",
 };
 
 export const redeemService: ServiceRaw = {
@@ -54,6 +58,8 @@ export const redeemService: ServiceRaw = {
   name: "Redeemer",
   platformId: platform.id,
   contractsRaw: [redeemContract],
+  description:
+    "Token redemption system for converting IOU tokens into underlying reward tokens.",
 };
 
 export const registryService: ServiceRaw = {
@@ -61,6 +67,8 @@ export const registryService: ServiceRaw = {
   name: "Registry",
   platformId: platform.id,
   contractsRaw: [registryContract],
+  description:
+    "On-chain registry tracking all quarries and their configurations for protocol-wide discovery.",
 };
 
 export const services: ServiceRaw[] = [

@@ -44,6 +44,8 @@ export const service: ServiceRaw = {
   name: "Mining",
   platformId: platform.id,
   contractsRaw: [contract],
+  description:
+    "Proof-of-work mining pools allowing users to contribute hash power and earn ORE token rewards.",
 };
 
 export const v1Service: ServiceRaw = {

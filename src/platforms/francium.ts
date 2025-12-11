@@ -40,6 +40,8 @@ export const lendingService: ServiceRaw = {
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [mainContract, lendingContract],
+  description:
+    "Lending pools for depositing assets to earn yield or borrowing for leveraged farming positions.",
 };
 
 export const orcaService: ServiceRaw = {
@@ -47,6 +49,8 @@ export const orcaService: ServiceRaw = {
   name: "Orca",
   platformId: platform.id,
   contractsRaw: [orcaContract],
+  description:
+    "Leveraged yield farming strategy using Orca LP positions with automated rebalancing and hedging.",
 };
 
 export const services: ServiceRaw[] = [orcaService, lendingService];

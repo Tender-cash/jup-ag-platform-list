@@ -39,6 +39,9 @@ export const service: ServiceRaw = {
   name: "CeDeFi",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://portal.bouncebit.io/cedefi",
+  description:
+    "CeDeFi vault offering institutional-grade market-neutral strategies with auto-compounding yields for BTC, ETH, SOL, and stablecoins.",
 };
 
 export const rewardsService: ServiceRaw = {
@@ -46,6 +49,8 @@ export const rewardsService: ServiceRaw = {
   name: "Rewards",
   platformId: platform.id,
   contractsRaw: [rewardsContract],
+  description:
+    "Rewards distribution program for CeDeFi depositors with boosted APY incentives and promotional reward campaigns.",
 };
 
 export const promoService: ServiceRaw = {

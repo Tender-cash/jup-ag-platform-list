@@ -42,6 +42,8 @@ export const service: ServiceRaw = {
   name: "Governance",
   platformId: platform.id,
   contractsRaw: [contract],
+  description:
+    "On-chain governance system enabling JTO token holders to vote on protocol proposals and treasury management decisions.",
 };
 
 export const restakingService: ServiceRaw = {
@@ -49,6 +51,9 @@ export const restakingService: ServiceRaw = {
   name: "Restaking",
   platformId: platform.id,
   contractsRaw: [restakingContract],
+  link: "https://www.jito.network/restaking/",
+  description:
+    "Restaking vaults allowing staked assets to secure additional Node Consensus Networks (NCNs) while earning extra rewards from MEV and network services.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -63,6 +68,8 @@ export const tipService: ServiceRaw = {
   name: "Tip",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "MEV tip payment system distributing searcher tips to validators and stakers through a decentralized TipRouter mechanism.",
 };
 
 export const services: ServiceRaw[] = [

@@ -37,6 +37,8 @@ export const service: ServiceRaw = {
   name: "Locker",
   platformId: platform.id,
   contractsRaw: [contract],
+  description:
+    "Token locking mechanism allowing users to lock LFNTY for veLFNTY to earn protocol fees and participate in governance voting.",
 };
 
 export const rewarderService: ServiceRaw = {
@@ -44,6 +46,8 @@ export const rewarderService: ServiceRaw = {
   name: "Reward",
   platformId: platform.id,
   contractsRaw: [rewarderContract],
+  description:
+    "Rewards distribution contract allocating trading fees and incentives to veLFNTY holders and liquidity providers.",
 };
 
 export const services: ServiceRaw[] = [service, rewarderService];

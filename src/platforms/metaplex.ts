@@ -57,6 +57,9 @@ export const cnftService: ServiceRaw = {
   name: "Bubblegum (cNFT)",
   platformId: platform.id,
   contractsRaw: [bubblegumContract],
+  link: "https://developers.metaplex.com/bubblegum",
+  description:
+    "Compressed NFT standard enabling millions of NFTs to be minted at a fraction of the cost using state compression and merkle trees.",
 };
 
 export const metadataService: ServiceRaw = {
@@ -64,6 +67,9 @@ export const metadataService: ServiceRaw = {
   name: "Token Metadata",
   platformId: platform.id,
   contractsRaw: [metaplexContract],
+  link: "https://developers.metaplex.com/token-metadata",
+  description:
+    "NFT metadata standard attaching rich metadata (name, symbol, URI, royalties) to SPL tokens, forming the foundation for NFTs.",
 };
 
 export const coreService: ServiceRaw = {
@@ -71,6 +77,9 @@ export const coreService: ServiceRaw = {
   name: "Core",
   platformId: platform.id,
   contractsRaw: [coreContract],
+  link: "https://developers.metaplex.com/core",
+  description:
+    "Next-generation NFT standard with lower costs and improved performance, featuring a single-account design and native plugin support.",
 };
 
 export const candyMachineService: ServiceRaw = {

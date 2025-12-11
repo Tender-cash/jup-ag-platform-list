@@ -69,6 +69,8 @@ export const scopePriceService: ServiceRaw = {
   name: "Scope Price",
   platformId: platform.id,
   contractsRaw: [scopePriceContract],
+  description:
+    "On-chain price oracle aggregating multiple price feeds for accurate and manipulation-resistant asset valuations.",
 };
 
 export const lendService: ServiceRaw = {
@@ -76,6 +78,9 @@ export const lendService: ServiceRaw = {
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [lendContract],
+  link: "https://app.kamino.finance/lending",
+  description:
+    "Lending and borrowing protocol with eMode for higher LTV on correlated assets, enabling users to earn yield on deposits and access leverage.",
 };
 
 export const multiplyService: ServiceRaw = {
@@ -83,6 +88,9 @@ export const multiplyService: ServiceRaw = {
   name: "Multiply",
   platformId: platform.id,
   contractsRaw: [],
+  link: "https://app.kamino.finance/multiply",
+  description:
+    "One-click leveraged vaults enabling up to 10x exposure on yield-bearing assets by automatically looping deposits and borrows.",
 };
 
 export const limitOrderService: ServiceRaw = {
@@ -90,6 +98,8 @@ export const limitOrderService: ServiceRaw = {
   name: "Limit Order",
   platformId: platform.id,
   contractsRaw: [limitOrderContract],
+  description:
+    "Limit order service allowing users to set buy or sell orders at specific prices that execute automatically when market conditions are met.",
 };
 
 export const swapService: ServiceRaw = {
@@ -97,6 +107,8 @@ export const swapService: ServiceRaw = {
   name: "Swap",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Token swap interface aggregating liquidity from multiple DEXs to find optimal trade routes and minimize slippage.",
 };
 
 export const liquidityService: ServiceRaw = {
@@ -104,6 +116,9 @@ export const liquidityService: ServiceRaw = {
   name: "Liquidity",
   platformId: platform.id,
   contractsRaw: [poolsContract, vaultContract],
+  link: "https://app.kamino.finance/liquidity",
+  description:
+    "Automated liquidity vaults that manage concentrated liquidity positions with auto-rebalancing and auto-compounding of fees.",
 };
 
 const farmService: ServiceRaw = {
@@ -111,6 +126,8 @@ const farmService: ServiceRaw = {
   name: "Farm",
   platformId: platform.id,
   contractsRaw: [farmContract],
+  description:
+    "Yield farming program distributing additional token rewards to liquidity providers who stake their vault shares.",
 };
 
 export const vaultLeverageService: ServiceRaw = {
@@ -118,6 +135,8 @@ export const vaultLeverageService: ServiceRaw = {
   name: "Leverage",
   platformId: platform.id,
   contractsRaw: [leverageOnVaultContract],
+  description:
+    "Leverage service enabling users to amplify their exposure to liquidity vault positions through flash loan-powered loops.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -125,6 +144,8 @@ export const airdropService: ServiceRaw = {
   name: "Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract],
+  description:
+    "KMNO token distribution program for early adopters and active protocol users.",
 };
 
 export const services: ServiceRaw[] = [

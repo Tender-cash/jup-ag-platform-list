@@ -73,6 +73,8 @@ export const escrowService: ServiceRaw = {
   name: "MarketPlace V2",
   platformId: platform.id,
   contractsRaw: [escrowContract],
+  description:
+    "NFT marketplace escrow system managing secure token transfers between buyers and sellers.",
 };
 
 export const stakingService: ServiceRaw = {
@@ -80,6 +82,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "Token staking program allowing ME holders to lock tokens for governance voting power and earn protocol rewards.",
 };
 
 export const auctionV1Service: ServiceRaw = {
@@ -101,6 +105,8 @@ export const cnftService: ServiceRaw = {
   name: "cNFT",
   platformId: platform.id,
   contractsRaw: [cnftContract],
+  description:
+    "Compressed NFT trading infrastructure enabling low-cost transactions for large-scale NFT collections using state compression technology.",
 };
 
 export const launchpadService: ServiceRaw = {
@@ -108,6 +114,9 @@ export const launchpadService: ServiceRaw = {
   name: "Launchpad",
   platformId: platform.id,
   contractsRaw: [candyMachineContract],
+  link: "https://magiceden.io/launchpad",
+  description:
+    "NFT launch platform powered by Candy Machine, enabling creators to mint and distribute new NFT collections with customizable parameters.",
 };
 
 export const ammService: ServiceRaw = {
@@ -115,6 +124,8 @@ export const ammService: ServiceRaw = {
   name: "AMM",
   platformId: platform.id,
   contractsRaw: [ammContract],
+  description:
+    "NFT AMM pools enabling instant liquidity for collections, allowing users to buy and sell NFTs against bonding curve-based pools.",
 };
 
 export const airdropService: ServiceRaw = {
@@ -122,6 +133,8 @@ export const airdropService: ServiceRaw = {
   name: "Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract, distributionContract],
+  description:
+    "ME token distribution program for marketplace users and NFT traders.",
 };
 
 export const services: ServiceRaw[] = [

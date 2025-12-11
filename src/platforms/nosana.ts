@@ -25,6 +25,9 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://app.nosana.io/stake",
+  description:
+    "NOS token staking program allowing users to lock tokens and earn rewards while supporting the decentralized GPU compute network.",
 };
 
 export const services: ServiceRaw[] = [stakingService];

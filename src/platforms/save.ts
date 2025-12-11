@@ -42,6 +42,9 @@ export const lendingService: ServiceRaw = {
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [saveContract],
+  link: "https://save.finance/",
+  description:
+    "Decentralized lending and borrowing protocol with isolated pools, enabling users to supply assets for yield and borrow against collateral.",
 };
 
 export const migrationService: ServiceRaw = {
@@ -49,6 +52,8 @@ export const migrationService: ServiceRaw = {
   name: "Migration",
   platformId: platform.id,
   contractsRaw: [migrationContract],
+  description:
+    "Token migration service for converting legacy SLND tokens to the new SAVE token standard.",
 };
 
 export const rewardService: ServiceRaw = {
@@ -56,6 +61,8 @@ export const rewardService: ServiceRaw = {
   name: "Reward",
   platformId: platform.id,
   contractsRaw: [rewardContract],
+  description:
+    "Rewards distribution program for users who participate in lending pools and liquidity mining campaigns.",
 };
 
 export const services: ServiceRaw[] = [

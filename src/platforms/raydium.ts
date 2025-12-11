@@ -120,6 +120,9 @@ export const ammRootingService: ServiceRaw = {
   name: "Swap",
   platformId: platform.id,
   contractsRaw: [ammRootingContract],
+  link: "https://raydium.io/swap/",
+  description:
+    "Token swap router that finds optimal routes across all AMM pools to execute trades with minimal slippage.",
 };
 
 export const clmmService: ServiceRaw = {
@@ -127,6 +130,9 @@ export const clmmService: ServiceRaw = {
   name: "CLMM",
   platformId: platform.id,
   contractsRaw: [clmmContract],
+  link: "https://raydium.io/clmm/pools/",
+  description:
+    "Concentrated Liquidity Market Maker pools allowing LPs to provide liquidity within custom price ranges for higher capital efficiency and increased fee earnings.",
 };
 
 export const cpmmService: ServiceRaw = {
@@ -134,6 +140,9 @@ export const cpmmService: ServiceRaw = {
   name: "CPMM",
   platformId: platform.id,
   contractsRaw: [cpmmContract],
+  link: "https://raydium.io/liquidity/pools/",
+  description:
+    "Constant Product Market Maker pools using the x*y=k formula for permissionless liquidity provision across the full price range.",
 };
 
 export const farmV3Service: ServiceRaw = {
@@ -141,6 +150,8 @@ export const farmV3Service: ServiceRaw = {
   name: "Stake",
   platformId: platform.id,
   contractsRaw: [farmV3Contract],
+  description:
+    "RAY token staking for earning protocol rewards and governance participation.",
 };
 
 export const farmV4Service: ServiceRaw = {
@@ -197,6 +208,9 @@ export const launchpadService: ServiceRaw = {
   name: "Launchpad",
   platformId: platform.id,
   contractsRaw: [launchpadContract],
+  link: "https://raydium.io/launchpad/",
+  description:
+    "Token launch platform enabling new projects to bootstrap liquidity and distribute tokens through fair launch mechanics.",
 };
 
 export const services: ServiceRaw[] = [

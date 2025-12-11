@@ -70,6 +70,8 @@ export const stakingService: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [stakingContract],
+  description:
+    "W token staking program allowing holders to lock tokens for governance participation and earn staking rewards.",
 };
 
 export const tbtcBridgeService: ServiceRaw = {
@@ -77,6 +79,8 @@ export const tbtcBridgeService: ServiceRaw = {
   name: "tBTC Bridge",
   platformId: platform.id,
   contractsRaw: [tbtcBridgeContract],
+  description:
+    "Specialized bridge for transferring tBTC (threshold Bitcoin) between Ethereum and other supported chains.",
 };
 
 export const coreService: ServiceRaw = {
@@ -84,6 +88,8 @@ export const coreService: ServiceRaw = {
   name: "Core",
   platformId: platform.id,
   contractsRaw: [coreContract, mainContract],
+  description:
+    "Core messaging layer enabling cross-chain communication by verifying and relaying messages between connected blockchains.",
 };
 
 export const tokenBridgeService: ServiceRaw = {
@@ -91,6 +97,9 @@ export const tokenBridgeService: ServiceRaw = {
   name: "Token Bridge",
   platformId: platform.id,
   contractsRaw: [tokenBridgeContract, tokenBridgeRelayerContract],
+  link: "https://w.wormhole.com/",
+  description:
+    "Token transfer bridge enabling assets to move between 30+ blockchain networks through lock-and-mint or burn-and-unlock mechanisms.",
 };
 
 export const services: ServiceRaw[] = [

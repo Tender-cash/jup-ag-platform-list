@@ -24,6 +24,9 @@ export const service: ServiceRaw = {
   name: "Core",
   platformId: platform.id,
   contractsRaw: [mainContract],
+  link: "https://www.underdogprotocol.com/",
+  description:
+    "NFT infrastructure API for minting, managing, and distributing compressed NFTs at scale for loyalty programs, ticketing, and identity management.",
 };
 
 export const metadataService: ServiceRaw = {
@@ -31,6 +34,8 @@ export const metadataService: ServiceRaw = {
   name: "Metadata",
   platformId: platform.id,
   contractsRaw: [],
+  description:
+    "Dynamic NFT metadata management enabling real-time updates to NFT attributes and properties without reminting.",
 };
 
 export const services: ServiceRaw[] = [service, metadataService];

@@ -200,6 +200,8 @@ export const apeService: ServiceRaw = {
   name: "Ape",
   platformId: platform.id,
   contractsRaw: [apeContract],
+  description:
+    "Quick-buy feature for rapid token purchases with simplified one-click trading flow.",
 };
 
 export const jupiterZService: ServiceRaw = {
@@ -233,6 +235,8 @@ export const limitService: ServiceRaw = {
   name: "Limit",
   platformId: platform.id,
   contractsRaw: [jupiterLimitContract],
+  description:
+    "Limit order execution engine filling orders when market prices match specified targets.",
 };
 
 export const dcaService: ServiceRaw = {
@@ -257,6 +261,8 @@ export const dcaVaService: ServiceRaw = {
   name: "DCA VA",
   platformId: platform.id,
   contractsRaw: [jupiterDcaVaContract],
+  description:
+    "Value Averaging DCA adjusting purchase amounts based on portfolio performance targets.",
 };
 
 export const lockService: ServiceRaw = {
@@ -284,6 +290,8 @@ export const airdropService: ServiceRaw = {
   name: "Airdrop",
   platformId: platform.id,
   contractsRaw: [airdropContract],
+  description:
+    "JUP token distribution program for platform users and liquidity providers.",
 };
 
 export const inviteService: ServiceRaw = {
@@ -291,6 +299,8 @@ export const inviteService: ServiceRaw = {
   name: "Invite",
   platformId: platform.id,
   contractsRaw: [inviteContract],
+  description:
+    "Referral program tracking invitations and rewarding users for onboarding new traders.",
 };
 
 export const lendService: ServiceRaw = {

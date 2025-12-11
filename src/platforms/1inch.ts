@@ -37,6 +37,8 @@ const whitelistService: ServiceRaw = {
   name: "Whitelist Service",
   platformId: platform.id,
   contractsRaw: [whitelistContract],
+  description:
+    "Resolver validation service managing approved addresses for cross-chain transaction execution.",
 };
 
 export const crossCHainService: ServiceRaw = {
@@ -44,6 +46,8 @@ export const crossCHainService: ServiceRaw = {
   name: "Cross-Chain Escrow",
   platformId: platform.id,
   contractsRaw: [sourceContract, destinationContract],
+  description:
+    "Cross-chain swap escrow handling atomic token exchanges between networks with source and destination contracts.",
 };
 
 export const services: ServiceRaw[] = [whitelistService, crossCHainService];

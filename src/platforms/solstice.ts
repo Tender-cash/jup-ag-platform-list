@@ -37,6 +37,9 @@ export const yieldVaultService: ServiceRaw = {
   name: "Yield Vault",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://solstice.finance/yieldvault",
+  description:
+    "Institutional-grade delta-neutral trading strategy vault offering stable yields with zero negative months track record since inception.",
 };
 
 export const usxJustEarnService: ServiceRaw = {
@@ -44,13 +47,18 @@ export const usxJustEarnService: ServiceRaw = {
   name: "USX Just Earn",
   platformId: platform.id,
   contractsRaw: [usxJustEarnContract],
+  description:
+    "Passive yield program for USX holders providing eUSX receipt tokens representing shares in the YieldVault's underlying assets.",
 };
 
 export const usxService: ServiceRaw = {
   id: `${platform.id}-usx`,
-  name: "Lock",
+  name: "USX",
   platformId: platform.id,
   contractsRaw: [usxContract],
+  link: "https://solstice.finance/usx",
+  description:
+    "Fully collateralized synthetic stablecoin pegged to USD, backed 1:1 by USDC and USDT with real-time Chainlink Proof of Reserves.",
 };
 
 export const services: ServiceRaw[] = [

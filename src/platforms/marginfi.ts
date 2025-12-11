@@ -27,6 +27,9 @@ export const service: ServiceRaw = {
   name: "Lending",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://app.marginfi.com/",
+  description:
+    "Overcollateralized lending and borrowing protocol with isolated risk pools, enabling users to supply assets to earn yield and borrow against their collateral.",
 };
 
 export const services: ServiceRaw[] = [service];

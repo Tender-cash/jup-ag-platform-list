@@ -31,6 +31,9 @@ export const service: ServiceRaw = {
   name: "Staking",
   platformId: platform.id,
   contractsRaw: [contract],
+  link: "https://www.grass.io/stake",
+  description:
+    "Token staking to Routers facilitating web traffic for AI data collection, earning rewards while contributing to network security.",
 };
 
 export const airdropService: ServiceRaw = {
