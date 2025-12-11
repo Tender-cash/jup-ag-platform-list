@@ -134,6 +134,12 @@ export const lendContract = {
   networkId: NetworkId.solana,
 };
 
+export const rewardsHubContract = {
+  name: "Rewards Hub",
+  address: "GenieRGuCtgfDGThwjp2GLreQMFtJoG1fqFE8MF1gAzG",
+  networkId: NetworkId.solana,
+};
+
 export const swapV7Service: ServiceRaw = {
   id: `${platform.id}-swap-v7`,
   name: "Swap v7",
@@ -303,6 +309,13 @@ export const lendService: ServiceRaw = {
     "The lend service allows users to lend their cryptocurrencies to earn interest, providing a way to generate passive income from idle assets. This service facilitates liquidity provision and supports the broader DeFi ecosystem.",
 };
 
+export const rewardsHubService: ServiceRaw = {
+  id: `${platform.id}-rewards-hub`,
+  name: "Rewards Hub",
+  platformId: platform.id,
+  contractsRaw: [rewardsHubContract],
+};
+
 export const services: ServiceRaw[] = [
   swapV7Service,
   swapV6Service,
@@ -325,4 +338,5 @@ export const services: ServiceRaw[] = [
   airdropService,
   inviteService,
   lendService,
+  rewardsHubService,
 ];
