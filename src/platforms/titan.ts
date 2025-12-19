@@ -26,4 +26,11 @@ export const service: ServiceRaw = {
   contractsRaw: [contract],
 };
 
-export const services: ServiceRaw[] = [service];
+export const forgeService: ServiceRaw = {
+  id: `${platform.id}-forge`,
+  name: "Forge",
+  platformId: platform.id,
+  contractsRaw: [],
+};
+
+export const services: ServiceRaw[] = [service, forgeService];
