@@ -136,6 +136,7 @@ import * as lodesupply from "./lodesupply";
 import * as lombard from "./lombard";
 import * as loopscale from "./loopscale";
 import * as m1capital from "./m1capital";
+import * as macaron from "./macaron";
 import * as madbears from "./madbears";
 import * as madlads from "./madlads";
 import * as maestro from "./maestro";
@@ -404,6 +405,7 @@ export const platforms: PlatformRaw[] = [
   lombard.platform,
   loopscale.platform,
   m1capital.platform,
+  macaron.platform,
   madbears.platform,
   madlads.platform,
   maestro.platform,
@@ -673,6 +675,7 @@ export const services: ServiceRaw[] = [
   ...lombard.services,
   ...loopscale.services,
   ...m1capital.services,
+  ...macaron.services,
   ...madbears.services,
   ...madlads.services,
   ...maestro.services,
