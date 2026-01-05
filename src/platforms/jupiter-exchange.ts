@@ -141,6 +141,12 @@ export const rewardsHubContract = {
   networkId: NetworkId.solana,
 };
 
+const deltaNeutralVaultContract = {
+  name: "Delta Neutral Vault",
+  address: "BUNDeH5A4c47bcEoAjBhN3sCjLgYnRsmt9ibMztqVkC9",
+  networkId: NetworkId.solana,
+};
+
 export const swapV7Service: ServiceRaw = {
   id: `${platform.id}-swap-v7`,
   name: "Swap v7",
@@ -342,6 +348,15 @@ export const rewardsHubService: ServiceRaw = {
   contractsRaw: [rewardsHubContract],
 };
 
+const deltaNeutralVaultService: ServiceRaw = {
+  id: `${platform.id}-delta-neutral-vault`,
+  name: "Delta Neutral Vault",
+  platformId: platform.id,
+  contractsRaw: [deltaNeutralVaultContract],
+  description:
+    "Delta Neutral Vaults providing hedged investment strategies to minimize market risk.",
+};
+
 export const services: ServiceRaw[] = [
   swapV7Service,
   swapV6Service,
@@ -367,4 +382,5 @@ export const services: ServiceRaw[] = [
   inviteService,
   lendService,
   rewardsHubService,
+  deltaNeutralVaultService,
 ];
