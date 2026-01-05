@@ -16,6 +16,7 @@ export const platform: PlatformRaw = {
   tokens: [
     "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
     "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+    "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD",
   ],
   tags: ["dapp"],
 };
