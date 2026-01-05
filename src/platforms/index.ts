@@ -96,6 +96,7 @@ import * as grass from "./grass";
 import * as growcorp from "./growcorp";
 import * as guano from "./guano";
 import * as hadeswap from "./hadeswap";
+import * as halo from "./halo";
 import * as hastra from "./hastra";
 import * as haven from "./haven";
 import * as hawksight from "./hawksight";
@@ -366,6 +367,7 @@ export const platforms: PlatformRaw[] = [
   growcorp.platform,
   guano.platform,
   hadeswap.platform,
+  halo.platform,
   hastra.platform,
   haven.platform,
   hawksight.platform,
@@ -637,6 +639,7 @@ export const services: ServiceRaw[] = [
   ...growcorp.services,
   ...guano.services,
   ...hadeswap.services,
+  ...halo.services,
   ...hastra.services,
   ...haven.services,
   ...hawksight.services,
