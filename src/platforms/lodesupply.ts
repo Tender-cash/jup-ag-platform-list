@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://ore.supply/",
   },
-  isDeprecated: true
+  isDeprecated: true,
 };
 
 const v3Contract: ContractRaw = {
