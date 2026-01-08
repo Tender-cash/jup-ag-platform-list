@@ -14,16 +14,19 @@ const platforms: Platform[] = platformsRaw.map(
 );
 
 const services: Service[] = servicesRaw.map(
-  (s): Service => ({
-    ...s,
-    contracts: s.contractsRaw.map((c) => ({
-      ...c,
-      id: `${c.networkId}-${c.address}`,
-      platformId: s.platformId,
-      serviceId: s.id,
-      networkId: c.networkId,
-    })),
-  }),
+  (s): Service => {
+    const { contractsRaw, ...rest } = s;
+    return {
+      ...rest,
+      contracts: contractsRaw.map((c) => ({
+        ...c,
+        id: `${c.networkId}-${c.address}`,
+        platformId: s.platformId,
+        serviceId: s.id,
+        networkId: c.networkId,
+      })),
+    };
+  },
 );
 
 const contracts: Contract[] = services
