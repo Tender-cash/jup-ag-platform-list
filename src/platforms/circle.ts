@@ -11,8 +11,11 @@ export const platform: PlatformRaw = {
     github: "https://github.com/circlefin",
     documentation: "https://www.circle.com/resources",
   },
-  tags: ["stablecoin", "bridge", "dapp"],
-  tokens: ["EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],
+  tags: ["stablecoin", "bridge", "dapp", "institutional"],
+  tokens: [
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr",
+  ],
 };
 
 const minterContract = {

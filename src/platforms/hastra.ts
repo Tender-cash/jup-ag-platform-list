@@ -4,12 +4,13 @@ export const platform: PlatformRaw = {
   name: "Hastra",
   description:
     "Hastra is a DeFi protocol offering vault-based staking and minting services.",
-  tags: ["dapp"],
+  tags: ["dapp", "institutional", "defi"],
   links: {
     website: "https://www.hastra.io/",
     twitter: "https://x.com/HastraFi",
   },
   addedAt: 1764936000000,
+  tokens: ["3b8X44fLF9ooXaUm3hhSgjpmVs6rZZ3pPoGnGahc3Uu7"],
 };
 
 const mintContract = {

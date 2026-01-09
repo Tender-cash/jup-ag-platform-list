@@ -11,7 +11,10 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/ondofinance",
     documentation: "https://docs.ondo.finance/",
   },
-  tokens: ["A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6"],
+  tokens: [
+    "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
+    "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc",
+  ],
   tags: ["dapp", "rwa", "institutional", "rwa"],
 };
 export const services: ServiceRaw[] = [];
