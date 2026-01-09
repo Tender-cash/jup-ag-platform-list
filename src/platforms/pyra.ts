@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "pyra",
   name: "Pyra",
   description: "Credit card and DeFi protocol",
-  tags: ["dapp"],
+  tags: ["dapp", "defi", "payments", "lending"],
   links: {
     website: "https://www.pyra.fi/",
     discord: "https://discord.gg/GetPyra",

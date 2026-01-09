@@ -13,6 +13,6 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.stakewise.io/",
   },
   tokens: ["LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X"],
-  tags: ["tool"],
+  tags: ["tool", "lst", "dapp"],
 };
 export const services: ServiceRaw[] = [];

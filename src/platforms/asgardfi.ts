@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Asgard Finance is a leverage yield aggregation platform offering Credit Backed Positions (CBP) for capital-efficient DeFi strategies.",
   defiLlamaId: "asgard-finance",
-  tags: ["dapp"],
+  tags: ["dapp", "defi", "vault"],
   links: {
     website: "https://asgardfi.com/",
     twitter: "https://x.com/asgardfi",

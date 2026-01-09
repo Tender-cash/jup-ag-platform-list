@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/gopartyparrot",
     github: "https://github.com/gopartyparrot",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "vault", "defi"],
   isDeprecated: true,
 };
 

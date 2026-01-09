@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Saber",
   defiLlamaId: "saber",
   isDeprecated: true,
-  tags: ["dapp"],
+  tags: ["dapp", "dex", "amm"],
   links: {
     website: "https://saberdao.io/",
     twitter: "https://x.com/thesaberdao",

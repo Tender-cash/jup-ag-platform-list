@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://x.com/Aldrin_Exchange",
     twitter: "https://x.com/Aldrin_Exchange",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "dex", "amm"],
   isDeprecated: true,
 };
 

@@ -3,17 +3,17 @@ export const platform: PlatformRaw = {
   id: "whalesmarket",
   name: "Whales Market",
   description:
-    "Trade like a pro with advanced tools and features at your fingertips",
+    "Whales Market is a decentralized OTC trading platform for pre-TGE tokens and allocations, offering trustless P2P trading with smart contract-secured settlements, collateral locks, and on-chain transparency across multiple blockchain ecosystems.",
   defiLlamaId: "whales-market",
   links: {
     website: "https://app.whales.market/",
     discord: "https://discord.com/invite/whalesmarket",
-    twitter: "https://twitter.com/WhalesMarket",
+    twitter: "https://x.com/WhalesMarket",
     github: "https://github.com/Whales-Market/",
     documentation: "https://docs.whales.market/",
   },
   tokens: ["GTH3wG3NErjwcf7VGCoXEXkgXSHvYhx5gtATeeM5JAS1"],
-  tags: ["dapp"],
+  tags: ["dapp", "prediction", "trading"],
 };
 
 const contract = {

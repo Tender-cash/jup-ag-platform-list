@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://jetprotocol.substack.com/",
     twitter: "https://x.com/jetprotocol",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "defi"],
   isDeprecated: true,
 };
 

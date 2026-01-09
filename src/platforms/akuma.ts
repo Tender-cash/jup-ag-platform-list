@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Akuma",
   description:
     "Akuma is an NFT collection blending Japanese folklore and technology, featuring staking rewards and play-to-earn gaming mechanics.",
-  tags: ["nft-collection"],
+  tags: ["nft-collection", "gaming"],
   links: {
     website: "https://staking.theakuma.xyz",
     twitter: "https://x.com/TheAkumaXYZ",

@@ -49,7 +49,15 @@ export type PlatformTag =
   | "prediction"
   | "trading"
   | "infrastructure"
-  | "amm";
+  | "amm"
+  | "vault"
+  | "defi"
+  | "ai"
+  | "restaking"
+  | "options"
+  | "payments"
+  | "oracle"
+  | "nft";
 
 type Optional<T, K extends keyof T> = Pick<Partial<T>, K> & Omit<T, K>;
 

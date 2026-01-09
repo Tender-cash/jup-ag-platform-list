@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/MeteoraAg",
     documentation: "https://docs.meteora.ag/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "dex", "amm", "vault", "launchpad"],
   tokens: [
     "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
     "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K",

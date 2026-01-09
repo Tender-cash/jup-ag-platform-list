@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/tradewithPhoton",
     telegram: "https://t.me/photonlounge",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "trading", "dex", "tool"],
 };
 const mainContract: ContractRaw = {
   name: "Swap",

@@ -3,13 +3,14 @@ export const platform: PlatformRaw = {
   id: "pumpkin",
   name: "Pumpkin",
   description: "Token Launch Hub",
-  tags: ["dapp"],
+  tags: ["dapp", "launchpad", "trading", "defi"],
   links: {
-    website: "https://app.pumpkin.fun/",
+    website: "https://pumpkin.fun/",
     telegram: "https://t.me/pumpkindotfun",
     documentation: "https://pumpkindotfun.gitbook.io/",
     twitter: "https://x.com/pumpkindotfun",
   },
+  tokens: ["2RBko3xoz56aH69isQMUpzZd9NYHahhwC23A5F3Spkin"],
 };
 
 const contract = {

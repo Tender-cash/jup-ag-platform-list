@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Adrastea is a composable leverage protocol that facilitates isolated boosting, with a primary mission to simplify the process and amplify the yield.",
   defiLlamaId: "adrastea",
-  tags: ["dapp"],
+  tags: ["dapp", "defi", "lending", "vault"],
   links: {
     website: "https://app.adrastea.fi/",
     discord: "https://discord.gg/adrasteafinance",
@@ -13,6 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/adrasteafinance",
     documentation: "https://docs.adrastea.fi/",
   },
+  isDeprecated: true,
 };
 
 export const services: ServiceRaw[] = [];

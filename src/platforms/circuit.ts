@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/circuittrade",
     documentation: "https://docs.circuit.trade/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "vault", "trading"],
 };
 
 export const services: ServiceRaw[] = [];

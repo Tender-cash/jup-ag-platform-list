@@ -10,7 +10,8 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/maplefinance",
     discord: "https://discord.gg/maple",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "institutional"],
+  tokens: ["AvZZF1YaZDziPY2RCK4oJrRVrbN3mTD9NL24hPeaZeUj"],
 };
 
 const contract = {

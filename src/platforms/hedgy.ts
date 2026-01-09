@@ -9,7 +9,8 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/HedgyMarket",
     documentation: "https://docs.hedgy.market/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "defi", "vault"],
+  isDeprecated: true,
 };
 
 export const services: ServiceRaw[] = [];

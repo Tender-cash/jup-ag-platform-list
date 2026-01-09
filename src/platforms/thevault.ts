@@ -6,12 +6,12 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://thevault.finance/",
     discord: "https://discord.gg/aQC53CGgQY",
-    twitter: "https://twitter.com/thevaultfinance",
+    twitter: "https://x.com/thevaultfinance",
     github: "https://github.com/SolanaVault",
     documentation: "https://docs.thevault.finance/",
   },
   tokens: ["vSoLxydx6akxyMD9XEcPvGYNGq6Nn66oqVb3UkGkei7"],
-  tags: ["dapp"],
+  tags: ["dapp", "lst"],
 };
 const unstakePoolContract: ContractRaw = {
   name: "Unstake Pool",

@@ -10,6 +10,7 @@ export const platform: PlatformRaw = {
     twitter: "https://twitter.com/moose_market",
     documentation: "https://docs.moose.market/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "vault", "defi"],
+  isDeprecated: true,
 };
 export const services: ServiceRaw[] = [];

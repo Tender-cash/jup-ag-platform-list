@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/exponent-finance",
     documentation: "https://docs.exponent.finance/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "defi", "vault"],
 };
 
 const contract = {

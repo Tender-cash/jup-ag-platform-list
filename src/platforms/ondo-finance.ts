@@ -12,6 +12,6 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.ondo.finance/",
   },
   tokens: ["A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6"],
-  tags: ["dapp"],
+  tags: ["dapp", "rwa", "institutional", "rwa"],
 };
 export const services: ServiceRaw[] = [];

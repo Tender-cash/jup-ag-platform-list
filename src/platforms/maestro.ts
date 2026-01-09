@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/MaestroBots",
     documentation: "https://docs.maestrobots.com/",
   },
-  tags: ["tool"],
+  tags: ["tool", "trading"],
 };
 
 const contract = {

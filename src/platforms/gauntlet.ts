@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     twitter: "https://twitter.com/gauntlet_xyz",
     github: "https://github.com/gauntlet-networks",
   },
-  tags: ["tool"],
+  tags: ["tool", "defi", "vault"],
 };
 
 export const services: ServiceRaw[] = [];

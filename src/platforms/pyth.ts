@@ -8,12 +8,12 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://pyth.network/",
     discord: "https://discord.com/invite/pythnetwork",
-    twitter: "https://twitter.com/PythNetwork",
+    twitter: "https://x.com/PythNetwork",
     github: "https://github.com/pyth-network",
     documentation: "https://docs.pyth.network/home",
   },
   tokens: ["HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3"],
-  tags: ["tool", "dapp"],
+  tags: ["tool", "dapp", "infrastructure", "oracle", "defi"],
 };
 
 const contract = {

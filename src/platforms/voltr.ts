@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/voltrxyz",
     documentation: "https://docs.voltr.xyz/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "vault", "defi"],
 };
 
 const mainContract = {

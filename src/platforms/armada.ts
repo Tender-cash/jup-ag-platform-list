@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Armada is a no-code token staking and liquidity management platform offering professionally managed, non-custodial strategies.",
   defiLlamaId: "armada-staking",
-  tags: ["dapp"],
+  tags: ["dapp", "liquidity-provider", "amm"],
   isDeprecated: true,
   links: {
     website: "https://armada-alliance.com/",

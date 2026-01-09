@@ -17,7 +17,8 @@ export const platform: PlatformRaw = {
     "LFNTYraetVioAPnGJht4yNg2aUZFXR776cMeN9VMjXp",
     "xLfNTYy76B8Tiix3hA51Jyvc1kMSFV4sPdR7szTZsRu",
   ],
-  tags: ["dapp"],
+  tags: ["dapp", "dex", "amm", "defi"],
+  isDeprecated: true,
 };
 
 const contract = {

@@ -5,13 +5,13 @@ export const platform: PlatformRaw = {
   description:
     "Loopscale is an order-book based lending protocol that matches lenders and borrowers directly for customizable loan terms on any asset.",
   links: {
-    website: "https://app.loopscale.com/",
+    website: "https://loopscale.com/",
     discord: "https://discord.gg/loopscale",
     twitter: "https://x.com/Loopscale",
     github: "https://github.com/bridgesplit",
     documentation: "https://docs.loopscale.com/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "defi"],
 };
 
 const contract = {

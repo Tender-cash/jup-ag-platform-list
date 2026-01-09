@@ -17,7 +17,7 @@ export const platform: PlatformRaw = {
     "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
     "xorcaYqbXUNz3474ubUMJAdu2xgPsew3rUCe5ughT3N",
   ],
-  tags: ["dapp"],
+  tags: ["dapp", "dex", "amm", "defi"],
 };
 const pools: ContractRaw = {
   name: `Orca Pools`,

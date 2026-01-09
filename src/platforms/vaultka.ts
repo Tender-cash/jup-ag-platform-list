@@ -11,7 +11,8 @@ export const platform: PlatformRaw = {
     medium: "https://medium.com/@Vaultka",
     documentation: "https://docs.vaultka.com/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "vault"],
+  isDeprecated: true,
 };
 
 const lendingV1Contracts: ContractRaw[] = [

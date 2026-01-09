@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Grow Corp",
   description:
     "GROW CORP is a PvP farming game on Solana where players compete for 8 crop slots. Plant crops, earn $GROW tokens, and defend your harvest from other farmers.",
-  tags: ["tool"],
+  tags: ["tool", "gaming"],
   links: {
     website: "https://growcorp.org/",
     twitter: "https://x.com/growingcorp",

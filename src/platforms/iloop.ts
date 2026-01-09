@@ -6,13 +6,13 @@ export const platform: PlatformRaw = {
     "ILoop is an AI-optimized vault platform for automated LST and DeFi yield strategies.",
   defiLlamaId: "iloop",
   links: {
-    website: "https://app.iloop.finance/",
+    website: "https://iloop.finance/",
     discord: "https://discord.com/invite/ffDUZZ4kuu",
     telegram: "https://t.me/iloophq",
     twitter: "https://twitter.com/iLoop_HQ",
     documentation: "https://iloop-1.gitbook.io/docs.iloop.finance",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "vault", "defi", "ai", "lst"],
 };
 
 const contract = {

@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Bulk Trade",
   description:
     "Bulk Trade is a perpetual futures DEX targeting sub-20ms latency and validator-integrated order matching.",
-  tags: ["dapp"],
+  tags: ["dapp", "dex", "trading"],
   links: {
     website: "https://www.bulk.trade/",
     discord: "https://discord.gg/bulk",

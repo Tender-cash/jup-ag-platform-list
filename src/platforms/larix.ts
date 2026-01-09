@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     twitter: "http://x.com/ProjectLarix",
     github: "https://github.com/ProjectLarix",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "defi"],
   isDeprecated: true,
 };
 

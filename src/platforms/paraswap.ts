@@ -12,6 +12,6 @@ export const platform: PlatformRaw = {
     github: "https://github.com/paraswap",
     documentation: "https://developers.paraswap.network/",
   },
-  tags: ["tool"],
+  tags: ["tool", "dex", "dapp", "defi", "bridge"],
 };
 export const services: ServiceRaw[] = [];

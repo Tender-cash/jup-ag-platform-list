@@ -8,7 +8,8 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/reflectmoney",
     documentation: "https://docs.reflect.money/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "stablecoin", "defi"],
+  tokens: ["usd63SVWcKqLeyNHpmVhZGYAqfE5RHE8jwqjRA2ida2"],
 };
 
 const contract = {

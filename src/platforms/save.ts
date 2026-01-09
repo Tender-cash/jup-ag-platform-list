@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Save (formerly Solend) is a decentralized lending and borrowing protocol with isolated pools and permissionless market creation.",
   defiLlamaId: "save",
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "defi", "lst"],
   links: {
     website: "https://save.finance/",
     discord: "https://discord.com/invite/J7m48UUPkJ",
@@ -16,6 +16,7 @@ export const platform: PlatformRaw = {
   tokens: [
     "SLNDpmoWTVADgEdndyvWzroNL7zSi1dF9PC3xHGtPwp",
     "SAVEaeeqeXNKYb4Lyx28DkUms5gyZ76vGa6fCfdzWfK",
+    "SAVEDpx3nFNdzG3ymJfShYnrBuYy7LtQEABZQ3qtTFt",
   ],
 };
 

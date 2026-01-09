@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Picasso",
   description:
     "Picasso was a cross-chain protocol enabling IBC bridging and multi-asset restaking between Solana and Cosmos ecosystems.",
-  tags: ["dapp", "lst"],
+  tags: ["dapp", "lst", "bridge"],
   links: {
     website: "https://www.picasso.network/",
     discord: "https://discord.com/invite/composable",

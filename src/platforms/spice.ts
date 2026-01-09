@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://staking.spicecoin.com/",
     twitter: "https://x.com/spiceonsol",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "gaming"],
 };
 
 const stakingContract = {

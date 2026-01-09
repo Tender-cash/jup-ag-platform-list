@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     website: "https://x.com/PsyOptions",
     twitter: "https://x.com/PsyOptions",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "defi", "options"],
   isDeprecated: true,
 };
 

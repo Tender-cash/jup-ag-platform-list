@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     medium: "https://switchboardxyz.medium.com/",
     documentation: "https://docs.switchboard.xyz/",
   },
-  tags: ["tool"],
+  tags: ["tool", "infrastructure", "oracle"],
   tokens: ["SW1TCHLmRGTfW5xZknqQdpdarB8PD95sJYWpNp9TbFx"],
 };
 

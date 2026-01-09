@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Banx is a DeFi lending protocol for borrowing and lending against tokens and NFTs with no expiration and no price-based liquidation.",
   defiLlamaId: "banx",
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "defi"],
   links: {
     website: "https://banx.gg/",
     discord: "https://discord.com/invite/banxfromfrakt",

@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://katana.so/",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "vault", "defi"],
   isDeprecated: true,
 };
 

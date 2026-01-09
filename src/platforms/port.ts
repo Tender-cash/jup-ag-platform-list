@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Port",
   defiLlamaId: "port-finance",
   isDeprecated: true,
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "defi"],
   links: {
     website: "https://mainnet.port.finance/lending",
     github: "https://github.com/port-finance",

@@ -10,7 +10,8 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/lincefinance",
     telegram: "https://t.me/LinceFinance",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "lending", "vault", "defi"],
+  addedAt: 1757419200000,
 };
 
 const contract: ContractRaw = {

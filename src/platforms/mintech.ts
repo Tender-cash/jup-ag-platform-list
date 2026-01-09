@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "mintech",
   name: "Mintech",
   description:
-    "Mintech is a Telegram trading bot for Solana offering automated token sniping and trading features.",
+    "Mintech is a trading bot offering automated NFT sniping and trading features.",
   links: {
     website: "https://www.mintechbots.com/",
     discord: "https://discord.gg/mintech",
@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     documentation:
       "https://mintechbots.gitbook.io/mintech-guide/getting-started/welcome",
   },
-  tags: ["tool"],
+  tags: ["tool", "trading"],
 };
 
 const contract = {
