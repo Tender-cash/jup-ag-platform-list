@@ -39,6 +39,12 @@ const ammContract = {
   networkId: NetworkId.solana,
 };
 
+const ICOContract = {
+  name: "ICO",
+  address: "moontUzsdepotRGe5xsfip7vLPTJnVuafqdUWexVnPM",
+  networkId: NetworkId.solana,
+};
+
 export const launchpadService: ServiceRaw = {
   id: "futarchy-launchpad",
   name: "Launchpad",
@@ -59,4 +65,13 @@ export const decisionMarketService: ServiceRaw = {
     "Prediction market governance system where proposals pass or fail based on their predicted impact on token price via conditional markets.",
 };
 
-export const services: ServiceRaw[] = [launchpadService, decisionMarketService];
+export const ICOService: ServiceRaw = {
+  id: "futarchy-ico",
+  name: "ICO",
+  platformId: platform.id,
+  contractsRaw: [ICOContract],
+  link: "https://metadao.fi/",
+  description: "Raise money while putting ownership into the hands of your early users and believers.d"
+};
+
+export const services: ServiceRaw[] = [launchpadService, decisionMarketService, ICOService];
