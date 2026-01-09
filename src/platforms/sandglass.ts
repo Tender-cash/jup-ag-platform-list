@@ -2,7 +2,8 @@ import { PlatformRaw, ServiceRaw, NetworkId } from "../types";
 export const platform: PlatformRaw = {
   id: "sandglass",
   name: "Sandglass",
-  description: "A yield trading protocol on Solana that enables users to trade future yields",
+  description:
+    "A yield trading protocol on Solana that enables users to trade future yields",
   links: {
     website: "https://sandglass.so/",
     discord: "https://discord.gg/jSNe84QZ67",
