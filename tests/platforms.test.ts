@@ -62,4 +62,22 @@ describe("Platforms", () => {
       throw new Error(`Extra images in the img folder: ${extraImages}`);
     }
   });
+
+  // test that platformToken is not in tokens array and vice versa
+  it("should not have platformToken duplicated in tokens array", () => {
+    const platformsWithDuplicates = platforms
+      .filter((platform) => {
+        if (!platform.platformToken || !platform.tokens) {
+          return false;
+        }
+        return platform.tokens.includes(platform.platformToken);
+      })
+      .map((platform) => platform.id);
+
+    if (platformsWithDuplicates.length > 0) {
+      throw new Error(
+        `Platforms have platformToken duplicated in tokens array: ${platformsWithDuplicates.join(", ")}`,
+      );
+    }
+  });
 });
