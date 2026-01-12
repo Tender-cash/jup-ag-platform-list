@@ -10,7 +10,6 @@ export const platform: PlatformRaw = {
   },
   description:
     "Believe is a memecoin launchpad that allows users to create tokens via Twitter/X replies, with tokens graduating to Meteora after reaching $100k market cap.",
-  tokens: ["2FKuBk6wdXTkrRSveokJCBm37wMCfvG19bTBkP1yCpSL"],
 };
 
 export const launchService: ServiceRaw = {

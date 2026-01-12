@@ -12,6 +12,7 @@ export const platform: PlatformRaw = {
     documentation: "https://moonwalk.fit/faq",
   },
   tags: ["fitness", "dapp"],
+  platformToken: "moonThZEkkTVoNB7v6YVCQiT56JYDZ1oN185ba3WizL",
 };
 
 export const mainContract: ContractRaw = {

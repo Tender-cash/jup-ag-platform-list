@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/layer3xyz",
     documentation: "https://docs.layer3.xyz/",
   },
-  tokens: ["5k84VjAKoGPXa7ias1BNgKUrX7e61eMPWhZDqsiD4Bpe"],
+  platformToken: "5k84VjAKoGPXa7ias1BNgKUrX7e61eMPWhZDqsiD4Bpe",
   tags: ["tool", "dapp"],
 };
 

@@ -8,10 +8,8 @@ export const platform: PlatformRaw = {
   },
   tags: ["dapp"],
   isDeprecated: true,
-  tokens: [
-    "USDrbBQwQbQ2oWHUPfA8QBHcyVxKUq1xHyXsSLKdUq2",
-    "ratioMVg27rSZbSvBopUvsdrGUzeALUfFma61mpxc8J",
-  ],
+  platformToken: "ratioMVg27rSZbSvBopUvsdrGUzeALUfFma61mpxc8J",
+  tokens: ["USDrbBQwQbQ2oWHUPfA8QBHcyVxKUq1xHyXsSLKdUq2"],
 };
 
 const mainContract = {

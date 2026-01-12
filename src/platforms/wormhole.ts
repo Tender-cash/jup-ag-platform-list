@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/wormhole-foundation",
     documentation: "https://wormhole.com/docs/",
   },
-  tokens: ["85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ"],
+  platformToken: "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
   tags: ["tool", "bridge", "dapp"],
 };
 

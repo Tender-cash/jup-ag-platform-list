@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://saberdao.io/",
     twitter: "https://x.com/thesaberdao",
   },
-  tokens: ["Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1"],
+  platformToken: "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1",
 };
 
 const stableswapContract = {

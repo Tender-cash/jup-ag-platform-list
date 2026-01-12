@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/ore-supply",
     github: "https://github.com/regolith-labs/ore",
   },
-  tokens: ["oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp"],
+  platformToken: "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
   tags: ["dapp"],
 };
 export const services: ServiceRaw[] = [];

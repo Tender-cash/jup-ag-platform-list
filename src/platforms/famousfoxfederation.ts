@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.com/invite/famousfoxes",
     twitter: "https://x.com/famousfoxfed",
   },
-  tokens: ["FoXyMu5xwXre7zEoSvzViRk3nGawHUp9kUh97y2NDhcq"],
+  platformToken: "FoXyMu5xwXre7zEoSvzViRk3nGawHUp9kUh97y2NDhcq",
   tags: ["nft-collection", "dapp"],
 };
 

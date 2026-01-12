@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/DeFi_Land",
     documentation: "https://docs.defiland.app/",
   },
-  tokens: ["DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh"],
+  platformToken: "DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh",
   tags: ["gaming", "dapp"],
 };
 

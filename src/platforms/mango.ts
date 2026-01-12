@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/mangomarkets",
     github: "https://github.com/blockworks-foundation",
   },
-  tokens: ["MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac"],
+  platformToken: "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac",
   tags: ["dapp"],
 };
 

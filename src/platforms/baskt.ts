@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/basktdotfun",
     documentation: "https://www.baskt.fun/about#features",
   },
-  tokens: ["Ejq4Xr7KwHtLPkfGr3DGkKSgyGCuZvsndeyj92yXpump"],
+  platformToken: "Ejq4Xr7KwHtLPkfGr3DGkKSgyGCuZvsndeyj92yXpump",
   isDeprecated: true,
 };
 

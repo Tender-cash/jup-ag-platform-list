@@ -14,7 +14,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.switchboard.xyz/",
   },
   tags: ["tool", "infrastructure", "oracle"],
-  tokens: ["SW1TCHLmRGTfW5xZknqQdpdarB8PD95sJYWpNp9TbFx"],
+  platformToken: "SW1TCHLmRGTfW5xZknqQdpdarB8PD95sJYWpNp9TbFx",
 };
 
 const contract = {

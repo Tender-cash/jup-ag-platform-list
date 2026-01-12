@@ -9,8 +9,8 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/StepFinance_",
     github: "https://github.com/step-finance",
   },
+  platformToken: "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT",
   tokens: [
-    "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT",
     "xStpgUCss9piqeFUk2iLVcvJEGhAdJxJQuwLkXP555G",
     "StPsoHokZryePePFV8N7iXvfEmgUoJ87rivABX7gaW6",
   ],

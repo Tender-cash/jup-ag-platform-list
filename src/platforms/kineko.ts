@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://solana.com",
   },
   tags: ["dapp"],
-  tokens: ["kNkT1RDnexWqYP3EYGyWv5ZtazB8CfgGAfJtv9AQ3kz"],
+  platformToken: "kNkT1RDnexWqYP3EYGyWv5ZtazB8CfgGAfJtv9AQ3kz",
   isDeprecated: true,
 };
 

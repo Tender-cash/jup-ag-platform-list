@@ -16,7 +16,7 @@ export const platform: PlatformRaw = {
     medium: "https://medium.com/tulipprotocol",
     documentation: "https://tulip-protocol.gitbook.io/tulip-protocol",
   },
-  tokens: ["TuLipcqtGVXP9XR62wM8WWCm6a9vhLs7T1uoWBk6FDs"],
+  platformToken: "TuLipcqtGVXP9XR62wM8WWCm6a9vhLs7T1uoWBk6FDs",
 };
 
 const leverageContract = {

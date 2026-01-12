@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/bsktfi",
     documentation: "https://www.bskt.fi/bskt-whitepaper.pdf",
   },
-  tokens: ["6gnCPhXtLnUD76HjQuSYPENLSZdG8RvDB1pTLM5aLSJA"],
+  platformToken: "6gnCPhXtLnUD76HjQuSYPENLSZdG8RvDB1pTLM5aLSJA",
 };
 
 const bsktStakingContract = {

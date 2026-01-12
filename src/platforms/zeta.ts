@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/zetamarkets",
     documentation: "https://docs.zeta.markets/",
   },
-  tokens: ["ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo"],
+  platformToken: "ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo",
   tags: ["dapp", "dex", "trading"],
   isDeprecated: true,
 };

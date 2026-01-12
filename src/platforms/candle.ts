@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/candledottv",
     documentation: "https://docs.candle.tv",
   },
-  tokens: ["A8bcY1eSenMiMy75vgSnp6ShMfWHRHjeM6JxfM1CNDL"],
+  platformToken: "A8bcY1eSenMiMy75vgSnp6ShMfWHRHjeM6JxfM1CNDL",
   tags: ["memecoin", "dapp", "social"],
 };
 

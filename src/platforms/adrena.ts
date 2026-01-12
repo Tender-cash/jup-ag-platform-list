@@ -13,10 +13,8 @@ export const platform: PlatformRaw = {
     github: "https://github.com/orgs/AdrenaFoundation",
     documentation: "https://docs.adrena.xyz/",
   },
-  tokens: [
-    "AuQaustGiaqxRvj2gtCdrd22PBzTn8kM3kEPEkZCtuDw",
-    "4yCLi5yWGzpTWMQ1iWHG5CrGYAdBkhyEdsuSugjDUqwj",
-  ],
+  platformToken: "AuQaustGiaqxRvj2gtCdrd22PBzTn8kM3kEPEkZCtuDw",
+  tokens: ["4yCLi5yWGzpTWMQ1iWHG5CrGYAdBkhyEdsuSugjDUqwj"],
   isDeprecated: true,
 };
 

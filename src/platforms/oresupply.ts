@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/regolith-labs/ore",
     documentation: "https://ore.supply/mine",
   },
-  tokens: ["oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp"],
+  platformToken: "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
 };
 
 const contract = {

@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     documentation: "https://defituna.gitbook.io/defituna-docs",
   },
   tags: ["dapp", "dex", "amm", "defi", "lending"],
-  tokens: ["TUNAfXDZEdQizTMTh3uEvNvYqJmqFHZbEJt8joP4cyx"],
+  platformToken: "TUNAfXDZEdQizTMTh3uEvNvYqJmqFHZbEJt8joP4cyx",
 };
 
 const defiTunaContract = {

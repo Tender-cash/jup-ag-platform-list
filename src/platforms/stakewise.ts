@@ -12,7 +12,6 @@ export const platform: PlatformRaw = {
     github: "https://github.com/stakewise",
     documentation: "https://docs.stakewise.io/",
   },
-  tokens: ["LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X"],
   tags: ["tool", "lst", "dapp"],
 };
 export const services: ServiceRaw[] = [];

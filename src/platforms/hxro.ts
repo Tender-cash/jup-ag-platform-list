@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Hxro-Network",
     documentation: "https://docs.hxro.network/",
   },
-  tokens: ["HxhWkVpk5NS4Ltg5nij2G671CKXFRKPK8vy271Ub4uEK"],
+  platformToken: "HxhWkVpk5NS4Ltg5nij2G671CKXFRKPK8vy271Ub4uEK",
 };
 
 const contract = {

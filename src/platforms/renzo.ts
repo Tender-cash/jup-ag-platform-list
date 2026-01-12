@@ -14,6 +14,11 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Renzo-Protocol",
     documentation: "https://docs.renzoprotocol.com/docs/",
   },
-  tokens: ["ezSoL6fY1PVdJcJsUpe5CM3xkfmy3zoVCABybm5WtiC"],
+  platformToken: "3DK98MXPz8TRuim7rfQnebSLpA7VSoc79Bgiee1m4Zw5",
+  tokens: [
+    "ezSoL6fY1PVdJcJsUpe5CM3xkfmy3zoVCABybm5WtiC",
+    "ezjtoE6PYVnWkbJJYEsGHgR3rXgBydi9eeB1YHP8cVg",
+    "bzSoL4Ehh4AsaPdVD2ndkeHy9nmKnP8YRwVt3TfaJQq",
+  ],
 };
 export const services: ServiceRaw[] = [];

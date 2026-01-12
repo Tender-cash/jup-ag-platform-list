@@ -13,9 +13,9 @@ export const platform: PlatformRaw = {
     github: "https://github.com/solendprotocol",
     documentation: "https://docs.save.finance/",
   },
+  platformToken: "SAVEaeeqeXNKYb4Lyx28DkUms5gyZ76vGa6fCfdzWfK",
   tokens: [
     "SLNDpmoWTVADgEdndyvWzroNL7zSi1dF9PC3xHGtPwp",
-    "SAVEaeeqeXNKYb4Lyx28DkUms5gyZ76vGa6fCfdzWfK",
     "SAVEDpx3nFNdzG3ymJfShYnrBuYy7LtQEABZQ3qtTFt",
   ],
 };

@@ -13,10 +13,13 @@ export const platform: PlatformRaw = {
     github: "https://github.com/fragmetric-labs",
     documentation: "https://docs.fragmetric.xyz/",
   },
+  platformToken: "FRAGMEWj2z65qM62zqKhNtwNFskdfKs4ekDUDX3b4VD5",
   tokens: [
     "WFRGSWjaz8tbAxsJitmbfRuFV2mSNwy7BMWcCwaA28U",
     "FRAGSEthVFL7fdqM8hxfxkfCZzUvmg21cqPJVvC1qdbo",
     "FRAGJ157KSDfGvBJtCSrsTWUqFnZhrw4aC8N8LqHuoos",
+    "FRAG2gPNXozPpYcn2a8zK7YdtfNXCLsioZNwZXwTQ3cP",
+    "WFRGB49tP8CdKubqCdt5Spo2BdGS4BpgoinNER5TYUm",
   ],
 };
 

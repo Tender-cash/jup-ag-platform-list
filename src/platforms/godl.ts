@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/GODLsupply",
     documentation: "https://www.godl.supply/about",
   },
-  tokens: ["GodL6KZ9uuUoQwELggtVzQkKmU1LfqmDokPibPeDKkhF"],
+  platformToken: "GodL6KZ9uuUoQwELggtVzQkKmU1LfqmDokPibPeDKkhF",
   addedAt: 1764244800000,
 };
 

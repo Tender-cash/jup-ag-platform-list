@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.aurory.io/",
     github: "https://github.com/Aurory-Game",
   },
-  tokens: ["AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP"],
+  platformToken: "AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP",
 };
 
 const contract = {

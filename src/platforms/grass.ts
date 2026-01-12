@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/grass",
     documentation: "https://grass-foundation.gitbook.io/grass-docs",
   },
-  tokens: ["Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs"],
+  platformToken: "Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs",
   tags: ["tool", "dapp", "depin", "ai"],
 };
 

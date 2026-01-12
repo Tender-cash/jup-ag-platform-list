@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/magiceden",
     documentation: "https://community.magiceden.io/learn",
   },
-  tokens: ["MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u"],
+  platformToken: "MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u",
   tags: ["tool", "nft-marketplace", "dapp"],
 };
 

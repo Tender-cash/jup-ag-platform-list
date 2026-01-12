@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     telegram: "https://www.t.me/goosefx",
     twitter: "https://x.com/GooseFX1",
   },
-  tokens: ["GFX1ZjR2P15tmrSwow6FjyDYcEkoFb4p4gJCpLBjaxHD"],
+  platformToken: "GFX1ZjR2P15tmrSwow6FjyDYcEkoFb4p4gJCpLBjaxHD",
   tags: ["dapp"],
   isDeprecated: true,
 };

@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/growingcorp",
     documentation: "https://docs.growcorp.org/",
   },
-  tokens: ["6M1YktCLJUyAZwWbJuRrM3pKBmo8KpYeDZm9bk1Jr4gX"],
+  platformToken: "6M1YktCLJUyAZwWbJuRrM3pKBmo8KpYeDZm9bk1Jr4gX",
 };
 
 const v3Contract = {

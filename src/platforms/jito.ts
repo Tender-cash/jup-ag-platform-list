@@ -12,10 +12,8 @@ export const platform: PlatformRaw = {
     medium: "https://medium.com/@Jito-Foundation",
     documentation: "https://www.jito.network/docs/jitosol/overview/",
   },
-  tokens: [
-    "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
-    "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
-  ],
+  platformToken: "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+  tokens: ["J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"],
   tags: ["lst", "infrastructure", "dapp", "defi", "restaking"],
 };
 

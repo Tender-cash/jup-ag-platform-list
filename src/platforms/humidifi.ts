@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     website: "https://humidifi.xyz/",
     twitter: "https://x.com/humidifi",
   },
-  tokens: ["WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U"],
+  platformToken: "WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U",
   tags: ["liquidity-provider", "amm"],
 };
 

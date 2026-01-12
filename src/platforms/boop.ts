@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/boopdotfun",
     twitter: "https://x.com/boopdotfun",
   },
-  tokens: ["boopkpWqe68MSxLqBGogs8ZbUDN4GXaLhFwNP7mpP1i"],
+  platformToken: "boopkpWqe68MSxLqBGogs8ZbUDN4GXaLhFwNP7mpP1i",
 };
 
 const contract = {

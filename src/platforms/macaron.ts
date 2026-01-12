@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/macaron_bid",
     documentation: "https://docs.macaron.bid/",
   },
-  tokens: ["8UiPofjkbjqTqrymz4VY3wXxMcPjFuyq3Psofekymaca"],
+  platformToken: "8UiPofjkbjqTqrymz4VY3wXxMcPjFuyq3Psofekymaca",
 };
 
 const v3Contract = {

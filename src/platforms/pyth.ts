@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/pyth-network",
     documentation: "https://docs.pyth.network/home",
   },
-  tokens: ["HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3"],
+  platformToken: "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
   tags: ["tool", "dapp", "infrastructure", "oracle", "defi"],
 };
 

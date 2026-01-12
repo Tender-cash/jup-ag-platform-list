@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Access-Labs-Inc",
     documentation: "https://docs.accessprotocol.co/guide",
   },
-  tokens: ["5MAYDfq5yxtudAhtfyuMBuHZjgAbaS9tbEyEQYAhDS5y"],
+  platformToken: "5MAYDfq5yxtudAhtfyuMBuHZjgAbaS9tbEyEQYAhDS5y",
 };
 
 const contract = {

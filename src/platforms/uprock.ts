@@ -10,6 +10,6 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/uprockcom",
     github: "https://github.com/uprockcom",
   },
-  tokens: ["UPTx1d24aBWuRgwxVnFmX4gNraj3QGFzL3QqBgxtWQG"],
+  platformToken: "UPTx1d24aBWuRgwxVnFmX4gNraj3QGFzL3QqBgxtWQG",
 };
 export const services: ServiceRaw[] = [];

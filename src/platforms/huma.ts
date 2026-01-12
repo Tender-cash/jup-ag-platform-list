@@ -12,6 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/00labs",
     documentation: "https://huma-finance.gitbook.io/huma-2.0",
   },
+  platformToken: "HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
   tokens: [
     "59obFNBzyTBGowrkif5uK7ojS58vsuWz3ZCvg6tfZAGw",
     "HUPfpnsaJtJGpJxAPNX1vXah7BgYiQYt1c2JMgMumvPs",

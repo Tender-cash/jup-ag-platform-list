@@ -24,4 +24,4 @@ const service: ServiceRaw = {
   contractsRaw: [contract],
 };
 
-export const services: ServiceRaw[] = [];
+export const services: ServiceRaw[] = [service];

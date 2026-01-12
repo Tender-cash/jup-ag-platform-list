@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/bonk_inu",
     medium: "https://medium.com/@bonk_inu",
   },
-  tokens: ["DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"],
+  platformToken: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
 };
 
 const contract = {

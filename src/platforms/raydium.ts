@@ -14,7 +14,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.raydium.io/raydium/",
     twitter: "https://x.com/Raydium",
   },
-  tokens: ["4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"],
+  platformToken: "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
   tags: ["dapp", "dex", "amm", "launchpad", "defi"],
 };
 

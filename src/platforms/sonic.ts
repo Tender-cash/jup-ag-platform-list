@@ -11,10 +11,8 @@ export const platform: PlatformRaw = {
     github: "https://github.com/mirrorworld-universe",
     documentation: "https://docs.sonic.game/",
   },
-  tokens: [
-    "SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES",
-    "sonickAJFiVLcYXx25X9vpF293udaWqDMUCiGtk7dg2",
-  ],
+  platformToken: "SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES",
+  tokens: ["sonickAJFiVLcYXx25X9vpF293udaWqDMUCiGtk7dg2"],
   tags: ["gaming", "infrastructure"],
 };
 

@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/playhoneyland",
     twitter: "https://x.com/PlayHoneyland",
   },
-  tokens: ["3dgCCb15HMQSA4Pn3Tfii5vRk7aRqTH95LJjxzsG2Mug"],
+  platformToken: "3dgCCb15HMQSA4Pn3Tfii5vRk7aRqTH95LJjxzsG2Mug",
 };
 
 const contract = {

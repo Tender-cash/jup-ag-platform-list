@@ -13,7 +13,8 @@ export const platform: PlatformRaw = {
     github: "https://github.com/igneous-labs",
     documentation: "https://learn.sanctum.so/docs",
   },
-  tokens: ["CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu"],
+  platformToken: "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
+  tokens: ["5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm"],
 };
 
 const infContract = {

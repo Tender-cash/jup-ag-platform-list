@@ -11,10 +11,8 @@ export const platform: PlatformRaw = {
     github: "https://github.com/marinade-finance",
     documentation: "https://docs.marinade.finance/",
   },
-  tokens: [
-    "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
-    "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
-  ],
+  platformToken: "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+  tokens: ["mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"],
   tags: ["lst", "dapp"],
 };
 

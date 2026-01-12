@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/frakt-solana",
     documentation: "https://docs.banx.gg/",
   },
-  tokens: ["BANXbTpN8U2cU41FjPxe2Ti37PiT5cCxLUKDQZuJeMMR"],
+  platformToken: "BANXbTpN8U2cU41FjPxe2Ti37PiT5cCxLUKDQZuJeMMR",
 };
 
 export const bondsContract = {

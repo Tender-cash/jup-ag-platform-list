@@ -9,6 +9,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/orogoldapp",
   },
   tags: ["dapp", "rwa"],
+  tokens: ["GoLDppdjB1vDTPSGxyMJFqdnj134yH6Prg9eqsGDiw6A"],
 };
 const staking: ContractRaw = {
   name: `Staking`,

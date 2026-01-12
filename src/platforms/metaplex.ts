@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/metaplex-foundation",
     documentation: "https://www.metaplex.com/guides",
   },
-  tokens: ["METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m"],
+  platformToken: "METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m",
   tags: ["tool", "dapp", "nft"],
 };
 

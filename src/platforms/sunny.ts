@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/SunnyAggregator",
   },
   tags: ["dapp"],
-  tokens: ["SUNNYWgPQmFxe9wTZzNK7iPnJ3vYDrkgnxJRJm1s3ag"],
+  platformToken: "SUNNYWgPQmFxe9wTZzNK7iPnJ3vYDrkgnxJRJm1s3ag",
   isDeprecated: true,
 };
 

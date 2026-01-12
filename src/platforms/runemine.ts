@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     medium: "https://medium.com/@rune_mine",
     telegram: "https://t.me/runeminecommunity",
   },
-  tokens: ["BpREyqp3WWfwQroVHvDknoXuh2P88CENMXrSCrGS4dis"],
+  platformToken: "M1NEtUMtvTcZ5K8Ym6fY4DZLdKtBFeh8qWWpsPZiu5S",
 };
 
 const contract = {

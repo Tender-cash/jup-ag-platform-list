@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/port-finance",
     twitter: "https://x.com/port_finance",
   },
-  tokens: ["PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y"],
+  platformToken: "PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y",
 };
 
 const contract = {

@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     medium: "https://medium.com/@Picasso_Network",
     documentation: "https://docs.picasso.network/",
   },
-  tokens: ["966vsqwoS3ZBrHesTyAvE7esFV2kaHaDFLLXs4asPdLJ"],
+  platformToken: "966vsqwoS3ZBrHesTyAvE7esFV2kaHaDFLLXs4asPdLJ",
   isDeprecated: true,
 };
 

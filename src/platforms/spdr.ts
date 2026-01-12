@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/itsmodsiw/spidy",
     documentation: "https://webpaper.spiderswap.io/whitepaper",
   },
-  tokens: ["AT79ReYU9XtHUTF5vM6Q4oa9K8w7918Fp5SU7G1MDMQY"],
+  platformToken: "AT79ReYU9XtHUTF5vM6Q4oa9K8w7918Fp5SU7G1MDMQY",
   isDeprecated: true,
   tags: ["dapp"],
 };

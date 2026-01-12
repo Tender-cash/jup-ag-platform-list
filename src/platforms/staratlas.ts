@@ -13,10 +13,8 @@ export const platform: PlatformRaw = {
     github: "https://github.com/staratlasmeta",
     documentation: "https://staratlas.com/newsroom/game-manuals",
   },
-  tokens: [
-    "ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx",
-    "poLisWXnNRwC6oBu1vHiuKQzFjGL4XDSu4g9qjz9qVk",
-  ],
+  platformToken: "poLisWXnNRwC6oBu1vHiuKQzFjGL4XDSu4g9qjz9qVk",
+  tokens: ["ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx"],
 };
 
 const stakingContract = {

@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://staking.brawlailayer.org/",
     twitter: "https://x.com/BrawlAILayer",
   },
-  tokens: ["BRAWLaSFfSc87XgRoFVF18omz5HhWJCxtmYzgpCZad7W"],
+  platformToken: "5mdBkZ4dTP94SE7PyiuWseTDAd1kYxSk6oYaWB7186s7",
 };
 
 export const services: ServiceRaw[] = [];

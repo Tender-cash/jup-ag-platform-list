@@ -16,8 +16,8 @@ export const platform: PlatformRaw = {
     documentation:
       "https://docs.solayer.org/documentation/get-started/introduction",
   },
+  platformToken: "LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc",
   tokens: [
-    "LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc",
     "sSo1wxKKr6zW2hqf5hZrp2CawLibcwi1pMBqk5bg2G4",
     "sSo14endRuUbvQaJS3dq36Q829a3A6BEfoeeRGJywEh",
     "susdabGDNbhrnCa6ncrYo81u4s9GM8ecK2UwMyZiq4X",

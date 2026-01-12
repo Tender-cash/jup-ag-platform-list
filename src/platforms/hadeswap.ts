@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/hadeswap-solana",
   },
   tags: ["dapp", "nft-marketplace"],
-  tokens: ["BWXrrYFhT7bMHmNBFoQFWdsSgA3yXoAnMhDK6Fn1eSEn"],
+  platformToken: "BWXrrYFhT7bMHmNBFoQFWdsSgA3yXoAnMhDK6Fn1eSEn",
   isDeprecated: true,
 };
 

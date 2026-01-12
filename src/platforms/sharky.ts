@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/SharkyFi",
     github: "https://github.com/SharkyFi",
   },
-  tokens: ["SHARKSYJjqaNyxVfrpnBN9pjgkhwDhatnMyicWPnr1s"],
+  platformToken: "SHARKSYJjqaNyxVfrpnBN9pjgkhwDhatnMyicWPnr1s",
 };
 
 const contract = {

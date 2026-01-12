@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/tensor-hq",
     documentation: "https://docs.tensor.trade/",
   },
-  tokens: ["TNSRxcUxoT9xBG3de7PiJyTDYu7kskLqcpddxnEJAS6"],
+  platformToken: "TNSRxcUxoT9xBG3de7PiJyTDYu7kskLqcpddxnEJAS6",
 };
 
 const cnftContract = {

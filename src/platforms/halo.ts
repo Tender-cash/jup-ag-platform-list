@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/RU6DhKYz7u",
     documentation: "https://halo.supply/about",
   },
-  tokens: ["HALozDi7vZmnzdhmriUJGRDy7A5RXiTPj7ZGuiALGgyX"],
+  platformToken: "HALozDi7vZmnzdhmriUJGRDy7A5RXiTPj7ZGuiALGgyX",
 };
 
 const v3Contract = {

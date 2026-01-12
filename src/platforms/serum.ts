@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/projectserum",
   },
   tags: ["dapp", "dex"],
-  tokens: ["SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"],
+  platformToken: "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt",
 };
 
 const contract = {

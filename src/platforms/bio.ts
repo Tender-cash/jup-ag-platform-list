@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.bio.xyz/bio",
     telegram: "http://t.me/bio_protocol",
   },
-  tokens: ["bioJ9JTqW62MLz7UKHU69gtKhPpGi1BQhccj2kmSvUJ"],
+  platformToken: "bioJ9JTqW62MLz7UKHU69gtKhPpGi1BQhccj2kmSvUJ",
 };
 
 const contract = {

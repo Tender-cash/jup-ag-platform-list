@@ -12,6 +12,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/HawkFi_",
     documentation: "https://hawkfi.gitbook.io/whitepaper",
   },
+  platformToken: "BKipkearSqAUdNKa1WDstvcMjoPsSKBuNyvKDQDDu9WE",
   tags: ["dapp", "trading", "defi", "tool"],
 };
 

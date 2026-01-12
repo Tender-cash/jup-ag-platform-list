@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Kamino-Finance",
     documentation: "https://docs.kamino.finance/",
   },
-  tokens: ["KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS"],
+  platformToken: "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
   tags: ["dapp", "lending", "vault", "defi"],
 };
 

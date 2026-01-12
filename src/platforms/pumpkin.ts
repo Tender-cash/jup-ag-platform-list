@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     documentation: "https://pumpkindotfun.gitbook.io/",
     twitter: "https://x.com/pumpkindotfun",
   },
-  tokens: ["2RBko3xoz56aH69isQMUpzZd9NYHahhwC23A5F3Spkin"],
+  platformToken: "2RBko3xoz56aH69isQMUpzZd9NYHahhwC23A5F3Spkin",
 };
 
 const contract = {

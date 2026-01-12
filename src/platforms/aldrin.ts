@@ -9,6 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://x.com/Aldrin_Exchange",
     twitter: "https://x.com/Aldrin_Exchange",
   },
+  platformToken: "E5ndSkaB17Dm7CsD22dvcjfrYSDLCxFcMd6z8ddCk5wp",
   tags: ["dapp", "dex", "amm"],
   isDeprecated: true,
 };

@@ -14,6 +14,7 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.adrastea.fi/",
   },
   isDeprecated: true,
+  tokens: ["sctmY8fJucsJatwHz6P48RuWBBkdBMNmSMuBYrWFdrw"],
 };
 
 export const services: ServiceRaw[] = [];

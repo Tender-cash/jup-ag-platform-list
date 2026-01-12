@@ -11,10 +11,8 @@ export const platform: PlatformRaw = {
     github: "https://github.com/metaDAOproject",
     documentation: "https://docs.metadao.fi/",
   },
-  tokens: [
-    "METADDFL6wWMWEoKTFJwcThTbUmtarRJZjRpzUvkxhr",
-    "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
-  ],
+  platformToken: "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+  tokens: ["METADDFL6wWMWEoKTFJwcThTbUmtarRJZjRpzUvkxhr"],
   tags: ["dapp", "dao"],
 };
 

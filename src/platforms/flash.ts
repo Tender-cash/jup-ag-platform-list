@@ -12,6 +12,14 @@ export const platform: PlatformRaw = {
     github: "https://github.com/flash-trade",
     documentation: "https://docs.flash.trade/flash-trade",
   },
+  platformToken: "FAFxVxnkzZHMCodkWyoccgUNgVScqMw2mhhQBYDFjFAF",
+  tokens: [
+    "NUZ3FDWTtN5SP72BsefbsqpnbAY5oe21LE8bCSkqsEK",
+    "AbVzeRUss8QJYzv2WDizDJ2RtsD1jkVyRjNdAzX94JhG",
+    "EngqvevoQ8yaNdtxY7sSh5J7NF74k3cDKi9v9pHi5H3B",
+    "Ab6K8anKSwAz8VXJPVvAVjPQMJNoVhwzfF7FtAB5PNW9",
+    "4PZTRNrHnxWBqLRvX5nuE6m1cNR8RqB4kWvVYjDkMd2H",
+  ],
   tags: ["dapp", "dex", "trading", "defi"],
 };
 

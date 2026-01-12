@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/pumpfunsupport",
     twitter: "https://x.com/pumpfun",
   },
-  tokens: ["pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"],
+  platformToken: "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
 };
 
 const contract = {

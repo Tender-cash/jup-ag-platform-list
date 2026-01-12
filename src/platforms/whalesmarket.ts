@@ -12,7 +12,8 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Whales-Market/",
     documentation: "https://docs.whales.market/",
   },
-  tokens: ["GTH3wG3NErjwcf7VGCoXEXkgXSHvYhx5gtATeeM5JAS1"],
+  platformToken: "GTH3wG3NErjwcf7VGCoXEXkgXSHvYhx5gtATeeM5JAS1",
+  tokens: ["3wCoTb3TArUdzmeTBPzPFyPBUP6EJXaW5LAzGsWCpySu"],
   tags: ["dapp", "prediction", "trading", "defi"],
 };
 

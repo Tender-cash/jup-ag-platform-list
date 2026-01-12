@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/trywink",
     twitter: "https://x.com/try_wink",
   },
-  tokens: ["3bRTivrVsitbmCTGtqwp7hxXPsybkjn4XLNtPsHqa3zR"],
+  platformToken: "3bRTivrVsitbmCTGtqwp7hxXPsybkjn4XLNtPsHqa3zR",
   tags: ["social"],
 };
 

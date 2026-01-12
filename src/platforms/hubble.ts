@@ -13,10 +13,8 @@ export const platform: PlatformRaw = {
     github: "https://github.com/hubbleprotocol/",
     documentation: "https://docs.hubbleprotocol.io/",
   },
-  tokens: [
-    "USDH1SM1ojwWUga67PGrgFWUHibbjqMvuMaDkRJTgkX",
-    "HBB111SCo9jkCejsZfz8Ec8nH7T6THF8KEKSnvwT6XK6",
-  ],
+  platformToken: "HBB111SCo9jkCejsZfz8Ec8nH7T6THF8KEKSnvwT6XK6",
+  tokens: ["USDH1SM1ojwWUga67PGrgFWUHibbjqMvuMaDkRJTgkX"],
 };
 
 const contract = {

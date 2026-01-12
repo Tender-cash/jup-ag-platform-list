@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/triadxyz",
     documentation: "https://docs.triadfi.co/",
   },
-  tokens: ["t3DohmswhKk94PPbPYwA6ZKACyY3y5kbcqeQerAJjmV"],
+  platformToken: "t3DohmswhKk94PPbPYwA6ZKACyY3y5kbcqeQerAJjmV",
 };
 
 const contract = {

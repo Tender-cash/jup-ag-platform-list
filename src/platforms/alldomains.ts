@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/onsol-labs",
     documentation: "https://docs.alldomains.id/protocol/",
   },
-  tokens: ["BaoawH9p2J8yUK9r5YXQs3hQwmUJgscACjmTkh8rMwYL"],
+  platformToken: "BaoawH9p2J8yUK9r5YXQs3hQwmUJgscACjmTkh8rMwYL",
 };
 
 const contract = {

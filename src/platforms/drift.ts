@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/drift-labs",
     documentation: "https://docs.drift.trade/",
   },
-  tokens: ["DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7"],
+  platformToken: "DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7",
 };
 
 const contract = {

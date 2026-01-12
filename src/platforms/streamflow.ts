@@ -14,7 +14,7 @@ export const platform: PlatformRaw = {
     medium: "https://streamflow.medium.com/",
     documentation: "https://docs.streamflow.finance/en/",
   },
-  tokens: ["STREAMribRwybYpMmSYoCsQUdr6MZNXEqHgm7p1gu9M"],
+  platformToken: "STREAMribRwybYpMmSYoCsQUdr6MZNXEqHgm7p1gu9M",
 };
 
 export const vestingContract = {

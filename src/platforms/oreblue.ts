@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/ZORBsupply",
     documentation: "https://zorb.supply/about",
   },
-  tokens: ["orebyr4mDiPDVgnfqvF5xiu5gKnh94Szuz8dqgNqdJn"],
+  platformToken: "orebyr4mDiPDVgnfqvF5xiu5gKnh94Szuz8dqgNqdJn",
   addedAt: 1764072000000,
 };
 

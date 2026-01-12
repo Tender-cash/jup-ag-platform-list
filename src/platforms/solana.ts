@@ -13,6 +13,7 @@ export const platform: PlatformRaw = {
     documentation: "https://solana.com/docs",
   },
   tags: ["dapp"],
+  platformToken: "So11111111111111111111111111111111111111111",
 };
 
 export const systemContract = {

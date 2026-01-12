@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/ParclFinance",
     documentation: "https://docs.parcl.co/",
   },
-  tokens: ["4LLbsb5ReP3yEtYzmXewyGjcir5uXtKFURtaEUVC2AHs"],
+  platformToken: "4LLbsb5ReP3yEtYzmXewyGjcir5uXtKFURtaEUVC2AHs",
   tags: ["dapp", "rwa", "trading"],
 };
 const mainContract: ContractRaw = {

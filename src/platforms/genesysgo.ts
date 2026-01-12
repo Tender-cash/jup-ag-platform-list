@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/GenesysGo",
     documentation: "https://docs.shdwdrive.com/",
   },
-  tokens: ["SHDWyBxihqiCj6YekG2GUr7wqKLeLAMK1gHZck9pL6y"],
+  platformToken: "SHDWyBxihqiCj6YekG2GUr7wqKLeLAMK1gHZck9pL6y",
   tags: ["tool", "depin", "infrastructure"],
 };
 

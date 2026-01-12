@@ -13,6 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Bonfida",
     documentation: "https://docs.sns.id/collection",
   },
+  platformToken: "SNS8DJbHc34nKySHVhLGMUUE72ho6igvJaxtq9T3cX3",
   tokens: ["EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp"],
 };
 const contract = {

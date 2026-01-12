@@ -12,7 +12,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/FluxBeamDEX",
     documentation: "https://docs.fluxbeam.xyz/",
   },
-  tokens: ["FLUXBmPhT3Fd1EDVFdg46YREqHBeNypn1h4EbnTzWERX"],
+  platformToken: "FLUXBmPhT3Fd1EDVFdg46YREqHBeNypn1h4EbnTzWERX",
   tags: ["dapp", "dex", "defi"],
 };
 

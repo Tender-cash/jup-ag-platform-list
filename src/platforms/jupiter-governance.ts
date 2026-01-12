@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     website: "https://vote.jup.ag/",
     twitter: "https://x.com/jup_dao",
   },
-  tokens: ["JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"],
+  platformToken: "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
   tags: ["dao", "dapp"],
 };
 

@@ -15,10 +15,8 @@ export const platform: PlatformRaw = {
     medium: "https://uxdprotocol.medium.com/",
     documentation: "https://docs.uxd.fi/uxdprotocol",
   },
-  tokens: [
-    "UXPhBoR3qG4UCiGNJfV7MqhHyFqKN68g45GoYvAeL2M",
-    "7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT",
-  ],
+  platformToken: "UXPhBoR3qG4UCiGNJfV7MqhHyFqKN68g45GoYvAeL2M",
+  tokens: ["7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT"],
 };
 
 const stakingContract = {

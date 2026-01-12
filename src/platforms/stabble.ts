@@ -13,7 +13,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/stabbleorg",
     documentation: "https://docs.stabble.org/",
   },
-  tokens: ["STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1"],
+  platformToken: "STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1",
 };
 
 const weghtedPoolContract = {

@@ -15,7 +15,7 @@ export const platform: PlatformRaw = {
       "https://orderly.network/docs/introduction/getting-started/what-is-orderly",
     medium: "https://medium.com/@orderlynetwork",
   },
-  tokens: ["ABt79MkRXUsoHuV2CVQT32YMXQhTparKFjmidQxgiQ6E"],
+  platformToken: "ABt79MkRXUsoHuV2CVQT32YMXQhTparKFjmidQxgiQ6E",
   tags: ["bridge", "dapp"],
 };
 

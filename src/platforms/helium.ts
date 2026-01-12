@@ -11,8 +11,8 @@ export const platform: PlatformRaw = {
     github: "https://github.com/helium",
     documentation: "https://docs.helium.com/",
   },
+  platformToken: "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux",
   tokens: [
-    "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux",
     "iotEVVZLEywoTn1QdwNPddxPWszn3zFhEot3MfL9fns",
     "mb1eu7TzEc71KxDpsmsKoucSSuuoGLv1drys1oP2jh6",
   ],

@@ -10,7 +10,7 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/solcasinoio",
     telegram: "https://t.me/SolcasinoIOBot",
   },
-  tokens: ["SCSuPPNUSypLBsV4darsrYNg4ANPgaGhKhsA3GmMyjz"],
+  platformToken: "SCSuPPNUSypLBsV4darsrYNg4ANPgaGhKhsA3GmMyjz",
   tags: ["gaming", "dapp"],
 };
 
