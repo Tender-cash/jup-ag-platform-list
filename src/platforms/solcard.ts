@@ -1,15 +1,16 @@
 import { PlatformRaw, ServiceRaw } from "../types";
 
 export const platform: PlatformRaw = {
-  id: "solflare",
-  name: "Solflare",
-  description:
-    "Hold strong and spend instantly with the most powerful wallet on Solana",
+  id: "solcard",
+  name: "SolCard",
+  description: "The Solana Debit Card, built for privacy.",
   links: {
-    website: "https://www.solflare.com/",
-    twitter: "https://x.com/solflare",
+    website: "https://www.solcard.cc/",
+    twitter: "https://x.com/solcard",
+    telegram: "https://t.me/solcardcc",
   },
-  tags: ["wallet", "card"],
+  tags: ["card"],
+  platformToken: "DLUNTKRQt7CrpqSX1naHUYoBznJ9pvMP65uCeWQgYnRK",
 };
 
 export const services: ServiceRaw[] = [];

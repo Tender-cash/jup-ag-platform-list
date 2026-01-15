@@ -1,14 +1,12 @@
 import { PlatformRaw, ServiceRaw } from "../types";
 
 export const platform: PlatformRaw = {
-  id: "kast",
-  name: "Kast",
-  description: "Unlock rewards and benefits with the Solana Cards.",
+  id: "amppay",
+  name: "Amp Pay",
+  description: "Save. Spend. Swap.",
   links: {
-    website: "https://www.kast.xyz/solana",
-    discord: "https://discord.com/invite/KASTxyz",
-    twitter: "https://x.com/KASTxyz",
-    telegram: "https://t.me/KASTCommunity",
+    website: "https://www.getamppay.com/#black-card",
+    twitter: "https://x.com/GetAmpPay",
   },
   tags: ["card"],
 };

@@ -1,14 +1,13 @@
 import { PlatformRaw, ServiceRaw } from "../types";
 
 export const platform: PlatformRaw = {
-  id: "kast",
-  name: "Kast",
-  description: "Unlock rewards and benefits with the Solana Cards.",
+  id: "tuyo",
+  name: "Tuyo",
+  description:
+    "The universal stablecoin account. Spend, earn, trade, and bank with Tuyo.",
   links: {
-    website: "https://www.kast.xyz/solana",
-    discord: "https://discord.com/invite/KASTxyz",
-    twitter: "https://x.com/KASTxyz",
-    telegram: "https://t.me/KASTCommunity"
+    website: "https://tuyo.com/card",
+    twitter: "https://x.com/itstuyo",
   },
   tags: ["card"],
 };
