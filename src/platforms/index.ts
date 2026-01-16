@@ -298,6 +298,7 @@ import * as whalesmarket from "./whalesmarket";
 import * as wink from "./wink";
 import * as wintermute from "./wintermute";
 import * as wormhole from "./wormhole";
+import * as xstocks from "./xstocks";
 import * as y00ts from "./y00ts";
 import * as yaku from "./yaku";
 import * as yieldfan from "./yieldfan";
@@ -602,6 +603,7 @@ export const platforms: PlatformRaw[] = [
   wink.platform,
   wintermute.platform,
   wormhole.platform,
+  xstocks.platform,
   y00ts.platform,
   yaku.platform,
   yieldfan.platform,
@@ -907,6 +909,7 @@ export const services: ServiceRaw[] = [
   ...wink.services,
   ...wintermute.services,
   ...wormhole.services,
+  ...xstocks.services,
   ...y00ts.services,
   ...yaku.services,
   ...yieldfan.services,
