@@ -3,6 +3,7 @@ export const platform: PlatformRaw = {
   id: "phygitals",
   name: "Phygitals",
   description: "RWA cards on Solana",
+  defiLlamaId: "phygitals",
   links: {
     website: "https://www.phygitals.com/",
     twitter: "https://x.com/phygitals",

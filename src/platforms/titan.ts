@@ -3,6 +3,7 @@ export const platform: PlatformRaw = {
   id: "titan",
   name: "Titan",
   description: "Titan is a decentralized exchange and liquidity aggregator.",
+  defiLlamaId: "titan-exchange",
   links: {
     website: "https://titan.exchange/",
     twitter: "https://x.com/Titan_Exchange",

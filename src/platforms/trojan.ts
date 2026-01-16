@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Trojan",
   description:
     "Trojan's Terminal is a high-performance, intuitive crypto trading platform.",
+  defiLlamaId: "trojan",
   links: {
     website: "https://trojan.com/",
     documentation: "https://docs.trojan.com/",

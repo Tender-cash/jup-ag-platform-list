@@ -2,6 +2,7 @@ import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "xstocks",
   name: "xStocks",
+  defiLlamaId: "xstocks",
   links: {
     website: "https://xstocks.com/",
     twitter: "https://x.com/xstocksfi",
