@@ -18,6 +18,11 @@ export const contract = {
   address: "DF1ow4tspfHX9JwWJsAb9epbkA8hmpSEAtxXy1V27QBH",
   networkId: NetworkId.solana,
 };
+export const predictionsContract = {
+  name: "Predictions",
+  address: "pReDicTmksnPfkfiz33ndSdbe2dY43KYPg4U2dbvHvb",
+  networkId: NetworkId.solana,
+};
 
 export const service: ServiceRaw = {
   id: `${platform.id}-aggregator`,
@@ -26,4 +31,11 @@ export const service: ServiceRaw = {
   contractsRaw: [contract],
 };
 
-export const services: ServiceRaw[] = [service];
+export const predictionsService: ServiceRaw = {
+  id: `${platform.id}-predictions`,
+  name: "Predictions",
+  platformId: platform.id,
+  contractsRaw: [predictionsContract],
+};
+
+export const services: ServiceRaw[] = [service, predictionsService];
