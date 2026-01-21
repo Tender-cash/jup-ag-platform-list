@@ -60,6 +60,7 @@ import * as claynosaurz from "./claynosaurz";
 import * as clone from "./clone";
 import * as coinmarketcap from "./coinmarketcap";
 import * as collectorcrypt from "./collectorcrypt";
+import * as cooladdress from "./cooladdress";
 import * as cropper from "./cropper";
 import * as cudis from "./cudis";
 import * as cushion from "./cushion";
@@ -374,6 +375,7 @@ export const platforms: PlatformRaw[] = [
   clone.platform,
   coinmarketcap.platform,
   collectorcrypt.platform,
+  cooladdress.platform,
   cropper.platform,
   cudis.platform,
   cushion.platform,
@@ -689,6 +691,7 @@ export const services: ServiceRaw[] = [
   ...clone.services,
   ...coinmarketcap.services,
   ...collectorcrypt.services,
+  ...cooladdress.services,
   ...cropper.services,
   ...cudis.services,
   ...cushion.services,
