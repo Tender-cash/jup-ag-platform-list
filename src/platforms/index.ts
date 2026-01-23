@@ -18,6 +18,7 @@ import * as altude from "./altude";
 import * as amppay from "./amppay";
 import * as amulet from "./amulet";
 import * as antfun from "./antfun";
+import * as archer from "./archer";
 import * as armada from "./armada";
 import * as artrade from "./artrade";
 import * as asgardfi from "./asgardfi";
@@ -216,6 +217,7 @@ import * as pancakeswap from "./pancakeswap";
 import * as paraswap from "./paraswap";
 import * as parcl from "./parcl";
 import * as parrot from "./parrot";
+import * as pathfinders from "./pathfinders";
 import * as paxos from "./paxos";
 import * as perena from "./perena";
 import * as phantom from "./phantom";
@@ -346,6 +348,7 @@ export const platforms: PlatformRaw[] = [
   amppay.platform,
   amulet.platform,
   antfun.platform,
+  archer.platform,
   armada.platform,
   artrade.platform,
   asgardfi.platform,
@@ -544,6 +547,7 @@ export const platforms: PlatformRaw[] = [
   paraswap.platform,
   parcl.platform,
   parrot.platform,
+  pathfinders.platform,
   paxos.platform,
   perena.platform,
   phantom.platform,
@@ -675,6 +679,7 @@ export const services: ServiceRaw[] = [
   ...amppay.services,
   ...amulet.services,
   ...antfun.services,
+  ...archer.services,
   ...armada.services,
   ...artrade.services,
   ...asgardfi.services,
@@ -873,6 +878,7 @@ export const services: ServiceRaw[] = [
   ...paraswap.services,
   ...parcl.services,
   ...parrot.services,
+  ...pathfinders.services,
   ...paxos.services,
   ...perena.services,
   ...phantom.services,
