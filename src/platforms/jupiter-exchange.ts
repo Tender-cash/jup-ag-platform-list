@@ -19,7 +19,7 @@ export const platform: PlatformRaw = {
     "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD",
   ],
   platformToken: "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-  tags: ["dapp", "lending", "trading", "stablecoin", "defi", "lst"],
+  tags: ["dapp", "lending", "trading", "stablecoin", "defi", "lst", "wallet"],
 };
 
 export const jupiterV7Contract: ContractRaw = {
