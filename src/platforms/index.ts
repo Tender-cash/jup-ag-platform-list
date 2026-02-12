@@ -115,6 +115,7 @@ import * as gauntlet from "./gauntlet";
 import * as gecko from "./gecko";
 import * as genesysgo from "./genesysgo";
 import * as glow from "./glow";
+import * as gmtrade from "./gmtrade";
 import * as goblingold from "./goblingold";
 import * as godl from "./godl";
 import * as gofurs from "./gofurs";
@@ -451,6 +452,7 @@ export const platforms: PlatformRaw[] = [
   gecko.platform,
   genesysgo.platform,
   glow.platform,
+  gmtrade.platform,
   goblingold.platform,
   godl.platform,
   gofurs.platform,
@@ -788,6 +790,7 @@ export const services: ServiceRaw[] = [
   ...gecko.services,
   ...genesysgo.services,
   ...glow.services,
+  ...gmtrade.services,
   ...goblingold.services,
   ...godl.services,
   ...gofurs.services,
