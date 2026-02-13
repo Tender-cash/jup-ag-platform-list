@@ -66,11 +66,13 @@ import * as coinbase from "./coinbase";
 import * as coinmarketcap from "./coinmarketcap";
 import * as coinshares from "./coinshares";
 import * as collectorcrypt from "./collectorcrypt";
+import * as cooladdress from "./cooladdress";
 import * as cropper from "./cropper";
 import * as cudis from "./cudis";
 import * as cushion from "./cushion";
 import * as cyberfrogs from "./cyberfrogs";
 import * as cytonic from "./cytonic";
+import * as daosdotfun from "./daosdotfun";
 import * as debridge from "./debridge";
 import * as defidevcorp from "./defidevcorp";
 import * as defiland from "./defiland";
@@ -114,7 +116,9 @@ import * as gary from "./gary";
 import * as gauntlet from "./gauntlet";
 import * as gecko from "./gecko";
 import * as genesysgo from "./genesysgo";
+import * as glam from "./glam";
 import * as glow from "./glow";
+import * as gmtrade from "./gmtrade";
 import * as goblingold from "./goblingold";
 import * as godl from "./godl";
 import * as gofurs from "./gofurs";
@@ -144,11 +148,13 @@ import * as huma from "./huma";
 import * as humidifi from "./humidifi";
 import * as hxro from "./hxro";
 import * as hylo from "./hylo";
+import * as icm from "./icm";
 import * as iloop from "./iloop";
 import * as invariant from "./invariant";
 import * as jet from "./jet";
 import * as jito from "./jito";
 import * as jpmorgan from "./jpmorgan";
+import * as jpool from "./jpool";
 import * as jupiterExchange from "./jupiter-exchange";
 import * as jupiterGovernance from "./jupiter-governance";
 import * as jupiterJupuary from "./jupiter-jupuary";
@@ -173,6 +179,7 @@ import * as lince from "./lince";
 import * as lodesupply from "./lodesupply";
 import * as lombard from "./lombard";
 import * as loopscale from "./loopscale";
+import * as lpagent from "./lpagent";
 import * as m1capital from "./m1capital";
 import * as macaron from "./macaron";
 import * as madbears from "./madbears";
@@ -200,6 +207,7 @@ import * as neutral from "./neutral";
 import * as nirvana from "./nirvana";
 import * as nodepay from "./nodepay";
 import * as nosana from "./nosana";
+import * as nufi from "./nufi";
 import * as nxfinance from "./nxfinance";
 import * as okaybears from "./okaybears";
 import * as okx from "./okx";
@@ -223,6 +231,7 @@ import * as pathfinders from "./pathfinders";
 import * as paxos from "./paxos";
 import * as perena from "./perena";
 import * as phantom from "./phantom";
+import * as phettagotchi from "./phettagotchi";
 import * as phoenix from "./phoenix";
 import * as photofinish from "./photofinish";
 import * as photon from "./photon";
@@ -262,6 +271,7 @@ import * as sanctum from "./sanctum";
 import * as sandglass from "./sandglass";
 import * as save from "./save";
 import * as securitize from "./securitize";
+import * as sendai from "./sendai";
 import * as sendit from "./sendit";
 import * as sentre from "./sentre";
 import * as serum from "./serum";
@@ -298,12 +308,14 @@ import * as superstate from "./superstate";
 import * as switchboard from "./switchboard";
 import * as sygnum from "./sygnum";
 import * as symmetry from "./symmetry";
+import * as tender from "./tender";
 import * as tensor from "./tensor";
 import * as texture from "./texture";
 import * as thevault from "./thevault";
 import * as threshold from "./threshold";
 import * as tiplink from "./tiplink";
 import * as titan from "./titan";
+import * as tramplin from "./tramplin";
 import * as trepa from "./trepa";
 import * as triad from "./triad";
 import * as tribeca from "./tribeca";
@@ -402,11 +414,13 @@ export const platforms: PlatformRaw[] = [
   coinmarketcap.platform,
   coinshares.platform,
   collectorcrypt.platform,
+  cooladdress.platform,
   cropper.platform,
   cudis.platform,
   cushion.platform,
   cyberfrogs.platform,
   cytonic.platform,
+  daosdotfun.platform,
   debridge.platform,
   defidevcorp.platform,
   defiland.platform,
@@ -450,7 +464,9 @@ export const platforms: PlatformRaw[] = [
   gauntlet.platform,
   gecko.platform,
   genesysgo.platform,
+  glam.platform,
   glow.platform,
+  gmtrade.platform,
   goblingold.platform,
   godl.platform,
   gofurs.platform,
@@ -480,11 +496,13 @@ export const platforms: PlatformRaw[] = [
   humidifi.platform,
   hxro.platform,
   hylo.platform,
+  icm.platform,
   iloop.platform,
   invariant.platform,
   jet.platform,
   jito.platform,
   jpmorgan.platform,
+  jpool.platform,
   jupiterExchange.platform,
   jupiterGovernance.platform,
   jupiterJupuary.platform,
@@ -509,6 +527,7 @@ export const platforms: PlatformRaw[] = [
   lodesupply.platform,
   lombard.platform,
   loopscale.platform,
+  lpagent.platform,
   m1capital.platform,
   macaron.platform,
   madbears.platform,
@@ -536,6 +555,7 @@ export const platforms: PlatformRaw[] = [
   nirvana.platform,
   nodepay.platform,
   nosana.platform,
+  nufi.platform,
   nxfinance.platform,
   okaybears.platform,
   okx.platform,
@@ -559,6 +579,7 @@ export const platforms: PlatformRaw[] = [
   paxos.platform,
   perena.platform,
   phantom.platform,
+  phettagotchi.platform,
   phoenix.platform,
   photofinish.platform,
   photon.platform,
@@ -598,6 +619,7 @@ export const platforms: PlatformRaw[] = [
   sandglass.platform,
   save.platform,
   securitize.platform,
+  sendai.platform,
   sendit.platform,
   sentre.platform,
   serum.platform,
@@ -634,12 +656,14 @@ export const platforms: PlatformRaw[] = [
   switchboard.platform,
   sygnum.platform,
   symmetry.platform,
+  tender.platform,
   tensor.platform,
   texture.platform,
   thevault.platform,
   threshold.platform,
   tiplink.platform,
   titan.platform,
+  tramplin.platform,
   trepa.platform,
   triad.platform,
   tribeca.platform,
@@ -739,11 +763,13 @@ export const services: ServiceRaw[] = [
   ...coinmarketcap.services,
   ...coinshares.services,
   ...collectorcrypt.services,
+  ...cooladdress.services,
   ...cropper.services,
   ...cudis.services,
   ...cushion.services,
   ...cyberfrogs.services,
   ...cytonic.services,
+  ...daosdotfun.services,
   ...debridge.services,
   ...defidevcorp.services,
   ...defiland.services,
@@ -787,7 +813,9 @@ export const services: ServiceRaw[] = [
   ...gauntlet.services,
   ...gecko.services,
   ...genesysgo.services,
+  ...glam.services,
   ...glow.services,
+  ...gmtrade.services,
   ...goblingold.services,
   ...godl.services,
   ...gofurs.services,
@@ -817,11 +845,13 @@ export const services: ServiceRaw[] = [
   ...humidifi.services,
   ...hxro.services,
   ...hylo.services,
+  ...icm.services,
   ...iloop.services,
   ...invariant.services,
   ...jet.services,
   ...jito.services,
   ...jpmorgan.services,
+  ...jpool.services,
   ...jupiterExchange.services,
   ...jupiterGovernance.services,
   ...jupiterJupuary.services,
@@ -846,6 +876,7 @@ export const services: ServiceRaw[] = [
   ...lodesupply.services,
   ...lombard.services,
   ...loopscale.services,
+  ...lpagent.services,
   ...m1capital.services,
   ...macaron.services,
   ...madbears.services,
@@ -873,6 +904,7 @@ export const services: ServiceRaw[] = [
   ...nirvana.services,
   ...nodepay.services,
   ...nosana.services,
+  ...nufi.services,
   ...nxfinance.services,
   ...okaybears.services,
   ...okx.services,
@@ -896,6 +928,7 @@ export const services: ServiceRaw[] = [
   ...paxos.services,
   ...perena.services,
   ...phantom.services,
+  ...phettagotchi.services,
   ...phoenix.services,
   ...photofinish.services,
   ...photon.services,
@@ -935,6 +968,7 @@ export const services: ServiceRaw[] = [
   ...sandglass.services,
   ...save.services,
   ...securitize.services,
+  ...sendai.services,
   ...sendit.services,
   ...sentre.services,
   ...serum.services,
@@ -971,12 +1005,14 @@ export const services: ServiceRaw[] = [
   ...switchboard.services,
   ...sygnum.services,
   ...symmetry.services,
+  ...tender.services,
   ...tensor.services,
   ...texture.services,
   ...thevault.services,
   ...threshold.services,
   ...tiplink.services,
   ...titan.services,
+  ...tramplin.services,
   ...trepa.services,
   ...triad.services,
   ...tribeca.services,
