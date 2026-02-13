@@ -7,7 +7,6 @@ export const platform: PlatformRaw = {
   defiLlamaId: "tendermerchant",
   links: {
     website: "https://tender.cash/",
-    twitter: "https://x.com/Tender_Cash",
     github: "https://github.com/Tender-cash/",
     documentation: "https://docs.tender.cash/",
   },

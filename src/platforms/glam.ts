@@ -50,19 +50,53 @@ const splContract = {
   networkId: NetworkId.solana,
 };
 
-export const service: ServiceRaw = {
+export const protocolService: ServiceRaw = {
   id: `${platform.id}-protocol`,
   name: "Protocol",
   platformId: platform.id,
   contractsRaw: [
     protocolContract,
-    mintContract,
-    cctpContract,
-    driftContract,
-    kaminoContract,
-    splContract,
   ],
 };
+export const mintService: ServiceRaw = {
+  id: `${platform.id}-mint`,
+  name: "Mint",
+  platformId: platform.id,
+  contractsRaw: [
+    mintContract,
+  ],
+};
+export const cctpService: ServiceRaw = {
+  id: `${platform.id}-cctp`,
+  name: "CCTP Integration",
+  platformId: platform.id,
+  contractsRaw: [cctpContract],
+};
+export const driftService: ServiceRaw = {
+  id: `${platform.id}-drift`,
+  name: "Drift Integration",
+  platformId: platform.id,
+  contractsRaw: [driftContract],
+};
+export const kaminoService: ServiceRaw = {
+  id: `${platform.id}-kamino`,
+  name: "Kamino Integration",
+  platformId: platform.id,
+  contractsRaw: [kaminoContract],
+};
+export const splService: ServiceRaw = {
+  id: `${platform.id}-spl`,
+  name: "SPL Integration",
+  platformId: platform.id,
+  contractsRaw: [splContract],
+};
 
-export const services: ServiceRaw[] = [service];
+export const services: ServiceRaw[] = [
+  protocolService,
+  mintService,
+  cctpService,
+  driftService,
+  kaminoService,
+  splService,
+];
 export default services;
